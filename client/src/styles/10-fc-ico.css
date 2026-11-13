@@ -1,0 +1,13 @@
+/* Trích nguyên văn từ app gốc (dòng 1071-1082) */
+.fci{display:block;border-radius:29%;overflow:hidden;transition:transform .18s ease}
+.fcg{display:block;overflow:visible}
+html body .tile .tic{background:none!important;width:auto;height:auto;border-radius:0;color:inherit}
+.tile:active .fci{transform:scale(.92)}
+.fci-scan{animation:fcscan 2.4s ease-in-out infinite}
+.fci-pulse{transform-origin:24px 26px;animation:fcpulse 2s ease-in-out infinite}
+.fci-spin{transform-origin:24px 24px}
+.tile:active .fci-spin{animation:fcspin .8s ease-out}
+@keyframes fcscan{0%,100%{transform:translateY(-8px)}50%{transform:translateY(8px)}}
+@keyframes fcpulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+@keyframes fcspin{to{transform:rotate(180deg)}}
+@media(prefers-reduced-motion:reduce){.fci-scan,.fci-pulse,.fci-spin{animation:none!important}}

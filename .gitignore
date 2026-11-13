@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+server/public/
+
+# Dữ liệu thật (file sao lưu của app gốc: số liệu kho, chữ ký tay) — không đưa vào git
+SaoLuu_*.json
+seed/

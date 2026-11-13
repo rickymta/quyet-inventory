@@ -1,0 +1,9 @@
+/* Trích nguyên văn từ app gốc (dòng 842-849) */
+html{-webkit-text-size-adjust:100%}
+button,.btn,.chip,.gnav-item,select,label,[role=button]{touch-action:manipulation}
+:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+input:focus-visible,select:focus-visible,textarea:focus-visible{outline-offset:0}
+@media (pointer:coarse){.chip{min-height:40px}#ghmenu{width:44px;height:44px}.gnav-item{min-height:44px}}
+@media (hover:hover){.btn:hover{filter:brightness(1.06)}.chip:hover:not(.chip-on){border-color:var(--teal-ln);color:var(--teal)}.btn-dk:hover{background:rgba(255,255,255,.1)}[role=button]{cursor:pointer}*{scrollbar-width:thin}}
+#netbar{position:fixed;left:50%;transform:translateX(-50%);top:calc(var(--header-h) + 8px);z-index:90;background:#fdf1d6;color:#7a4f06;border:1px solid rgba(180,120,10,.28);border-radius:999px;padding:6px 14px;font-size:12.5px;font-weight:600;box-shadow:0 4px 14px rgba(0,0,0,.08);max-width:92vw;text-align:center}
+#netbar[hidden]{display:none}

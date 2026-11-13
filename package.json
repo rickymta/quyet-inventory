@@ -1,0 +1,16 @@
+{
+  "name": "kiemke",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kiểm kê kho MedDental — bản MERN (MongoDB, Express, React, Node)",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:db": "docker compose -f docker-compose.dev.yml up -d",
+    "dev:server": "SEED_PATH=. npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed --",
+    "up": "docker compose up -d --build",
+    "down": "docker compose down"
+  }
+}

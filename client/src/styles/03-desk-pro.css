@@ -1,0 +1,23 @@
+/* Trích nguyên văn từ app gốc (dòng 852-873) */
+/* Lớp giao diện Desktop (>=1024px). Chỉ thay đổi bố cục/hiển thị; không đụng logic. */
+@media(min-width:1024px){
+  :root{--sidebar-w:240px}
+  #gmain .wrap,#gmain .botin,#gmain .stkwrap,#gmain .prev{max-width:1440px}
+  #gmain .wrap{padding-left:24px;padding-right:24px}
+  #gsidebar{padding:16px 12px}
+  .gnav-item{font-size:14px;position:relative}
+  .gnav-item.on:not(.gnav-sub)::before{content:"";position:absolute;left:-12px;top:8px;bottom:8px;width:3px;border-radius:0 3px 3px 0;background:var(--teal)}
+  .gnav-item:hover:not(.on){background:var(--teal-bg);color:var(--ink)}
+  body.sb-min #gsidebar .gnav-item.on::before{left:-8px}
+  .rck-g{grid-template-columns:repeat(4,1fr);gap:12px}
+  .rck-g.q{grid-template-columns:repeat(4,1fr)}
+  .rcnav,.rcsubnav{max-width:100%}
+  div:has(>table.rct){max-height:calc(100vh - 230px);overflow:auto;border:1px solid var(--line);border-radius:12px;background:#fff}
+  table.rct{width:100%;min-width:720px}
+  table.rct th{position:sticky;top:0;z-index:2;background:#eef1f8;box-shadow:0 1px 0 var(--line)}
+  table.rct tbody tr:hover td,table.rct tr:hover>td{background:var(--teal-bg)}
+  .v2s{max-width:720px}
+  .rctool,.rcact{flex-wrap:wrap}
+}
+@media(min-width:1366px){#gmain .wrap{padding-left:32px;padding-right:32px}}
+@media(min-width:1024px) and (max-width:1365px){.rck-g.q{grid-template-columns:repeat(2,1fr)}}

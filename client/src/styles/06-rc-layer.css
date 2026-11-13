@@ -1,0 +1,22 @@
+/* Trích nguyên văn từ app gốc (dòng 981-1001) */
+/* ===== ĐỐI CHIẾU · giai đoạn 2: đồng bộ Design System, tận dụng màn rộng, dễ chạm ===== */
+#app .rcsec{letter-spacing:-.01em}
+#app .rck{border:1px solid var(--line);box-shadow:var(--sh1);transition:transform .16s ease,box-shadow .2s ease}
+@media(hover:hover){#app .rck.b:hover{transform:translateY(-2px);box-shadow:var(--sh2)}}
+#app .rck .v{font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+#app .rcg{border-radius:var(--r-lg);box-shadow:var(--sh1);transition:box-shadow .2s ease}
+#app .rcg[open]{box-shadow:var(--sh2)}
+#app .rcg>summary{min-height:var(--tap)}
+#app .rcg-act button{min-height:var(--tap);border-radius:var(--r-sm);transition:background-color .15s ease,border-color .15s ease}
+#app .rcg-act button:hover{border-color:var(--teal-ln);background:var(--teal-bg)}
+#app .rct th,#app .rct td{padding:10px 12px}
+#app .rcx{border-radius:var(--r-md);box-shadow:var(--sh1)}
+@media(max-width:767px){#app .rcf input,#app .rcf select{font-size:16px;min-height:var(--tap)}}
+@media(min-width:1100px){
+#app .rck-g{grid-template-columns:repeat(2,minmax(0,1fr))}
+#app .rck-g.q{grid-template-columns:repeat(4,minmax(0,1fr))}
+#app .rcl:has(>.rcg){display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:16px}
+#app .rcl:has(>.rcg)>.rcg[open]{grid-column:1/-1}
+#app .rcgrid{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+@media(min-width:1024px){#app .card>.btn-primary,#app .card>.btn-outline{display:flex;width:fit-content;min-width:260px;max-width:100%;padding-left:28px;padding-right:28px}}

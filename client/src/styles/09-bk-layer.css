@@ -1,0 +1,25 @@
+/* Trích nguyên văn từ app gốc (dòng 1040-1063) */
+/* ===== ĐỀ NGHỊ THANH TOÁN · Bảng kê hóa đơn dạng bảng cột (desktop); mobile giữ dạng thẻ ===== */
+.bk-head{display:none}
+@media(min-width:900px){
+:root{--bk-cols:48px minmax(180px,1.1fr) 160px minmax(260px,2fr) 160px 140px}
+#app .bk-head{display:grid;grid-template-columns:var(--bk-cols);column-gap:14px;align-items:center;padding:11px 14px;background:#eef3fc;border-radius:12px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+#app .bk-head span:first-child{text-align:center}
+#app .bk-head .r{text-align:right}
+#app .bk-row{display:grid!important;grid-template-columns:var(--bk-cols);column-gap:14px;align-items:center;padding:12px 14px!important;font-size:14px!important;transition:background-color .15s ease}
+#app .bk-row:nth-child(even){background:#fafbfe}
+#app .bk-row.bk-x{background:var(--amber-bg)}
+#app .bk-row:hover{background:rgba(31,85,214,.055)}
+#app .bk-main,#app .bk-amt{display:contents!important}
+#app .bk-n{grid-column:1;grid-row:1;text-align:center}
+#app .bk-id{grid-column:2;grid-row:1}
+#app .bk-id b{font-size:15px;letter-spacing:.01em}
+#app .bk-sub{font-size:12.5px!important;margin-top:2px}
+#app .bk-st{grid-column:3;grid-row:1;text-align:left}
+#app .bk-note{grid-column:4;grid-row:1;margin:0!important;font-size:13px!important;line-height:1.45}
+#app .bk-act{grid-column:5;grid-row:1;margin:0!important}
+#app .bk-amt>div{grid-column:6;grid-row:1;text-align:right;font-size:15px;font-weight:700}
+#app .bk-row>:not(.bk-main):not(.bk-note):not(.bk-act){grid-column:1/-1;grid-row:2;margin-top:10px}
+#app .bk-act button{border:1px solid var(--teal-ln)!important;background:#fff!important;border-radius:10px;padding:7px 12px!important;font-size:13px!important;white-space:nowrap;transition:background-color .15s ease}
+#app .bk-act button:hover{background:var(--teal-bg)!important}
+}

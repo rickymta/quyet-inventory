@@ -1,0 +1,18 @@
+/* Trích nguyên văn từ app gốc (dòng 1121-1137) */
+#mcard .hit{cursor:pointer}
+@media (hover:hover){#mcard .hit:hover{fill:rgba(255,255,255,.05)}}
+@media screen and (min-width:900px){
+html body #mcard{display:grid;grid-template-columns:minmax(300px,.85fr) minmax(0,1.15fr);column-gap:32px;align-items:center;width:calc(100% - 32px);max-width:868px;margin:16px auto 0;padding:22px 26px 18px}
+#mcard .mh{grid-column:1/-1;grid-row:1;margin-bottom:14px}
+#mcard .mt{font-size:18px}
+#mcard .hrow{grid-column:1;grid-row:2;gap:14px}
+#mcard .hdw{flex:0 0 170px}
+#mcard .hc b{font-size:30px}
+#mcard .hc small{font-size:11px}
+html body #mcard dl.hk{gap:11px}
+#mcard .hk dt{font-size:12px}
+#mcard .hk dd{font-size:20px}
+#mcard .hcov{grid-column:1;grid-row:3;margin-top:14px}
+#mcard .htr{grid-column:2;grid-row:2/4;margin-top:0;max-height:240px}
+html body #mcard .sub{grid-column:1/-1;grid-row:4;margin-top:14px;padding-top:12px;font-size:12.5px}
+}

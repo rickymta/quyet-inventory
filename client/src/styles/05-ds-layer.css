@@ -1,0 +1,34 @@
+/* Trích nguyên văn từ app gốc (dòng 946-978) */
+/* ===== DESIGN SYSTEM v1 · chuẩn hóa dùng chung (không đổi nghiệp vụ) ===== */
+:root{--ok:#12805c;--ok-bg:rgba(18,128,92,.1);--warn:#b45309;--warn-bg:rgba(180,83,9,.1);--err:#c62828;--err-bg:rgba(198,40,40,.09);--info:var(--teal);--info-bg:var(--teal-bg);--r-sm:10px;--r-md:14px;--r-lg:20px;--tap:44px}
+/* Nút & ô nhập: vùng chạm chuẩn, trạng thái rõ */
+.btn{min-height:var(--tap);transition:transform .12s ease,box-shadow .18s ease,filter .18s ease}
+.btn:active:not([disabled]){transform:scale(.98)}
+.btn[disabled],.inp[disabled],button[disabled]{opacity:.5;cursor:not-allowed;filter:saturate(.6)}
+.inp,.sinp,select.inp{min-height:var(--tap)}
+label:has(+ [required])::after,label:has([required])::after{content:" *";color:var(--err);font-weight:700}
+.inp:user-invalid,.sinp:user-invalid{border-color:var(--err)!important;box-shadow:0 0 0 4px var(--err-bg)!important}
+input[type=checkbox],input[type=radio]{accent-color:var(--teal)}
+:focus-visible{outline:2px solid var(--teal);outline-offset:2px;border-radius:6px}
+/* Huy hiệu trạng thái thống nhất */
+.stbadge{display:inline-flex;align-items:center;gap:5px;padding:3px 10px;border-radius:999px;font-weight:700;font-size:12px;background:var(--warn-bg);color:var(--warn)}
+.stbadge.ok{background:var(--ok-bg);color:var(--ok)}
+/* Bảng dữ liệu: tiêu đề cố định, số căn phải, hàng dễ đọc */
+#app .stkwrap,#app .tblwrap{max-height:70vh;overflow:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;border-radius:var(--r-md)}
+#app .stktable,#app .rct,#app .bctbl{font-variant-numeric:tabular-nums;border-collapse:separate;border-spacing:0}
+#app .stktable th,#app .rct th,#app .bctbl th{position:sticky;top:0;z-index:2;white-space:nowrap;text-align:left;padding:11px 12px;font-size:12px;text-transform:uppercase}
+#app .stktable td,#app .rct td,#app .bctbl td{padding:12px;min-height:44px;vertical-align:middle}
+#app .stktable tbody tr:hover td,#app .rct tbody tr:hover td{background:rgba(31,85,214,.045)}
+#app td.num,#app th.num{text-align:right;white-space:nowrap}
+@media(max-width:767px){#app .rct,#app .bctbl{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}}
+/* Trạng thái rỗng: có khung, căn giữa, dễ hiểu */
+.pxe{border:1.5px dashed var(--teal-ln);background:linear-gradient(180deg,#fff,#f7f9fe);border-radius:var(--r-lg);padding:28px 20px;text-align:center;color:var(--mut)}
+.pxe b{display:block;color:var(--ink);font-size:15px;margin-bottom:6px}
+/* Hộp thoại & thông báo */
+.ovl,#sigovl,#nmovl,#unmovl,#scanovl{overscroll-behavior:contain}
+.ovl>*,.sigcard{max-height:92vh;overflow:auto;overscroll-behavior:contain}
+#toast .in{border-radius:var(--r-md);font-weight:600}
+/* Loading dùng chung */
+.skel{background:linear-gradient(90deg,#eef2fa 25%,#f8faff 37%,#eef2fa 63%);background-size:400% 100%;animation:skel 1.3s ease infinite;border-radius:var(--r-sm)}
+@keyframes skel{0%{background-position:100% 0}100%{background-position:0 0}}
+@media print{.skel{animation:none}}

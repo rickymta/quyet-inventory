@@ -1,0 +1,19 @@
+/* Trích nguyên văn từ app gốc (dòng 1004-1021) */
+/* ===== THANH TOÁN · giai đoạn 2: đồng bộ Design System, desktop 2 cột, dễ chạm ===== */
+#app .pxs button{min-height:var(--tap)}
+#app .pxch{min-height:36px;transition:background-color .15s ease,border-color .15s ease,color .15s ease}
+#app .pxch:hover{border-color:var(--teal-ln)}
+#app .pxc{border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--sh1);transition:box-shadow .2s ease,transform .16s ease}
+@media(hover:hover){#app .pxc:hover{transform:translateY(-2px);box-shadow:var(--sh2)}}
+#app .pxc-a b{font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+#app .pxa,#app .pxa-main,#app .pxst{min-height:var(--tap)}
+#app .pxa{border-radius:var(--r-md)}
+#app .pxa-main[disabled]{opacity:.5;cursor:not-allowed;box-shadow:none}
+#app .pxh{box-shadow:var(--sh2)}
+@media(max-width:767px){#app .inp,#app .sinp,#app select.inp,#app textarea.inp{font-size:16px}}
+@media(min-width:1024px){#app .pxs{max-width:760px}}
+@media(min-width:1100px){
+#paylist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:start}
+#paylist>:not(.pxc){grid-column:1/-1}
+#paylist>.pxc{margin:0}
+}

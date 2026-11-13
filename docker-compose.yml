@@ -1,0 +1,42 @@
+# Chạy toàn bộ ứng dụng:  docker compose up -d --build   →  http://localhost:8080
+name: kiemke
+
+services:
+  mongo:
+    image: mongo:7
+    restart: unless-stopped
+    volumes:
+      - mongo-data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+  app:
+    build: .
+    image: kiemke-app:latest
+    restart: unless-stopped
+    depends_on:
+      mongo:
+        condition: service_healthy
+    environment:
+      MONGO_URI: mongodb://mongo:27017/kiemke
+      PORT: 4000
+      # File sao lưu của app gốc; chỉ được nạp ở lần chạy đầu khi CSDL còn trống
+      SEED_PATH: /seed/data.json
+      # Tài khoản quản trị tạo ở lần chạy đầu (khi chưa có tài khoản nào); đổi mật khẩu ngay sau khi đăng nhập
+      ADMIN_USERNAME: ${ADMIN_USERNAME:-admin}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-Admin123}
+      # Khoá ký phiên đăng nhập; để trống = tự sinh và lưu trong CSDL
+      JWT_SECRET: ${JWT_SECRET:-}
+      # Đặt 1 khi chạy sau reverse proxy HTTPS (tin X-Forwarded-Proto để bật cờ Secure cho cookie)
+      TRUST_PROXY: ${TRUST_PROXY:-}
+    ports:
+      - "${APP_PORT:-8080}:4000"
+    volumes:
+      - ${SEED_FILE:-./SaoLuu_ToanBo_20261113_1537.json}:/seed/data.json:ro
+
+volumes:
+  mongo-data:

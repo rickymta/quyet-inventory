@@ -1,0 +1,37 @@
+/* Trích nguyên văn từ app gốc (dòng 1344-1379) */
+/* ===== Bước 4 · Desktop: bảng dữ liệu cho danh sách kiểm kê (>=1100px); điện thoại giữ dạng thẻ ===== */
+#list>.ptbl{display:none}
+@media(min-width:1100px){
+  #list>.item{display:none}
+  #list>.ptbl{display:block}
+}
+.ptbl .ptn{font-size:12px;color:var(--mut);padding:0 2px 8px}
+.ptbl .stktable{table-layout:auto}
+.ptbl .stktable th.srt{cursor:pointer;user-select:none}
+.ptbl .stktable th.srt:hover{color:var(--ink)}
+.ptbl .stktable th .ar{font-size:9px;margin-left:4px}
+.ptbl .stktable tbody tr{cursor:pointer}
+.ptbl .stktable td.r{white-space:nowrap}
+.ptbl .stktable td .hs{margin-left:6px}
+.ptbl .dpos{color:var(--green);font-weight:700}
+.ptbl .dneg{color:var(--red);font-weight:700}
+.rcb-gray{background:rgba(16,24,40,.07);color:var(--mut)}
+.rcb-blue{background:rgba(31,85,214,.12);color:#1f55d6}
+.kyc .kyh{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.kyc .kyt{font-weight:700;font-size:15px}
+.kyc .kym{font-size:12.5px;color:var(--mut);margin-top:6px;line-height:1.5}
+.kyc .kyw{font-size:12.5px;color:var(--red);font-weight:600;margin-top:6px}
+.kyc .kyb{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.kyc .kyb button[disabled]{opacity:.45;pointer-events:none}
+.kyc .kyf{font-size:12px;margin-top:6px;color:var(--mut2)}
+table.rct tr.kyr{cursor:pointer}
+.pgbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:8px;padding:10px 2px 2px;font-size:13px;color:var(--mut)}
+.pgbar label{display:inline-flex;align-items:center;gap:6px;margin-right:auto}
+.pgbar .pill[disabled]{opacity:.4;cursor:default;pointer-events:none}
+.pgbar b{color:var(--ink)}
+.ptbl,#stkarea{scroll-margin-top:150px}
+@media(min-width:1100px){#list>.addbat{display:none!important}}
+@media(min-width:1500px){
+  html body[data-view="period"] #gmain .wrap,html body[data-view="stock"] #gmain .wrap{max-width:1360px}
+  html body[data-view="period"] #gmain .stkwrap,html body[data-view="stock"] #gmain .stkwrap{max-width:none}
+}

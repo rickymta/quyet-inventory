@@ -1,0 +1,15 @@
+/* Trích nguyên văn từ app gốc (dòng 1024-1037) */
+/* ===== KIỂM KÊ · giai đoạn 2: bàn phím không bị che, thanh nút gọn, danh sách 2 cột trên desktop ===== */
+#app .inp::placeholder,#app .sinp::placeholder{font-size:14px}
+#app .item{border-radius:var(--r-lg);box-shadow:var(--sh1)}
+#app .botin .btn{box-shadow:0 14px 30px -10px rgba(31,85,214,.55),inset 0 1px 0 rgba(255,255,255,.28)}
+@media(max-width:767px) and (max-height:900px){
+.keypad{gap:4px;margin-top:6px}
+.kkey{height:40px;min-height:0;padding:0;font-size:19px;line-height:1}
+}
+@media(min-width:1024px){#app .botin{max-width:520px}}
+@media(min-width:1100px){
+#list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-items:stretch}
+#list>.item{margin-bottom:0}
+#list>:not(.item){grid-column:1/-1}
+}

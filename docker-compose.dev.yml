@@ -1,0 +1,13 @@
+# Chỉ chạy MongoDB cho môi trường phát triển:  docker compose -f docker-compose.dev.yml up -d
+name: kiemke-dev
+
+services:
+  mongo:
+    image: mongo:7
+    ports:
+      - "127.0.0.1:27017:27017"
+    volumes:
+      - mongo-dev-data:/data/db
+
+volumes:
+  mongo-dev-data:
