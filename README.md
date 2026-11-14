@@ -11,11 +11,13 @@ dữ liệu nằm trên máy chủ (MongoDB) thay vì `localStorage`/IndexedDB, 
 │       ├── modules/        mỗi phân hệ một thư mục (kiểm kê, bàn giao, đối chiếu, thanh toán NCC, ...)
 │       └── styles/         CSS chép nguyên văn từ bản gốc
 ├── server/                 Express + Mongoose (API và phục vụ bản build React)
+│   ├── src/                mã máy chủ (seed.js nạp dữ liệu ban đầu, auth.js tạo tài khoản đầu tiên)
+│   ├── seed/data/          bộ seed: dữ liệu hiện có, nằm trong mã nguồn và image Docker (xem server/seed/README.md)
+│   └── scripts/            backup-to-seed.mjs: đổi file sao lưu thành bộ seed
 ├── reference/              mã gốc + bản đồ mã (INDEX.md) dùng khi port
 ├── docs/PORTING.md         quy ước port từ bản gốc sang React
 ├── Dockerfile              build nhiều tầng → một image chạy cả API lẫn giao diện
-├── docker-compose.yml      app + MongoDB
-└── SaoLuu_ToanBo_*.json    dữ liệu hiện có (file sao lưu của bản gốc), tự nạp ở lần chạy đầu
+└── docker-compose.yml      app + MongoDB
 ```
 
 ## Chạy bằng Docker
@@ -24,14 +26,14 @@ dữ liệu nằm trên máy chủ (MongoDB) thay vì `localStorage`/IndexedDB, 
 docker compose up -d --build
 ```
 
-Mở <http://localhost:8080>. Lần chạy đầu, khi CSDL còn trống, máy chủ tự nạp file `SaoLuu_ToanBo_20261113_1537.json`.
+Mở <http://localhost:8080>. Lần chạy đầu, khi CSDL còn trống, máy chủ tự nạp bộ seed đi kèm (`server/seed/data`, đã nằm sẵn trong image) và tạo tài khoản quản trị; không cần kèm file ngoài.
 
 Tuỳ chỉnh qua file `.env` (xem `.env.example`):
 
 | Biến | Mặc định | Ý nghĩa |
 |---|---|---|
 | `APP_PORT` | `8080` | Cổng truy cập trên máy chủ |
-| `SEED_FILE` | `./SaoLuu_ToanBo_20261113_1537.json` | File sao lưu dùng để nạp dữ liệu lần đầu |
+| `SEED_PATH` | trống | Tuỳ chọn: đường dẫn (trong container) tới thư mục seed hoặc file sao lưu JSON dùng thay bộ seed đi kèm; trống = dùng `server/seed/data` |
 | `ADMIN_USERNAME`, `ADMIN_PASSWORD` | `admin`, `Admin123` | Tài khoản quản trị tạo ở lần chạy đầu, khi chưa có tài khoản nào |
 | `JWT_SECRET` | trống | Khoá ký phiên đăng nhập; trống thì tự sinh và lưu trong CSDL (phiên không mất khi khởi động lại) |
 | `SESSION_DAYS` | `7` | Số ngày hiệu lực của phiên đăng nhập |
@@ -43,7 +45,7 @@ Tuỳ chỉnh qua file `.env` (xem `.env.example`):
 ### Đăng nhập và tài khoản
 
 Dữ liệu quản lý tập trung: ai có tài khoản thì đăng nhập được và thấy chung toàn bộ dữ liệu. Lần chạy đầu máy chủ tạo sẵn
-tài khoản quản trị **`admin` / `Admin123`** (hồ sơ lấy từ dữ liệu nạp ban đầu). **Hãy đổi mật khẩu ngay sau lần đăng nhập đầu tiên.**
+tài khoản quản trị **`admin` / `Admin123`** (hồ sơ lấy từ `users.json` của bộ seed; mật khẩu ban đầu là `ADMIN_PASSWORD`). **Hãy đổi mật khẩu ngay sau lần đăng nhập đầu tiên.**
 
 - Phiên đăng nhập là cookie httpOnly `kk_session` (JWT, hiệu lực `SESSION_DAYS` ngày). Đổi mật khẩu hoặc bị quản trị đặt lại
   mật khẩu thì các phiên khác hết hiệu lực; tài khoản bị khoá thì mất phiên ngay.
@@ -55,16 +57,31 @@ tài khoản quản trị **`admin` / `Admin123`** (hồ sơ lấy từ dữ li�
 
 Dữ liệu MongoDB nằm trong volume `kiemke_mongo-data`. Nạp lại từ đầu: `docker compose down -v` rồi `up` lại.
 
+### Dữ liệu ban đầu (bộ seed)
+
+Dữ liệu hiện có của dự án nằm trong mã nguồn tại `server/seed/data` (mỗi kỳ, biên bản, khối cài đặt một file JSON; xem
+[server/seed/README.md](server/seed/README.md)) và được sao chép vào image Docker. Khi CSDL còn trống, máy chủ nạp bộ seed rồi
+tạo tài khoản trong `users.json` (hiện là `admin`, mật khẩu ban đầu = `ADMIN_PASSWORD`, mặc định `Admin123`; `ADMIN_USERNAME`
+khác `admin` thì thay tên của quản trị viên đầu tiên). Không có `users.json` thì tạo một quản trị viên mặc định.
+
+- Tạo lại bộ seed từ một file sao lưu khác của app gốc:
+  `node server/scripts/backup-to-seed.mjs đường/dẫn/SaoLuu.json` (hoặc `npm run seed:build -- đường/dẫn/SaoLuu.json`),
+  mặc định ghi vào `server/seed/data` (xoá sạch thư mục đích trước khi ghi). Thêm tham số thứ hai để ghi nơi khác.
+- Nạp lại: `docker compose down -v` rồi `docker compose up -d --build`, hoặc với CSDL đang chạy `npm run seed -- --force`
+  (ghi đè dữ liệu, không đụng tài khoản). `npm run seed -- --force đường/dẫn` nhận cả thư mục seed lẫn file sao lưu JSON.
+- Đặt `SEED_PATH` để nạp từ nguồn khác (thư mục seed, file hoặc thư mục chứa file sao lưu JSON) thay vì bộ đi kèm.
+- **Đây là dữ liệu thật** (số liệu kho, chữ ký tay): chỉ để trong kho mã riêng tư.
+
 ## Chạy khi phát triển
 
 ```bash
 npm run install:all      # cài thư viện cho server và client
 npm run dev:db           # MongoDB bằng Docker (cổng 27017)
-npm run dev:server       # API ở http://localhost:4000 (tự nạp file JSON nếu CSDL trống)
+npm run dev:server       # API ở http://localhost:4000 (tự nạp server/seed/data nếu CSDL trống)
 npm run dev:client       # Vite ở http://localhost:5173, proxy /api sang cổng 4000
 ```
 
-Nạp lại dữ liệu từ một file sao lưu (ghi đè): `npm run seed -- --force đường/dẫn/file.json`.
+Nạp lại dữ liệu (ghi đè): `npm run seed -- --force` (bộ seed đi kèm) hoặc `npm run seed -- --force đường/dẫn/file.json`.
 
 ## Kiến trúc dữ liệu
 

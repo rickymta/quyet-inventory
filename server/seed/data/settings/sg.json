@@ -1,0 +1,32 @@
+{
+ "docs": [
+  {
+   "id": "sgmwelfh983p17b",
+   "name": "BB DC DT ND T9.pdf",
+   "size": 244851,
+   "addedAt": 1794551165472,
+   "status": "signed",
+   "signedAt": 1794551186822,
+   "signer": "Mai Văn Quyết",
+   "auth": "Face ID / vân tay",
+   "srcHash": "f94a79973ea77f34c447d2ba1dfcd71d185c3a9c190c96b1564c85f0a6362009",
+   "outHash": "d83fb3939d99a06466d06d8e5d016ca4a1e4249bbd272e87219a3ca47eec5a2e",
+   "outSize": 259887,
+   "pl": [
+    {
+     "p": 2,
+     "x": 0.6931372549019609,
+     "y": 0.46356293252595154,
+     "w": 0.3
+    }
+   ],
+   "folder": 0
+  }
+ ],
+ "folders": [
+  "Chưa phân loại"
+ ],
+ "both": false,
+ "fail": 0,
+ "lock": 0
+}

@@ -1,6 +1,6 @@
 /* Màn hình đối chiếu (view `recon`) và các tab con (dòng gốc 8659–8946, phần dựng giao diện). */
 import React from 'react';
-import { A, S, I, st, rerender, norm } from '../../core';
+import { A, S, I, st, rerender, norm, stok, smatch } from '../../core';
 import {
   RC, RC_LD, RC_LX, RC_ST, RC_ONLY, RC_MAPS, RC_CF, RC_GO, RC_KYL, KY_BADGE, rcDb, rcK, rcF, rcNum, rcQ, rcCompute, rcSum, rcCsList,
   rcScopeTxt, rcNames, rcDm, rcListRows, rcDStr, kyKey, kyTime, rcKyStat, rcKyGet,
@@ -211,7 +211,7 @@ export function rcViewCfg() {
   const HUES = [210, 150, 28, 280, 350, 175, 45, 320], G = [], gm = {};
   R.cfg.forEach((c, i) => { const k = norm(c.dv) || '(trống)'; if (!gm[k]) { gm[k] = { k, dv: c.dv || '(chưa có tên)', ix: [] }; G.push(gm[k]); } gm[k].ix.push(i); });
   RC.cfgG = G.map((g) => g.k);
-  const vis = G.filter((g) => !q || g.ix.some((i) => { const c = R.cfg[i]; return rcK([c.dv, c.ma, c.ten, c.alt].join(' ')).indexOf(q) >= 0; }));
+  const vis = G.filter((g) => !q || g.ix.some((i) => { const c = R.cfg[i]; return smatch(norm([c.dv, c.ma, c.ten, c.alt].join(' ')), stok(q)); }));
   const fld = (i, f, lab, span, extra, sty) => {
     const c = R.cfg[i], val = c[f] == null ? '' : c[f];
     return <div className="rcf" style={{ gridColumn: 'span ' + span }}><div className="l">{lab}</div><input key={i + '|' + f + '|' + val + '|' + (RC._rev || 0)} style={st(sty || '')} {...(extra || {})} {...rcChg(val, (v) => A.rcCfgEdit(i, f, v))} /></div>;
@@ -272,7 +272,7 @@ export function rcViewCfg() {
 export function rcViewMapGen() {
   const R = rcDb(), m = RC.map, L = RC_MAPS[m], q = rcK(RC.q), rows = [];
   R.maps[m].forEach((r, i) => {
-    if (!q || rcK(r.join(' ')).indexOf(q) >= 0) rows.push(r.map((x, j) => <input key={i + '|' + j + '|' + x + '|' + (RC._rev || 0)} className="inp" style={st('padding:7px 8px;font-size:13px;min-width:120px')} {...rcChg(x, (v) => A.rcMapEdit(i, j, v))} />).concat([<a key="del" onClick={() => A.rcMapDel(i)} style={st('color:var(--red)')}>Xóa</a>]));
+    if (!q || smatch(norm(r.join(' ')), stok(q))) rows.push(r.map((x, j) => <input key={i + '|' + j + '|' + x + '|' + (RC._rev || 0)} className="inp" style={st('padding:7px 8px;font-size:13px;min-width:120px')} {...rcChg(x, (v) => A.rcMapEdit(i, j, v))} />).concat([<a key="del" onClick={() => A.rcMapDel(i)} style={st('color:var(--red)')}>Xóa</a>]));
   });
   const inputs = []; for (let i = 1; i < L.length; i++) inputs.push(<input key={'rcm' + (i - 1) + '|' + m + '|' + R.maps[m].length} className="inp" id={'rcm' + (i - 1)} placeholder={L[i]} />);
   return (

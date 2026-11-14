@@ -1,5 +1,4 @@
 /* Trang Tổng quan (view `home`): renderHomeOld (4536) + fcHello/fcMobTask/v2Hub (7778) + thẻ chèn thêm (8187) */
-import { useEffect } from 'react';
 import { db, A, X, S, I, H, FcIco, fcKey, BUCKETS, hsdEntries, klog, rerender, st, can, canEdit } from '../../core';
 import { homeMonthCard } from './meter.jsx';
 
@@ -100,45 +99,47 @@ export function fcErrCnt() {
 }
 export function fcErrMsg(c) { return c.en + ' lỗi báo đang bật nhắc chưa xử lý' + (c.t ? ' · ' + c.t + ' chưa nhắc hôm nay' : '') + (c.o ? ' · ' + c.o + ' quá hạn' : ''); }
 function goErr() { A.go('err'); if (X.ER && X.ER.nhacView) X.ER.nhacView(); }
-export function fcMobTask() {
-  if (!can('err')) return null;
-  const c = fcErrCnt(); if (!c.en) return null;
-  return <div className={'fc-mt' + (c.t || c.o ? ' hot' : '')} onClick={goErr}>{I('warn', 20)}<div><b>Công việc cần xử lý</b><span>{fcErrMsg(c)}</span></div><em>{c.en}</em></div>;
-}
+/* Đã gộp vào khối "Cần xử lý" ở đầu Trang chủ — không hiện thêm thẻ riêng nữa */
+export function fcMobTask() { return null; }
 
-const svg16 = (d) => H('<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' + d + '</svg>');
 function payBad() {
   let nl = 0;
   try { if (db.pay && db.pay.mua && db.pay.mua.length) X.payCompute().forEach((g) => { if (g.bad) nl++; }); } catch (e) { klog('payCompute', e); }
   return nl;
 }
+const I3 = H('<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="12" height="17" rx="3"/><path d="m9.5 12 1.8 1.8 3.2-3.6"/></svg>');
 export function fcPanels() {
-  let en = []; let o = 0; const rows = []; const act = [];
-  try { en = hsdEntries(); } catch (e) { /* bỏ qua */ }
-  const ex = en.filter((e) => e.days < 0).length; const m1 = en.filter((e) => e.days >= 0 && e.days <= 30).length;
-  try { o = db.periods.filter((p) => p.items.some((i) => !i.counted && i.close !== 0)).length; } catch (e) { /* bỏ qua */ }
-  const nl = payBad();
-  const ec = fcErrCnt(); const eN = ec.en; const eT = ec.t; const eO = ec.o;
-  const row = (c, ic, tx, n, go, key) => <div className="fc-tr" key={key} onClick={go}><span className={'fc-ti ' + c}>{ic}</span><span className="fc-tx">{tx}</span><b className={'fc-tn ' + c}>{n}</b></div>;
-  const I1 = svg16('<path d="M12 4 3 20h18Z"/><path d="M12 10v4M12 17v.5"/>');
-  const I2 = svg16('<rect x="4" y="5" width="16" height="15" rx="3"/><path d="M8 3v4M16 3v4M4 10h16"/>');
-  const I3 = svg16('<rect x="6" y="4" width="12" height="17" rx="3"/><path d="m9.5 12 1.8 1.8 3.2-3.6"/>');
-  const I4 = svg16('<circle cx="12" cy="12" r="8"/><path d="M12 8v8M9.5 10.5h5"/>');
-  const cH = can('hsd'); const cK = can('kiemke'); const cP = can('pay'); const cE = can('err');
-  if (cH && ex) rows.push(row('r', I1, 'Có ' + ex + ' vật tư đã hết hạn sử dụng', ex, () => A.go('hsd'), 'ex'));
-  if (cH && m1) rows.push(row('a', I2, m1 + ' vật tư còn ≤ 1 tháng', m1, () => A.go('hsd'), 'm1'));
-  if (cK && o) rows.push(row('i', I3, o + ' kỳ kiểm kê chưa hoàn thành', o, () => X.v2List(), 'o'));
-  if (cP && nl) rows.push(row('p', I4, nl + ' đề nghị thanh toán NCC cần xử lý', nl, () => A.go('pay'), 'nl'));
-  if (cE && eN) rows.push(row(eT || eO ? 'r' : 'a', I1, fcErrMsg(ec), eN, goErr, 'er'));
-  const tot = (cH ? ex + m1 : 0) + (cK ? o : 0) + (cP ? nl : 0) + (cE ? eN : 0);
-  (cK ? db.periods || [] : []).slice(0, 5).forEach((p, i) => {
+  const act = [];
+  (can('kiemke') ? db.periods || [] : []).slice(0, 5).forEach((p, i) => {
     act.push(<div className="fc-tr" key={p.id || i}><span className="fc-ti i">{I3}</span><span className="fc-tx">Kiểm kê vật tư – {p.name || 'Kỳ kiểm kê'}</span><span className="fc-ago">{p.createdAt ? fcAgo(p.createdAt) : ''}</span></div>);
   });
+  return <div className="fc-pn fc-act"><div className="fc-ph">Hoạt động gần đây</div>{act.length ? act : <div className="fc-empty">Chưa có hoạt động</div>}</div>;
+}
+
+/* ---- Khối "Cần xử lý" (renderHomeOld, gốc 4640–4690): mỗi dòng chỉ hiện khi có quyền xem phân hệ tương ứng ---- */
+function NeedPanel() {
+  const entries = hsdEntries(); const nxc = {};
+  BUCKETS.forEach((b) => { nxc[b.k] = entries.filter((e) => b.test(e.days)).length; });
+  const cH = can('hsd'); const cK = can('kiemke'); const cP = can('pay'); const cE = can('err');
+  let nxo = 0; try { nxo = db.periods.filter((p) => p.items.some((i) => !i.counted && i.close !== 0)).length; } catch (e) { /* bỏ qua */ }
+  const nxl = cP ? payBad() : 0;
+  const ec = cE ? fcErrCnt() : { en: 0, t: 0, o: 0 };
+  const rows = [];
+  const row = (key, cls, ico, label, n, act) => rows.push(<div className={'nx-r ' + cls} key={key} onClick={act}><span className="nx-i">{ico}</span><div className="nx-t">{label}</div><span className="nx-n tnum">{n}</span><span className="nx-c">{I('chev', 16)}</span></div>);
+  const NG = (k) => () => X.NX.go(k);
+  if (cH && nxc.expired) row('ex', 'red', H(KIC.expired), 'Đã hết hạn', nxc.expired, NG('expired'));
+  if (cH && nxc.m1) row('m1', 'org', H(KCAL), 'Còn ≤ 1 tháng', nxc.m1, NG('m1'));
+  if (cK && nxo) row('open', 'blu', I('clock', 18), 'Kỳ đang kiểm dở', nxo, NG('open'));
+  if (nxl) row('pay', 'amb', I('doc', 18), 'Thanh toán NCC có lỗi', nxl, NG('pay'));
+  if (ec.en) {
+    row('err', (ec.t || ec.o) ? 'red' : 'amb', I('warn', 18), <>Lỗi báo đang nhắc chưa xử lý{(ec.t || ec.o) ? <span style={st('display:block;font-size:12px;font-weight:500;color:#6b7389;margin-top:1px')}>{ec.t ? ec.t + ' chưa nhắc hôm nay' : ''}{(ec.t && ec.o) ? ' · ' : ''}{ec.o ? ec.o + ' quá hạn' : ''}</span> : null}</>, ec.en, goErr);
+  }
+  if (cH && nxc.m3) row('m3', 'amb', H(KCAL), 'Còn ≤ 3 tháng', nxc.m3, NG('m3'));
+  if (cH && nxc.m6) row('m6', 'grn', H(KCAL), 'Còn ≤ 6 tháng', nxc.m6, NG('m6'));
+  const nxt = (cH ? (nxc.expired || 0) + (nxc.m1 || 0) : 0) + (cK ? nxo : 0) + nxl + ec.en;
   return (
-    <>
-      <div className="fc-pn"><div className="fc-ph">Công việc cần xử lý{tot ? <> <em>({tot})</em></> : null}</div>{rows.length ? rows : <div className="fc-empty">Không có công việc tồn đọng</div>}</div>
-      <div className="fc-pn"><div className="fc-ph">Hoạt động gần đây</div>{act.length ? act : <div className="fc-empty">Chưa có hoạt động</div>}</div>
-    </>
+    <div className="wrap mt20"><div style={st('display:flex;justify-content:space-between;align-items:center;margin-bottom:8px')}><span className="sec" style={st('margin:0;display:flex;align-items:center;gap:8px')}>Cần xử lý{nxt ? <span className="nx-tot tnum">{nxt}</span> : null}</span>{cH ? <button className="addbat" style={st('color:var(--teal);display:flex;align-items:center;gap:5px')} onClick={() => X.showHsdEmailPicker()}>{I('mail', 15)}Email</button> : null}</div>
+      <div className="nx">{rows.length ? rows : <div className="nx-r grn" style={st('cursor:default')}><span className="nx-i">{I('check', 18)}</span><div className="nx-t">Không có việc cần xử lý</div></div>}</div></div>
   );
 }
 
@@ -157,12 +158,12 @@ const TILE_GROUPS = [
   { cap: 'Kiểm kê', cols: '1fr 1fr', tiles: [
     { m: 'kiemke', ed: 1, ic: 'box', lb: 'Kiểm kê vật tư', act: () => A.go('upload') },
     { m: 'assets', ic: 'monitor', lb: 'Kiểm kê CCDC & TSCĐ', act: () => A.go('assets') },
-    { m: 'kiemke', ic: 'file', lb: 'Kỳ đang kiểm dở', act: () => X.v2List(), bd: 'open' },
+    { m: 'kiemke', ic: 'file', lb: 'Kỳ đang kiểm dở', act: () => X.v2List() },
     { m: 'kiemke', ic: 'qr', lb: 'Quét QR', act: () => X.v2Scan() },
   ] },
   { cap: 'Đối chiếu & thanh toán', cols: '1fr 1fr', tiles: [
     { m: 'recon', ic: 'swap', lb: 'Đối chiếu DT – xuất kho', act: () => A.go('recon') },
-    { m: 'pay', ic: 'file', lb: 'Đề nghị thanh toán NCC', act: () => A.go('pay'), bd: 'nl' },
+    { m: 'pay', ic: 'file', lb: 'Đề nghị thanh toán NCC', act: () => A.go('pay') },
     { m: 'err', ic: 'warn', lb: 'Báo lỗi nhập liệu & labo', act: () => A.go('err') },
     { m: 'kiemke', ic: 'monitor', lb: 'Quản trị liên chi nhánh', act: () => A.go('mgmt') },
   ] },
@@ -173,39 +174,14 @@ const TILE_GROUPS = [
   ] },
 ];
 
-function homeData() {
-  const entries = hsdEntries();
-  const counts = BUCKETS.map((b) => entries.filter((e) => b.test(e.days)).length);
-  const dl = fcDelta(counts);
-  const open = db.periods.filter((p) => p.items.some((i) => !i.counted && i.close !== 0)).length;
-  const nl = payBad();
-  return { counts, dl, open, nl, entries };
-}
-
 export function Home() {
-  const { counts, dl, open, nl } = homeData();
-  useEffect(() => { dl.save(); });
   return (
     <>
       {fcHello()}
       {fcMobTask()}
       {v2Hub()}
       {homeNoticesHtml()}
-      {can('hsd') ? (
-      <div className="wrap mt20"><div style={st('display:flex;justify-content:space-between;align-items:center;margin-bottom:8px')}><span className="sec" style={{ margin: 0 }}>Cảnh báo hạn sử dụng</span><div style={st('display:flex;gap:14px;align-items:center')}><button className="addbat" style={st('color:var(--teal);display:flex;align-items:center;gap:5px')} onClick={() => X.showHsdEmailPicker()}>{I('mail', 15)}Email</button><button className="addbat" style={st('display:flex;align-items:center;gap:3px')} onClick={() => A.go('hsd')}>Xem chi tiết{I('chev', 15)}</button></div></div>
-        <div className="hsdgrid">
-          {BUCKETS.map((b, i) => {
-            const n = counts[i]; const dd = dl.deltas[i];
-            return (
-              <div className={'hsdcard ' + b.cls + (n ? '' : ' z')} key={b.k} onClick={() => A.go('hsd')}>
-                <span className={'kic k-' + b.k}>{H(KIC[b.k] || KCAL)}</span><div className="kb"><div className="t">{b.label}</div><div className="n tnum">{n}</div></div>
-                {dd ? <span className={'kdl ' + (dd > 0 ? 'up' : 'dn')}>{(dd > 0 ? '▲ +' : '▼ −') + Math.abs(dd)}</span> : null}
-              </div>
-            );
-          })}
-        </div>
-      </div>
-      ) : null}
+      <NeedPanel />
       <div className="fc-row">{can('kiemke') ? homeMonthCard() : null}{fcRate()}{fcPanels()}</div>
       <div className="wrap mt24">
         {TILE_GROUPS.map((g, gi) => {
@@ -215,7 +191,7 @@ export function Home() {
             <div key={g.cap}>
               <div className="sec fc-cap" style={gi ? { marginTop: 22 } : undefined}>{g.cap}</div>
               <div style={st('display:grid;grid-template-columns:' + g.cols + ';gap:10px')}>
-                {ts.map((t) => <Tile key={t.lb} ic={t.ic} lb={t.lb} act={t.act} bd={t.bd === 'open' ? (open || '') : t.bd === 'nl' ? (nl || '') : undefined} />)}
+                {ts.map((t) => <Tile key={t.lb} ic={t.ic} lb={t.lb} act={t.act} />)}
               </div>
             </div>
           );

@@ -1,7 +1,7 @@
 /* UI v2 (HS, v2Periods, v2Cur, v2Use, v2Scan, v2List, v2Manual...) và các lệnh in thuộc dải 7494–7575.
    Mã gốc: dòng 7494–7575 (khối Object.assign(A) thứ hai), 7638–7709. */
 import React from 'react';
-import { db, S, A, X, per, norm, st, rerender, render, openLayer, closeLayer, toast, saveSoon, hsdEntries, BUCKETS, fmt, fmtDate, diffOf } from '../../core';
+import { db, S, A, X, per, norm, stok, smatch, st, rerender, render, openLayer, closeLayer, toast, saveSoon, hsdEntries, BUCKETS, fmt, fmtDate, diffOf } from '../../core';
 import { newPKey } from './list.jsx';
 
 export const HS = { pid: '', folder: '', area: 'all' };
@@ -40,7 +40,7 @@ function v2ManualClose() { closeLayer('v2manual'); }
 function V2ManualBox() {
   const p = per(S.P && S.P.id);
   const nq = norm(V2M.q);
-  const found = (p && nq) ? p.items.filter((i) => norm(i.name + ' ' + i.code).indexOf(nq) >= 0).slice(0, 8) : [];
+  const found = (p && nq) ? p.items.filter((i) => smatch(norm(i.name + ' ' + i.code), stok(V2M.q))).slice(0, 8) : [];
   return (
     <div id="nmovl"><div className="sigcard"><div style={st('font-weight:800;font-size:16px;margin-bottom:10px')}>Nhập mã thủ công</div>
       <input className="inp" id="v2mi" placeholder="Mã hoặc tên vật tư" autoFocus value={V2M.q} onChange={(e) => v2ManualQ(e.target.value)} onKeyDown={(e) => { if (e.key === 'Enter') v2ManualEnter(); }} />

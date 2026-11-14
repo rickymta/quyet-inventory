@@ -5,7 +5,8 @@ import jwt from 'jsonwebtoken';
 import mongoose from 'mongoose';
 import { config } from './config.js';
 import { Meta, Setting, User } from './models.js';
-import { presetsPayload } from './perms.js';
+import { presetsPayload, normalizePerms } from './perms.js';
+import { loadSeedUsers } from './seed.js';
 import { userDto, sanitizeProfile, validUsername, validPassword, httpError } from './userutil.js';
 
 export const COOKIE = 'kk_session';
@@ -25,21 +26,55 @@ export async function initAuth() {
   secret = m.value;
 }
 
-/* Tạo tài khoản quản trị đầu tiên nếu chưa có tài khoản nào */
+/* Tạo tài khoản ban đầu nếu chưa có tài khoản nào: theo users.json của bộ seed (mật khẩu ban đầu = ADMIN_PASSWORD),
+   hoặc (không có users.json) 1 quản trị viên với hồ sơ lấy từ settings `profile` nếu có. Luôn bảo đảm có ít nhất 1 admin. */
 export async function ensureAdmin() {
   if (await User.exists({})) return;
-  const username = config.adminUsername;
-  if (!validUsername(username) || !validPassword(config.adminPassword)) {
-    console.error('[auth] ADMIN_USERNAME/ADMIN_PASSWORD không hợp lệ (tên 3–32 ký tự [a-z0-9._-], mật khẩu ≥ 8 ký tự); chưa tạo tài khoản quản trị');
+  if (!validPassword(config.adminPassword)) {
+    console.error('[auth] ADMIN_PASSWORD không hợp lệ (≥ 8 ký tự); chưa tạo tài khoản');
     return;
   }
-  const s = await Setting.findById('profile').lean();
-  let profile;
-  try { profile = sanitizeProfile(s && s.value); } catch { profile = sanitizeProfile(null); }
-  try {
-    await User.create({ username, hash: await bcrypt.hash(config.adminPassword, BCRYPT_COST), role: 'admin', profile });
-    console.log(`[auth] Đã tạo tài khoản quản trị "${username}"`);
-  } catch (e) { if (e.code !== 11000) throw e; }
+  const hash = await bcrypt.hash(config.adminPassword, BCRYPT_COST);
+  const created = [];
+  let hasAdmin = false;
+  const add = async (username, role, profile, perms) => {
+    if (!validUsername(username)) { console.error(`[auth] Bỏ qua tài khoản seed có tên không hợp lệ: "${username}"`); return; }
+    try {
+      await User.create({ username, hash, role, profile, perms });
+      created.push(`${username}(${role})`);
+      if (role === 'admin') hasAdmin = true;
+    } catch (e) { if (e.code !== 11000) throw e; }
+  };
+
+  const list = loadSeedUsers();
+  if (list) {
+    let firstAdmin = true;
+    for (const u of list) {
+      if (!u || typeof u !== 'object') continue;
+      const role = u.role === 'admin' ? 'admin' : 'user';
+      let username = typeof u.username === 'string' ? u.username.trim().toLowerCase() : '';
+      if (role === 'admin' && firstAdmin) {
+        firstAdmin = false;
+        if (config.adminUsernameSet) username = config.adminUsername;
+      }
+      let profile;
+      try { profile = sanitizeProfile(u.profile); } catch { profile = sanitizeProfile(null); }
+      let perms;
+      if (role !== 'admin' && u.perms != null) { try { perms = normalizePerms(u.perms); } catch { perms = undefined; } }
+      await add(username, role, profile, perms);
+    }
+  }
+  if (!hasAdmin) {
+    if (list && created.length) console.warn('[auth] users.json không có quản trị viên hợp lệ; tạo thêm quản trị mặc định');
+    let profile = sanitizeProfile(null);
+    if (!list) {
+      const s = await Setting.findById('profile').lean();
+      try { profile = sanitizeProfile(s && s.value); } catch { /* giữ hồ sơ rỗng */ }
+    }
+    if (!validUsername(config.adminUsername)) console.error('[auth] ADMIN_USERNAME không hợp lệ (3–32 ký tự [a-z0-9._-]); chưa tạo tài khoản quản trị');
+    else await add(config.adminUsername, 'admin', profile);
+  }
+  if (created.length) console.log(`[auth] Đã tạo tài khoản: ${created.join(', ')}`);
 }
 
 /* ---- Cookie ---- */

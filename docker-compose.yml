@@ -24,8 +24,9 @@ services:
     environment:
       MONGO_URI: mongodb://mongo:27017/kiemke
       PORT: 4000
-      # File sao lưu của app gốc; chỉ được nạp ở lần chạy đầu khi CSDL còn trống
-      SEED_PATH: /seed/data.json
+      # Để trống = dùng bộ seed đi kèm trong image (server/seed/data), chỉ nạp ở lần chạy đầu khi CSDL còn trống.
+      # Đặt đường dẫn (trong container) tới thư mục seed hoặc file sao lưu JSON để dùng nguồn khác.
+      SEED_PATH: ${SEED_PATH:-}
       # Tài khoản quản trị tạo ở lần chạy đầu (khi chưa có tài khoản nào); đổi mật khẩu ngay sau khi đăng nhập
       ADMIN_USERNAME: ${ADMIN_USERNAME:-admin}
       ADMIN_PASSWORD: ${ADMIN_PASSWORD:-Admin123}
@@ -35,8 +36,6 @@ services:
       TRUST_PROXY: ${TRUST_PROXY:-}
     ports:
       - "${APP_PORT:-8080}:4000"
-    volumes:
-      - ${SEED_FILE:-./SaoLuu_ToanBo_20261113_1537.json}:/seed/data.json:ro
 
 volumes:
   mongo-data:

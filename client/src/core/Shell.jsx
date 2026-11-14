@@ -9,7 +9,7 @@ import { ModalHost, LayerHost } from './ui.jsx';
 import { I, FcGly, NavIco, H } from './icons.jsx';
 import { hsdEntries } from './data.js';
 import { klog } from './klog.js';
-import { can, canEdit, canView, canBranch, allBranches, viewLevel } from './perms.js';
+import { can, canEdit, canView, allBranches, viewLevel } from './perms.js';
 
 const call = (fn, ...a) => { try { return typeof fn === 'function' ? fn(...a) : undefined; } catch (e) { klog('shell.call', e); console.error(e); return undefined; } };
 
@@ -21,60 +21,54 @@ function navCounts() {
   try { if (db.pay && db.pay.mua && db.pay.mua.length && X.payCompute) X.payCompute().forEach((g) => { if (g.bad) v.nl++; }); } catch (e) { /* bỏ qua */ }
   window.__nbc = { t: Date.now(), v }; return v;
 }
-function navCurFolder() {
-  if (S.route.view === 'folder' && S.FD) return S.FD.name;
-  if (S.route.view === 'period') { const p = X.per && X.per(S.P && S.P.id); if (p) return p.folder || ''; }
-  return null;
-}
-const periodsIn = (f) => (X.periodsIn ? X.periodsIn(f) : db.periods.filter((p) => (p.folder || '') === f));
-
 export function navGroups() {
-  const nc = navCounts(); const v = S.route.view; const cur = navCurFolder(); const inFolder = (cur !== null && (v === 'folder' || v === 'period'));
+  const nc = navCounts(); const v = S.route.view;
   const LSback = !!(X.LS && X.LS.back);
   const C = (fn) => () => { A.drawerClose(); call(fn); };
-  /* 5 phân hệ: Tổng quan · Kho & kiểm kê · Đối chiếu · Thanh toán NCC · Quản trị & tiện ích */
-  const inv = [
-    { m: 'kiemke', label: 'Danh sách kỳ kiểm kê', desc: 'Gồm các kỳ đang kiểm dở', cnt: nc.o || undefined, act: C(() => X.v2List()), on: v === 'lists' || v === 'transfer' || (v === 'asset' && LSback) || (v === 'period' && !inFolder) },
-    { ed: 'kiemke', label: 'Tạo kỳ kiểm kê', act: C(() => A.go('upload')), on: v === 'upload' },
+  /* 6 phân hệ: Tổng quan · Kiểm kê · Kho · Đối chiếu · Thanh toán NCC · Quản trị & tiện ích. Thao tác nhanh (Tạo kỳ, Quét QR) nằm đầu menu. */
+  const kk = [
+    { m: 'kiemke', label: 'Danh sách kỳ kiểm kê', title: 'Gồm các kỳ đang kiểm dở', cnt: nc.o || undefined, act: C(() => X.v2List()), on: v === 'lists' || v === 'transfer' || v === 'folder' || (v === 'asset' && LSback) || v === 'period' },
+    { m: 'assets', label: 'Kiểm kê CCDC & TSCĐ', act: C(() => A.go('assets')), on: v === 'assets' || (v === 'asset' && !LSback) },
+    { m: 'explain', label: 'Giải trình chênh lệch', title: 'Giải trình các mã chênh lệch sau kiểm kê', act: C(() => A.go('explain')), on: v === 'explain' || v === 'explainEdit' },
+    { m: 'kiemke', label: 'Báo cáo kiểm kê', title: 'Tổng hợp kết quả kiểm kê', act: C(() => A.go('baocao')), on: v === 'baocao' || v === 'reporthub' },
+    { ed: 'kiemke', label: 'Tạo kỳ kiểm kê', act: C(() => A.go('upload')), on: v === 'upload', hide: true },
+  ];
+  const kho = [
     { m: 'kiemke', label: 'Vật tư, tồn kho', act: () => call(A.navStock), on: v === 'stock' },
     { m: 'hsd', label: 'Cảnh báo hạn sử dụng', cnt: nc.ex || undefined, hot: 1, act: C(() => A.go('hsd')), on: v === 'hsd' },
-    { m: 'assets', label: 'Kiểm kê CCDC & TSCĐ', act: C(() => A.go('assets')), on: v === 'assets' || (v === 'asset' && !LSback) },
-    { m: 'explain', label: 'Giải trình chênh lệch', desc: 'Giải trình các mã chênh lệch sau kiểm kê', act: C(() => A.go('explain')), on: v === 'explain' || v === 'explainEdit' },
-    { m: 'kiemke', label: 'Báo cáo kiểm kê', desc: 'Tổng hợp kết quả kiểm kê', act: C(() => A.go('baocao')), on: v === 'baocao' || v === 'reporthub' },
-    { m: 'kiemke', label: 'Điều chuyển liên chi nhánh', desc: 'Tồn ≥3/6 tháng, gợi ý điều chuyển giữa chi nhánh', act: C(() => A.go('mgmt')), on: v === 'mgmt' },
-    { m: 'kiemke', label: 'Quét QR / mã vạch', act: C(() => X.v2Scan()), on: false },
-    { cap: 'Chi nhánh', m: 'kiemke' },
+    { m: 'kiemke', label: 'Điều chuyển liên chi nhánh', title: 'Tồn ≥3/6 tháng, gợi ý điều chuyển giữa chi nhánh', act: C(() => A.go('mgmt')), on: v === 'mgmt' },
   ];
-  db.folders.forEach((f, i) => { inv.push({ m: 'kiemke', label: f, act: () => call(A.navFolder, i), on: inFolder && cur === f, cnt: periodsIn(f).length }); });
-  const un = periodsIn('').length;
-  if (un && canBranch('')) inv.push({ m: 'kiemke', label: 'Chưa phân loại', act: () => call(A.navFolder, -1), on: inFolder && cur === '', cnt: un });
-  inv.push({ ed: 'config', br: true, label: 'Thêm chi nhánh', act: () => call(A.navFolderAdd), on: false, add: true });
   return permFilter([
+    { quick: [
+      { ed: 'kiemke', label: 'Tạo kỳ', icon: 'plus', pri: 1, act: C(() => A.go('upload')), on: v === 'upload' },
+      { m: 'kiemke', label: 'Quét QR', icon: 'scan', act: C(() => X.v2Scan()), on: false },
+    ] },
     { k: 'ov', icon: 'home', label: 'Tổng quan', act: () => A.navGo('home'), on: v === 'home' },
-    { k: 'inv', icon: 'box', label: 'Kho & kiểm kê', bd: ((nc.o || 0) + (nc.ex || 0)) || undefined, subs: inv, on: ['lists', 'transfer', 'upload', 'folder', 'period', 'assets', 'asset', 'stock', 'hsd', 'baocao', 'reporthub', 'explain', 'explainEdit', 'mgmt'].indexOf(v) >= 0 },
+    { k: 'kk', icon: 'list', label: 'Kiểm kê', bd: nc.o || undefined, subs: kk, on: ['lists', 'transfer', 'upload', 'folder', 'period', 'assets', 'asset', 'baocao', 'reporthub', 'explain', 'explainEdit'].indexOf(v) >= 0 },
+    { k: 'kho', icon: 'box', label: 'Kho', bd: nc.ex || undefined, subs: kho, on: ['stock', 'hsd', 'mgmt'].indexOf(v) >= 0 },
     { k: 'rc', icon: 'swap', label: 'Đối chiếu', on: ['recon', 'err', 'ana'].indexOf(v) >= 0, subs: [
-      { m: 'recon', label: 'Đối chiếu doanh thu – xuất kho', desc: 'So doanh thu với giá trị xuất kho theo tháng', act: C(() => A.go('recon')), on: v === 'recon' },
-      { m: 'ana', label: 'Phân tích mua hàng – tiêu hao', desc: 'So mua hàng với tiêu hao vật tư theo cơ sở, từ sổ chi tiết MISA', act: C(() => A.go('ana')), on: v === 'ana' },
+      { m: 'recon', label: 'Đối chiếu doanh thu – xuất kho', title: 'So doanh thu với giá trị xuất kho theo tháng', act: C(() => A.go('recon')), on: v === 'recon' },
+      { m: 'ana', label: 'Phân tích mua hàng – tiêu hao', title: 'So mua hàng với tiêu hao vật tư theo cơ sở, từ sổ chi tiết MISA', act: C(() => A.go('ana')), on: v === 'ana' },
       { m: 'err', label: 'Báo lỗi nhập liệu và labo', act: C(() => A.go('err')), on: v === 'err' }] },
     { m: 'pay', k: 'pay', icon: 'doc', label: 'Thanh toán NCC', bd: nc.nl || undefined, act: () => A.navGo('pay'), on: v === 'pay' },
     { k: 'qt', icon: 'file', label: 'Quản trị & tiện ích', on: ['handover', 'handoverEdit', 'dchub', 'settings', 'sign'].indexOf(v) >= 0, subs: [
-      { m: 'handover', label: 'Biên bản bàn giao', desc: 'Bàn giao vật tư, tài sản giữa các bên', act: C(() => A.go('handover')), on: v === 'handover' || v === 'handoverEdit' },
-      { label: 'Trung tâm kiểm soát dữ liệu', desc: 'Tổng hợp các công cụ đối chiếu, kiểm soát', act: C(() => A.go('dchub')), on: v === 'dchub' },
-      { m: 'sign', label: 'Ký số PDF', desc: 'Ký PDF, chọn vị trí ký, xác nhận mật khẩu / Face ID', act: C(() => A.go('sign')), on: v === 'sign' },
-      { label: 'Cài đặt hệ thống', desc: 'Hồ sơ, tài khoản, in ấn, người ký', act: C(() => A.go('settings')), on: v === 'settings' }] },
+      { m: 'handover', label: 'Biên bản bàn giao', title: 'Bàn giao vật tư, tài sản giữa các bên', act: C(() => A.go('handover')), on: v === 'handover' || v === 'handoverEdit' },
+      { label: 'Trung tâm kiểm soát dữ liệu', title: 'Tổng hợp các công cụ đối chiếu, kiểm soát', act: C(() => A.go('dchub')), on: v === 'dchub' },
+      { m: 'sign', label: 'Ký số PDF', title: 'Ký PDF, chọn vị trí ký, xác nhận mật khẩu / Face ID', act: C(() => A.go('sign')), on: v === 'sign' },
+      { label: 'Cài đặt hệ thống', title: 'Hồ sơ, tài khoản, in ấn, người ký', act: C(() => A.go('settings')), on: v === 'settings' }] },
     { k: 'logout', icon: 'x', label: 'Đăng xuất', act: () => { A.drawerClose(); A.logout(); }, on: false },
   ]);
 }
-/* Ẩn mục của phân hệ mức 0 (m = cần xem, ed = cần sửa, br = không bị giới hạn chi nhánh); bỏ nhóm/tiêu đề rỗng */
+/* Ẩn mục của phân hệ mức 0 (m = cần xem, ed = cần sửa, br = không bị giới hạn chi nhánh); bỏ nhóm rỗng */
 function permFilter(gs) {
   const ok = (x) => (!x.m || can(x.m)) && (!x.ed || canEdit(x.ed)) && (!x.br || allBranches());
   const out = [];
   gs.forEach((g) => {
+    if (g.quick) { const q = g.quick.filter(ok); if (q.length) out.push({ ...g, quick: q }); return; }
     if (!ok(g)) return;
     if (!g.subs) { out.push(g); return; }
     const subs = g.subs.filter(ok);
-    const clean = subs.filter((y, i) => !(y.cap && (i === subs.length - 1 || subs[i + 1].cap)));
-    if (clean.some((y) => !y.cap)) out.push({ ...g, subs: clean });
+    if (subs.some((y) => !y.hide)) out.push({ ...g, subs });
   });
   return out;
 }
@@ -91,7 +85,10 @@ export function userInitials(n) {
 }
 
 function NavList({ gs, ac }) {
-  return gs.map((g) => {
+  return gs.map((g, gi) => {
+    if (g.quick) {
+      return <div key={'q' + gi} className="gnav-quick">{g.quick.map((q) => <a key={q.label} className={'gq' + (q.pri ? ' pri' : '') + (q.on ? ' on' : '')} onClick={q.act}>{I(q.icon, 16)}<span className="lb">{q.label}</span></a>)}</div>;
+    }
     const on = ac.g === g;
     if (!g.subs) {
       return <a key={g.k} className={'gnav-item' + (on ? ' on' : '')} title={g.label} onClick={g.act}>{NavIco(g)}<span className="lb">{g.label}</span>{g.bd ? <span className="gbd">{g.bd}</span> : null}</a>;
@@ -100,9 +97,8 @@ function NavList({ gs, ac }) {
       <div key={g.k} className={'gnav-wrap' + (S.NAV_OPEN === g.k ? ' open' : '')} data-g={g.k}>
         <a className={'gnav-item gnav-grp' + (on ? ' on' : '')} title={g.label} onClick={() => A.navGroup(g.k)}>{NavIco(g)}<span className="lb">{g.label}</span>{g.bd ? <span className="gbd">{g.bd}</span> : null}<span className="chv">{I('chev', 16)}</span></a>
         <div className="gnav-subs"><div>
-          {g.subs.map((y, i) => (y.cap
-            ? <div key={i} className="gnav-cap">{y.cap}</div>
-            : <a key={i} className={'gnav-item gnav-sub' + (y.on ? ' on' : '') + (y.add ? ' gnav-add' : '')} onClick={y.act}>{y.add ? I('plus', 15) : null}{y.desc ? <span className="gl">{y.label}<small className="gd">{y.desc}</small></span> : y.label}{y.cnt != null ? <span className={'cnt' + (y.hot ? ' hot' : '')}>{y.cnt}</span> : null}</a>))}
+          {g.subs.map((y, i) => (y.hide ? null
+            : <a key={i} className={'gnav-item gnav-sub' + (y.on ? ' on' : '')} title={y.title || undefined} onClick={y.act}>{y.label}{y.cnt != null ? <span className={'cnt' + (y.hot ? ' hot' : '')}>{y.cnt}</span> : null}</a>))}
         </div></div>
       </div>
     );
@@ -181,7 +177,7 @@ export default function Shell() {
     document.body.setAttribute('data-view', v);
     hashSync();
     const bl = document.getElementById('fcbell');
-    if (bl) bl.classList.toggle('has', !!document.querySelector('#app .fc-ph em'));
+    if (bl) bl.classList.toggle('has', !!document.querySelector('#app .nx-tot'));
   });
 
   if (!auth.checked) return <BootScreen />;
@@ -203,6 +199,7 @@ export default function Shell() {
   const allowed = canView(v);
   const lv = allowed ? viewLevel(v) : null;
   const kk = can('kiemke');
+  const GS = X.GS; const GSR = GS && GS.Results; /* phân hệ search */
   const offS = { opacity: 0.38, pointerEvents: 'none' };
 
   return (
@@ -212,11 +209,12 @@ export default function Shell() {
         {H(LOGO_DEFS)}
         <div id="gbrand"><div className="bt"><div className="h5row"><span className="h5nm"><b className="h5t">MedDental<i className="h2k k1" /><i className="h2k k2" /><i className="h2k k3" /><i className="h2k k4" /></b></span><span className="h5p">Prime</span></div><small>Designed by Quyet Mai</small></div></div>
         <div id="gcrumb">{ac.g ? <span>{ac.g.label}</span> : null}{ac.sub ? <><span className="sp">›</span><b>{ac.sub.label}</b></> : null}</div>
-        <label id="fcsrch">{SV('<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>')}<input id="fcq" type="search" placeholder="Tìm kiếm vật tư, mã hàng, chứng từ…" autoComplete="off" /><kbd>Ctrl + K</kbd></label>
+        <label id="fcsrch">{SV('<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>')}<input id="fcq" type="search" placeholder="Tìm kiếm vật tư, mã hàng, chứng từ…" autoComplete="off" value={GS ? GS.q : ''} onChange={(e) => GS && GS.input(e.target.value)} onFocus={() => GS && GS.focus()} onKeyDown={(e) => GS && GS.key(e)} /><kbd>Ctrl + K</kbd></label>
         <button id="fcbr" type="button">{SV('<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h2M13 8h2M9 12h2M13 12h2M10 21v-4h4v4"/>')}<span>{(db.folders && db.folders[0]) || '12M Cát Linh (HO)'}</span>{SV('<path d="m6 9 6 6 6-6"/>')}</button>
         <button id="fcbell" type="button" onClick={() => A.go('hsd')} aria-label="Thông báo">{SV('<path d="M6 16V11a6 6 0 1 1 12 0v5l1.5 2h-15zM10 21h4"/>')}<i /></button>
         <div id="guser" onClick={() => A.go('settings')}>{shownName ? <><span className="uav">{userInitials(shownName)}</span><span className="nm">{shownName}</span></> : null}<span className="gearb">{I('gear', 24)}</span></div>
       </header>
+      {GSR ? <GSR /> : null}
       <div id="gshell">
         <nav id="gsidebar">
           <a className="gnav-item gnav-toggle" title="Thu gọn / mở rộng thanh bên" onClick={() => A.sbToggle()}>{I('menu', 18)}<span className="lb">Thu gọn thanh bên</span></a>

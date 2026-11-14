@@ -1,7 +1,7 @@
 /* Đề nghị thanh toán NCC — giao diện (dòng gốc 10227–10484). Mỗi hàm xxxHtml() gốc → hàm cùng tên trả JSX. */
 /* eslint-disable */
 import { Fragment } from 'react';
-import { A, db, S, st, H, I, soThanhChu, rerender } from '../../core';
+import { A, db, S, st, H, I, soThanhChu, rerender, smatch } from '../../core';
 import {
   PAY, PAY_LOI, PAY_ST, PAY_NGUONG_BK, PAY_ZALO_MAX,
   payDb, payCsCodes, payCsName, payCsLabel, payCsFull, payF, payDs, payMLab, payHn,
@@ -189,7 +189,7 @@ export function payNccListHtml(L) {
   const q = payK(PAY.q), A1 = [], R1 = [];
   L.filter((g) => {
     if (PAY.f === 'ok' && !g.khop) return false; if (PAY.f === 'bad' && !g.bad) return false; if (PAY.f === 'stk' && !(!g.stk && g.chot > 0)) return false; if (PAY.f === 'note' && !g.nNote) return false; if (PAY.ec !== 'all' && !g.rows.some((x) => payEcOk(x.r[7]))) return false;
-    return !q || payK(g.full + ' ' + g.short).indexOf(q) >= 0;
+    return !q || smatch(payK(g.full + ' ' + g.short), q.split(' '));
   }).forEach((g) => { (payAttn(g) ? A1 : R1).push(g); });
   const card = (g) => {
     const held = g.tong - g.chot + g.extraSum, cls = g.khop ? 'ok' : (g.chot > 0 ? 'pt' : 'bd'),

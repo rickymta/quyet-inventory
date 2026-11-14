@@ -23,6 +23,7 @@ WORKDIR /app/server
 COPY --from=server-deps /app/server/node_modules ./node_modules
 COPY server/package.json ./
 COPY server/src ./src
+COPY server/seed ./seed
 COPY --from=client /app/client/dist /app/public
 USER node
 EXPOSE 4000

@@ -1,0 +1,4487 @@
+{
+ "maps": {
+  "dv": [
+   [
+    "Osstem",
+    "Trụ Osstem (Hàn)",
+    "TRỤ OSSTEM (HÀN)"
+   ],
+   [
+    "Hiossen",
+    "Trụ Hiossen (Mỹ) - AET3",
+    "TRỤ HIOSSEN"
+   ],
+   [
+    "Biotem",
+    "Trụ Biotem",
+    "TRỤ BIOTEM"
+   ],
+   [
+    "Nobel",
+    "Trụ NobelActive",
+    "TRỤ NOBEL"
+   ],
+   [
+    "Ti Ultra",
+    "Trụ NobelActive cổ vàng",
+    "TRỤ NOBEL TI ULTRA"
+   ],
+   [
+    "Neobiotech",
+    "Trụ Neobiotech",
+    "TRỤ NEOBIOTECH"
+   ],
+   [
+    "Straumann",
+    "Trụ straumann",
+    "TRỤ STRAUMANN"
+   ],
+   [
+    "SLActive",
+    "Trụ Straumann Active",
+    "TRỤ STRAUMANN ACTIVE"
+   ],
+   [
+    "Neodent",
+    "Trụ Neodent",
+    "TRỤ NEODENT"
+   ],
+   [
+    "Neodent",
+    "Trụ Neodent",
+    "TRỤ NEODENT"
+   ],
+   [
+    "Neodent Straumann",
+    "Trụ Neodent",
+    "TRỤ NEODENT"
+   ],
+   [
+    "Neoporos",
+    "Trụ Neodent Neoporos",
+    "TRỤ NEODENT NEOPOROS"
+   ],
+   [
+    "mắc cài",
+    "Mắc cài kim loại thường",
+    "MẮC CÀI KIM LOẠI THƯỜNG"
+   ],
+   [
+    "tự buộc",
+    "Mắc cài kim loại tự buộc MBT 022",
+    "MẮC CÀI TỰ BUỘC MBT 022"
+   ],
+   [
+    "mắc cài sứ",
+    "Mắc cài sứ thường AO",
+    "MẮC CÀI SỨ AO"
+   ],
+   [
+    "bột xương",
+    "Bột xương",
+    "BỘT XƯƠNG"
+   ],
+   [
+    "Osteon",
+    "Bột xương",
+    "BỘT XƯƠNG"
+   ],
+   [
+    "ghép xương",
+    "Bột xương",
+    "BỘT XƯƠNG"
+   ],
+   [
+    "màng xương",
+    "Màng xương",
+    "MÀNG XƯƠNG"
+   ],
+   [
+    "vít chỉnh nha",
+    "Vít chỉnh nha",
+    "VÍT CHỈNH NHA"
+   ],
+   [
+    "Minivis",
+    "Vít chỉnh nha",
+    "VÍT CHỈNH NHA"
+   ],
+   [
+    "NANCE",
+    "Vít chỉnh nha",
+    "VÍT CHỈNH NHA"
+   ],
+   [
+    "Comprehensive 3",
+    "Invisalign Comprehensive 3",
+    "INVISALIGN COMPREHENSIVE 3"
+   ],
+   [
+    "Comprehensive 5",
+    "Invisalign Comprehensive 5",
+    "INVISALIGN COMPREHENSIVE 5"
+   ],
+   [
+    "Moderate",
+    "Invisalign Moderate",
+    "INVISALIGN MODERATE"
+   ],
+   [
+    "First Phase I",
+    "Invisalign First Phase I",
+    "INVISALIGN FIRST PHASE I"
+   ],
+   [
+    "Essential",
+    "Invisalign Essential",
+    "INVISALIGN ESSENTIAL"
+   ],
+   [
+    "sứ tự buộc",
+    "Mắc cài sứ tự buộc empower 2.0",
+    "MẮC CÀI SỨ TỰ BUỘC EMPOWER 2.0"
+   ],
+   [
+    "hướng dẫn phẫu thuật",
+    "Dụng cụ cố định vị trí băng nhựa sử dụng trên máy định vị Pdent",
+    "MÁY ĐỊNH VỊ PHẪU THUẬT"
+   ],
+   [
+    "Osstem + abutment + sứ Katana",
+    "Trụ Osstem (Hàn) - NoMount",
+    "TRỤ OSSTEM (HÀN) - NOMOUNT"
+   ]
+  ],
+  "vt": [
+   [
+    "Bột xương",
+    "BỘT XƯƠNG"
+   ],
+   [
+    "Bột xương cerabone 1cc",
+    "BỘT XƯƠNG"
+   ],
+   [
+    "Bột xương dùng trong nha khoa Osteon 1cc",
+    "BỘT XƯƠNG"
+   ],
+   [
+    "Vật liệu ghép xương OSTEON 1CC",
+    "BỘT XƯƠNG"
+   ],
+   [
+    "Màng xương",
+    "MÀNG XƯƠNG"
+   ],
+   [
+    "Màng xương CM 20x30S",
+    "MÀNG XƯƠNG"
+   ],
+   [
+    "Màng xương GCM 15x20",
+    "MÀNG XƯƠNG"
+   ],
+   [
+    "Màng xương GCM 20x30",
+    "MÀNG XƯƠNG"
+   ],
+   [
+    "Màng xương jason colagent",
+    "MÀNG XƯƠNG"
+   ],
+   [
+    "Trụ Biotem",
+    "TRỤ BIOTEM"
+   ],
+   [
+    "Chân trụ răng Hiossen - AET3 (NH)",
+    "TRỤ HIOSSEN"
+   ],
+   [
+    "Trụ Hiossen (Mỹ) - AET3",
+    "TRỤ HIOSSEN"
+   ],
+   [
+    "Trụ Hiossen AET3 NH/ Trụ Hiossen AET3",
+    "TRỤ HIOSSEN"
+   ],
+   [
+    "Trụ Hiossen AET3/ Trụ Hiossen AET3 NH",
+    "TRỤ HIOSSEN"
+   ],
+   [
+    "Trụ Neobiotech",
+    "TRỤ NEOBIOTECH"
+   ],
+   [
+    "Trụ chân răng NeoBiotech",
+    "TRỤ NEOBIOTECH"
+   ],
+   [
+    "Trụ Neodent",
+    "TRỤ NEODENT"
+   ],
+   [
+    "Trụ Neodent Neoporos",
+    "TRỤ NEODENT NEOPOROS"
+   ],
+   [
+    "Trụ neodent",
+    "TRỤ NEODENT"
+   ],
+   [
+    "Trụ neodent Neoporos",
+    "TRỤ NEODENT NEOPOROS"
+   ],
+   [
+    "Nobel Active cổ vàng",
+    "TRỤ NOBEL TI ULTRA"
+   ],
+   [
+    "Trụ Nobel Active",
+    "TRỤ NOBEL"
+   ],
+   [
+    "Trụ NobelActive",
+    "TRỤ NOBEL"
+   ],
+   [
+    "Trụ NobelActive cổ vàng",
+    "TRỤ NOBEL TI ULTRA"
+   ],
+   [
+    "Trụ Straumann Active",
+    "TRỤ STRAUMANN ACTIVE"
+   ],
+   [
+    "Trụ straumann",
+    "TRỤ STRAUMANN"
+   ],
+   [
+    "Vít chỉnh nha",
+    "VÍT CHỈNH NHA"
+   ],
+   [
+    "Vít chỉnh nha Hoặc Vít chỉnh nha Jeli / Vít chỉnh nha KMS",
+    "VÍT CHỈNH NHA"
+   ],
+   [
+    "Vít chỉnh nha Jeil",
+    "VÍT CHỈNH NHA"
+   ],
+   [
+    "Vít chỉnh nha KMS",
+    "VÍT CHỈNH NHA"
+   ],
+   [
+    "Invisalign Comprehensive 3",
+    "Invisalign Comprehensive 3"
+   ],
+   [
+    "Invisalign Comprehensive 5",
+    "Invisalign Comprehensive 5"
+   ],
+   [
+    "Invisalign Moderate",
+    "Invisalign Moderate"
+   ],
+   [
+    "Invisalign First Phase I",
+    "Invisalign First Phase I"
+   ],
+   [
+    "Invisalign Essential",
+    "Invisalign Essential"
+   ],
+   [
+    "Vít Neo Screw",
+    "VÍT CHỈNH NHA"
+   ],
+   [
+    "Dụng cụ cố định vị trí băng nhựa sử dụng trên máy định vị Pdent",
+    "MÁY ĐỊNH VỊ PHẪU THUẬT"
+   ],
+   [
+    "Trụ Osstem (Hàn)",
+    "TRỤ OSSTEM (HÀN)"
+   ],
+   [
+    "Trụ Osstem (Hàn) - NoMount",
+    "TRỤ OSSTEM (HÀN) - NOMOUNT"
+   ],
+   [
+    "Mắc cài kim loại thường",
+    "MẮC CÀI KIM LOẠI THƯỜNG"
+   ],
+   [
+    "Mắc cài kim loại thường 3m",
+    "MẮC CÀI KIM LOẠI THƯỜNG 3M"
+   ],
+   [
+    "Mắc cài kim loại thường (Hàn quốc)",
+    "MẮC CÀI KIM LOẠI THƯỜNG HÀN QUỐC"
+   ],
+   [
+    "Mắc cài kim loại thường Standard (MBT)",
+    "MẮC CÀI KIM LOẠI THƯỜNG MBT"
+   ],
+   [
+    "Mắc cài kim loại thường BIO",
+    "MẮC CÀI KIM LOẠI THƯỜNG BIO"
+   ],
+   [
+    "Mắc cài sứ thường AO",
+    "MẮC CÀI SỨ AO"
+   ],
+   [
+    "Mắc cài sứ gemini 3m",
+    "MẮC CÀI SỨ GEMINI 3M"
+   ],
+   [
+    "Mắc cài kim loại tự buộc MBT 022",
+    "MẮC CÀI TỰ BUỘC MBT 022"
+   ],
+   [
+    "Mắc cài kim loại tự buộc 3M",
+    "MẮC CÀI TỰ BUỘC 3M"
+   ],
+   [
+    "Mắc cài kim loại tự khóa 3M",
+    "MẮC CÀI TỰ KHÓA 3M"
+   ],
+   [
+    "Mắc cài kim loại tự buộc empower",
+    "MẮC CÀI TỰ BUỘC EMPOWER"
+   ],
+   [
+    "Mắc cài sứ tự buộc empower 2.0",
+    "MẮC CÀI SỨ TỰ BUỘC EMPOWER 2.0"
+   ],
+   [
+    "Mắc cài sứ tự buộc Empower Clear",
+    "MẮC CÀI SỨ TỰ BUỘC EMPOWER CLEAR"
+   ],
+   [
+    "Mắc cài sứ tự buộc Clarus - C",
+    "MẮC CÀI SỨ TỰ BUỘC CLARUS-C"
+   ],
+   [
+    "Mắc cài chỉnh nha Atlas Mini Bracket",
+    "MẮC CÀI CHỈNH NHA ATLAS MINI BRACKET"
+   ],
+   [
+    "Vít chỉnh nha Jiscop",
+    "VÍT CHỈNH NHA"
+   ],
+   [
+    "Xương khối Osteon Collagen",
+    "BỘT XƯƠNG"
+   ],
+   [
+    "Chân trụ răng Hiossen - AET3 (NH)",
+    "TRỤ HIOSSEN"
+   ],
+   [
+    "Trụ Hiossen (Mỹ) - AET3",
+    "TRỤ HIOSSEN"
+   ],
+   [
+    "Trụ Straumann Active size mini 2.9",
+    "TRỤ STRAUMANN ACTIVE"
+   ],
+   [
+    "Vít chỉnh nha Jeil",
+    "VÍT CHỈNH NHA"
+   ],
+   [
+    "Màng xương CM 20x30S",
+    "MÀNG XƯƠNG"
+   ],
+   [
+    "Xương collagen OSTEON 6×10 cm",
+    "BỘT XƯƠNG"
+   ],
+   [
+    "Bột xương dùng trong nha khoa Osteon 1cc",
+    "BỘT XƯƠNG"
+   ],
+   [
+    "Bộ chỉnh nha Invisalign System - Comprehensive 3",
+    "Invisalign Comprehensive 3"
+   ],
+   [
+    "Bộ chỉnh nha Invisalign System - Comprehensive 5",
+    "Invisalign Comprehensive 5"
+   ],
+   [
+    "Bộ chỉnh nha Essential",
+    "Invisalign Essential"
+   ],
+   [
+    "Vít chỉnh nha Jiscop",
+    "VÍT CHỈNH NHA"
+   ]
+  ],
+  "grp": [
+   [
+    "TRỤ NEODENT",
+    "Trụ Implant",
+    "Cao",
+    2900000
+   ],
+   [
+    "TRỤ NEODENT NEOPOROS",
+    "Trụ Implant",
+    "Cao",
+    2900000
+   ],
+   [
+    "TRỤ HIOSSEN",
+    "Trụ Implant",
+    "Cao",
+    1583634
+   ],
+   [
+    "TRỤ BIOTEM",
+    "Trụ Implant",
+    "Cao",
+    814038
+   ],
+   [
+    "TRỤ STRAUMANN",
+    "Trụ Implant",
+    "Cao",
+    14000000
+   ],
+   [
+    "TRỤ STRAUMANN ACTIVE",
+    "Trụ Implant",
+    "Cao",
+    14000000
+   ],
+   [
+    "TRỤ NOBEL",
+    "Trụ Implant",
+    "Cao",
+    4610766
+   ],
+   [
+    "TRỤ NOBEL TI ULTRA",
+    "Trụ Implant",
+    "Cao",
+    4610766
+   ],
+   [
+    "TRỤ NEOBIOTECH",
+    "Trụ Implant",
+    "Cao",
+    2000000
+   ],
+   [
+    "BỘT XƯƠNG",
+    "Vật tư khác",
+    "Thấp",
+    2120400
+   ],
+   [
+    "MÀNG XƯƠNG",
+    "Vật tư khác",
+    "Thấp",
+    2986800
+   ],
+   [
+    "VÍT CHỈNH NHA",
+    "Vật tư khác",
+    "Thấp",
+    327444
+   ],
+   [
+    "MÁY ĐỊNH VỊ PHẪU THUẬT",
+    "Vật tư khác",
+    "Thấp",
+    5000000
+   ],
+   [
+    "INVISALIGN COMPREHENSIVE 3",
+    "INVISALIGN",
+    "",
+    0
+   ],
+   [
+    "INVISALIGN COMPREHENSIVE 5",
+    "INVISALIGN",
+    "",
+    0
+   ],
+   [
+    "INVISALIGN MODERATE",
+    "INVISALIGN",
+    "",
+    0
+   ],
+   [
+    "INVISALIGN FIRST PHASE I",
+    "INVISALIGN",
+    "",
+    0
+   ],
+   [
+    "INVISALIGN ESSENTIAL",
+    "INVISALIGN",
+    "",
+    0
+   ],
+   [
+    "TRỤ OSSTEM (HÀN)",
+    "Trụ Implant",
+    "Cao",
+    1513600
+   ],
+   [
+    "TRỤ OSSTEM (HÀN) - NOMOUNT",
+    "Trụ Implant",
+    "Cao",
+    1513600
+   ],
+   [
+    "MẮC CÀI KIM LOẠI THƯỜNG",
+    "Mắc cài",
+    "Trung bình",
+    426667
+   ],
+   [
+    "MẮC CÀI CHỈNH NHA ATLAS MINI BRACKET",
+    "Mắc cài",
+    "Trung bình",
+    426667
+   ],
+   [
+    "MẮC CÀI KIM LOẠI THƯỜNG 3M",
+    "Mắc cài",
+    "Trung bình",
+    426667
+   ],
+   [
+    "MẮC CÀI KIM LOẠI THƯỜNG HÀN QUỐC",
+    "Mắc cài",
+    "Trung bình",
+    426667
+   ],
+   [
+    "MẮC CÀI KIM LOẠI THƯỜNG MBT",
+    "Mắc cài",
+    "Trung bình",
+    426667
+   ],
+   [
+    "MẮC CÀI KIM LOẠI THƯỜNG BIO",
+    "Mắc cài",
+    "Trung bình",
+    426667
+   ],
+   [
+    "MẮC CÀI SỨ AO",
+    "Mắc cài",
+    "Trung bình",
+    426667
+   ],
+   [
+    "MẮC CÀI SỨ GEMINI 3M",
+    "Mắc cài",
+    "Trung bình",
+    426667
+   ],
+   [
+    "MẮC CÀI TỰ BUỘC MBT 022",
+    "Mắc cài",
+    "Trung bình",
+    2095238
+   ],
+   [
+    "MẮC CÀI TỰ BUỘC 3M",
+    "Mắc cài",
+    "Trung bình",
+    2095238
+   ],
+   [
+    "MẮC CÀI TỰ KHÓA 3M",
+    "Mắc cài",
+    "Trung bình",
+    2095238
+   ],
+   [
+    "MẮC CÀI TỰ BUỘC EMPOWER",
+    "Mắc cài",
+    "Trung bình",
+    2095238
+   ],
+   [
+    "MẮC CÀI SỨ TỰ BUỘC EMPOWER 2.0",
+    "Mắc cài",
+    "Trung bình",
+    2095238
+   ],
+   [
+    "MẮC CÀI SỨ TỰ BUỘC EMPOWER CLEAR",
+    "Mắc cài",
+    "Trung bình",
+    2095238
+   ],
+   [
+    "MẮC CÀI SỨ TỰ BUỘC CLARUS-C",
+    "Mắc cài",
+    "Trung bình",
+    2095238
+   ]
+  ],
+  "dm": [
+   [
+    "all-on-4",
+    4
+   ],
+   [
+    "all on 4",
+    4
+   ],
+   [
+    "allon4",
+    4
+   ],
+   [
+    "all-on 4",
+    4
+   ],
+   [
+    "all-on-5",
+    5
+   ],
+   [
+    "all on 5",
+    5
+   ],
+   [
+    "all-on-6",
+    6
+   ],
+   [
+    "all on 6",
+    6
+   ],
+   [
+    "allon6",
+    6
+   ],
+   [
+    "all-on 6",
+    6
+   ],
+   [
+    "all-on-8",
+    8
+   ],
+   [
+    "all on 8",
+    8
+   ],
+   [
+    "toàn hàm",
+    1
+   ]
+  ],
+  "cs": [
+   [
+    "Ba Đình - Nghĩa Dũng",
+    "41 Nghĩa Dũng"
+   ],
+   [
+    "41 Nghĩa Dũng-Ba Đình",
+    "41 Nghĩa Dũng"
+   ],
+   [
+    "41 Nghĩa Dũng - Ba Đình",
+    "41 Nghĩa Dũng"
+   ],
+   [
+    "Nghĩa Dũng",
+    "41 Nghĩa Dũng"
+   ],
+   [
+    "Bùi Thị Xuân",
+    "Bùi Thị Xuân"
+   ],
+   [
+    "Hà Nội",
+    "Cát Linh"
+   ],
+   [
+    "Cát Linh",
+    "Cát Linh"
+   ],
+   [
+    "Cát Linh (Hà Nội)",
+    "Cát Linh"
+   ],
+   [
+    "Lê Văn Lương",
+    "Lê Văn Lương"
+   ],
+   [
+    "Quảng Ninh",
+    "Quảng Ninh"
+   ]
+  ],
+  "dvvt": [
+   [
+    "Phẫu thuật cấy ghép Implant (Biotem + abutment)",
+    "13000102"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (Biotem + abutment + sứ Katana)",
+    "13000102"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (Neobiotech + abutment + sứ Katana)",
+    "13000163"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (Osstem + abutment)",
+    "13000089"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (Osstem + abutment)",
+    "13000090"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+    "13000089"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+    "13000090"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)",
+    "13000087"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+    "13000170"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)",
+    "13000170"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (Neodent Acqua + abutment cá nhân + sứ Katana)",
+    "13000088"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (Straumann BLT SLA Titanium + abutment cá nhân + sứ Katana)",
+    "13000091"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (Straumann BLT SLActive Roxolid + abutment cá nhân + sứ Katana)",
+    "13000169"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (Nobel Ti Ultra + abutment)",
+    "13000160"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (Nobel Ti Unite + abutment)",
+    "13000103"
+   ],
+   [
+    "Phẫu thuật ghép xương nhân tạo để cấy ghép implant",
+    "13000057"
+   ],
+   [
+    "Phẫu thuật ghép xương nhân tạo để cấy ghép implant",
+    "13000058"
+   ],
+   [
+    "Phẫu thuật ghép xương nhân tạo để cấy ghép implant",
+    "13000130"
+   ],
+   [
+    "Phẫu thuật ghép xương nhân tạo để cấy ghép implant",
+    "13000168"
+   ],
+   [
+    "Phẫu thuật ghép xương nhân tạo để cấy ghép implant",
+    "13000182"
+   ],
+   [
+    "Phẫu thuật ghép xương nhân tạo để cấy ghép implant",
+    "13000162"
+   ],
+   [
+    "Phẫu thuật tái tạo xương ổ răng bằng ghép xương tự thân lấy trong miệng (màng xương nhân tạo)",
+    "13000009"
+   ],
+   [
+    "Phẫu thuật tái tạo xương ổ răng bằng ghép xương tự thân lấy trong miệng (màng xương nhân tạo)",
+    "13000034"
+   ],
+   [
+    "Phẫu thuật tái tạo xương ổ răng bằng ghép xương tự thân lấy trong miệng (màng xương nhân tạo)",
+    "13000152"
+   ],
+   [
+    "Phẫu thuật tái tạo xương ổ răng bằng ghép xương tự thân lấy trong miệng (màng xương nhân tạo)",
+    "13000162"
+   ],
+   [
+    "Phẫu thuật tái tạo xương ổ răng bằng ghép xương tự thân lấy trong miệng (màng xương nhân tạo)",
+    "13000181"
+   ],
+   [
+    "Phẫu thuật tái tạo xương ổ răng bằng ghép xương tự thân lấy trong miệng (màng xương nhân tạo)",
+    "13000059"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Osstem)",
+    "13000089"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Osstem)",
+    "13000090"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Osstem - Hàm nhựa thường)",
+    "13000089"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Osstem - Hàm nhựa thường)",
+    "13000090"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Osstem - Hàm nhựa Ivo base)",
+    "13000089"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Osstem - Hàm nhựa Ivo base)",
+    "13000090"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Osstem - Răng sứ Katana)",
+    "13000089"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Osstem - Răng sứ Katana)",
+    "13000090"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Osstem - Răng sứ Cercon HT)",
+    "13000089"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Osstem - Răng sứ Cercon HT)",
+    "13000090"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Osstem - Răng sứ Lava)",
+    "13000089"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Osstem - Răng sứ Lava)",
+    "13000090"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Osstem)",
+    "13000089"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Osstem)",
+    "13000090"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Osstem - Hàm nhựa thường)",
+    "13000089"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Osstem - Hàm nhựa thường)",
+    "13000090"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Osstem - Hàm nhựa Ivo base)",
+    "13000089"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Osstem - Hàm nhựa Ivo base)",
+    "13000090"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Osstem - Răng sứ Katana)",
+    "13000089"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Osstem - Răng sứ Katana)",
+    "13000090"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Osstem - Răng sứ Cercon HT)",
+    "13000089"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Osstem - Răng sứ Cercon HT)",
+    "13000090"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Osstem - Răng sứ Lava)",
+    "13000089"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Osstem - Răng sứ Lava)",
+    "13000090"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Neodent Neoporos)",
+    "13000170"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Neodent Neoporos - Hàm nhựa thường)",
+    "13000170"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Neodent Neoporos - Hàm nhựa Ivo base)",
+    "13000170"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Neodent Neoporos - Răng sứ Katana)",
+    "13000170"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Neodent Neoporos - Răng sứ Cercon HT)",
+    "13000170"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Neodent Neoporos - Răng sứ Lava)",
+    "13000170"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Neodent Neoporos)",
+    "13000170"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Neodent Neoporos - Hàm nhựa thường)",
+    "13000170"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Neodent Neoporos - Hàm nhựa Ivo base)",
+    "13000170"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Neodent Neoporos - Răng sứ Katana)",
+    "13000170"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Neodent Neoporos - Răng sứ Cercon HT)",
+    "13000170"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Neodent Neoporos - Răng sứ Lava)",
+    "13000170"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Straumann BLT SLA Titaninum)",
+    "13000091"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Straumann BLT SLA Titaninum - Hàm nhựa thường)",
+    "13000091"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Straumann BLT SLA Titaninum - Hàm nhựa Ivo base)",
+    "13000091"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Straumann BLT SLA Titaninum - Răng sứ Katana)",
+    "13000091"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Straumann BLT SLA Titaninum - Răng sứ Cercon HT)",
+    "13000091"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-4 Straumann BLT SLA Titaninum - Răng sứ Lava)",
+    "13000091"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Straumann BLT SLA Titaninum)",
+    "13000091"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Straumann BLT SLA Titaninum - Hàm nhựa thường)",
+    "13000091"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Straumann BLT SLA Titaninum - Hàm nhựa Ivo base)",
+    "13000091"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Straumann BLT SLA Titaninum - Răng sứ Katana)",
+    "13000091"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Straumann BLT SLA Titaninum - Răng sứ Cercon HT)",
+    "13000091"
+   ],
+   [
+    "Phẫu thuật cấy ghép Implant (All-on-6 Straumann BLT SLA Titaninum - Răng sứ Lava)",
+    "13000091"
+   ],
+   [
+    "Cấy ghép implant (máy hướng dẫn phẫu thuật)",
+    "10000580"
+   ],
+   [
+    "Khí cụ neo chặn cố định Minivis",
+    "14000398"
+   ],
+   [
+    "Khí cụ neo chặn cố định Minivis",
+    "14000373"
+   ],
+   [
+    "Khí cụ neo chặn cố định Minivis",
+    "14000017"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 1 hàm)",
+    "14000047"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 1 hàm)",
+    "14000090"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 1 hàm)",
+    "14000343"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 1 hàm)",
+    "14000356"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 1 hàm)",
+    "14000401"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)",
+    "14000047"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)",
+    "14000090"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)",
+    "14000343"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)",
+    "14000356"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)",
+    "14000401"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài sứ - 1 hàm)",
+    "14000375"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài sứ - 1 hàm)",
+    "14000056"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài sứ - 2 hàm)",
+    "14000375"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài sứ - 2 hàm)",
+    "14000056"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 1 hàm)",
+    "14000375"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 1 hàm)",
+    "14000056"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)",
+    "14000355"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)",
+    "14000046"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)",
+    "14000078"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)",
+    "14000001"
+   ],
+   [
+    "Sử dụng mắc cài tự buộc trong nắn chỉnh răng (Mắc cài sứ tự buộc - 1 hàm)",
+    "14000039"
+   ],
+   [
+    "Sử dụng mắc cài tự buộc trong nắn chỉnh răng (Mắc cài sứ tự buộc - 1 hàm)",
+    "14000111"
+   ],
+   [
+    "Sử dụng mắc cài tự buộc trong nắn chỉnh răng (Mắc cài sứ tự buộc - 1 hàm)",
+    "14000164"
+   ],
+   [
+    "Sử dụng mắc cài tự buộc trong nắn chỉnh răng (Mắc cài sứ tự buộc - 2 hàm)",
+    "14000039"
+   ],
+   [
+    "Sử dụng mắc cài tự buộc trong nắn chỉnh răng (Mắc cài sứ tự buộc - 2 hàm)",
+    "14000111"
+   ],
+   [
+    "Sử dụng mắc cài tự buộc trong nắn chỉnh răng (Mắc cài sứ tự buộc - 2 hàm)",
+    "14000164"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng hệ thống khay cá nhân (Invisalign Comprehensive 5 năm)",
+    "14000342"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng hệ thống khay cá nhân (Invisalign Comprehensive 3 năm)",
+    "14000332"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng hệ thống khay cá nhân (Invisalign Moderate)",
+    "14000154"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng hệ thống khay cá nhân (Invisalign First Phase I)",
+    "14000156"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng hệ thống khay cá nhân (Invisalign Essential)",
+    "14000157"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng hệ thống khay cá nhân (Hàm duy trì Vivera 1 bộ)",
+    "14000329"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng hệ thống khay cá nhân (Hàm duy trì Vivera 1 bộ)",
+    "14000410"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng hệ thống khay cá nhân (Hàm duy trì Vivera 3 bộ)",
+    "14000329"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng hệ thống khay cá nhân (Hàm duy trì Vivera 3 bộ)",
+    "14000410"
+   ],
+   [
+    "Khí cụ neo chặn cố định Minivis",
+    "14000418"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 1 hàm)",
+    "14000050"
+   ],
+   [
+    "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)",
+    "14000050"
+   ],
+   [
+    "Phẫu thuật ghép xương nhân tạo để cấy ghép implant",
+    "13000092"
+   ],
+   [
+    "Phẫu thuật ghép xương nhân tạo để cấy ghép implant",
+    "13000196"
+   ]
+  ]
+ },
+ "dt": [
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0143918",
+   "kh": "LÊ ĐỨC HƯNG",
+   "bs": "",
+   "ngay": "13-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 14000000,
+   "id": "dt|41 Nghĩa Dũng|PID0143918|13-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0143918",
+   "kh": "LÊ ĐỨC HƯNG",
+   "bs": "",
+   "ngay": "13-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 14000000,
+   "id": "dt|41 Nghĩa Dũng|PID0143918|13-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1#2"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0143918",
+   "kh": "LÊ ĐỨC HƯNG",
+   "bs": "",
+   "ngay": "13-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 14000000,
+   "id": "dt|41 Nghĩa Dũng|PID0143918|13-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1#3"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0140372",
+   "kh": "NGUYỄN ĐỨC THỌ",
+   "bs": "",
+   "ngay": "22-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 14000000,
+   "id": "dt|41 Nghĩa Dũng|PID0140372|22-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0061226",
+   "kh": "LÊ THANH HẢI",
+   "bs": "",
+   "ngay": "31-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12000000,
+   "id": "dt|41 Nghĩa Dũng|PID0061226|31-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0154596",
+   "kh": "ĐẶNG KHUÊ ANH",
+   "bs": "",
+   "ngay": "10-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Straumann BLT SLActive Roxolid + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 40000000,
+   "id": "dt|41 Nghĩa Dũng|PID0154596|10-10-2026|Phẫu thuật cấy ghép Implant (Straumann BLT SLActive Roxolid + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0154596",
+   "kh": "ĐẶNG KHUÊ ANH",
+   "bs": "",
+   "ngay": "10-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Straumann BLT SLActive Roxolid + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 40000000,
+   "id": "dt|41 Nghĩa Dũng|PID0154596|10-10-2026|Phẫu thuật cấy ghép Implant (Straumann BLT SLActive Roxolid + abutment cá nhân + sứ Katana)|1#2"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0140372",
+   "kh": "NGUYỄN ĐỨC THỌ",
+   "bs": "",
+   "ngay": "22-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 18000000,
+   "id": "dt|41 Nghĩa Dũng|PID0140372|22-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0140372",
+   "kh": "NGUYỄN ĐỨC THỌ",
+   "bs": "",
+   "ngay": "22-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 18000000,
+   "id": "dt|41 Nghĩa Dũng|PID0140372|22-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1#2"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0140372",
+   "kh": "NGUYỄN ĐỨC THỌ",
+   "bs": "",
+   "ngay": "22-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 18000000,
+   "id": "dt|41 Nghĩa Dũng|PID0140372|22-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1#3"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0056881",
+   "kh": "ĐẶNG KIM THÀNH",
+   "bs": "",
+   "ngay": "22-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 18000000,
+   "id": "dt|41 Nghĩa Dũng|PID0056881|22-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0056881",
+   "kh": "ĐẶNG KIM THÀNH",
+   "bs": "",
+   "ngay": "22-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 18000000,
+   "id": "dt|41 Nghĩa Dũng|PID0056881|22-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1#2"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0056881",
+   "kh": "ĐẶNG KIM THÀNH",
+   "bs": "",
+   "ngay": "22-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 18000000,
+   "id": "dt|41 Nghĩa Dũng|PID0056881|22-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1#3"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0125358",
+   "kh": "Lê Ngọc Hà",
+   "bs": "",
+   "ngay": "28-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 18000000,
+   "id": "dt|41 Nghĩa Dũng|PID0125358|28-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0125358",
+   "kh": "Lê Ngọc Hà",
+   "bs": "",
+   "ngay": "28-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 18000000,
+   "id": "dt|41 Nghĩa Dũng|PID0125358|28-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1#2"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0159916",
+   "kh": "ĐINH THỊ KIM HUÊ",
+   "bs": "",
+   "ngay": "09-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|41 Nghĩa Dũng|PID0159916|09-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0159916",
+   "kh": "ĐINH THỊ KIM HUÊ",
+   "bs": "",
+   "ngay": "09-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|41 Nghĩa Dũng|PID0159916|09-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1#2"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0160286",
+   "kh": "VŨ HOÀNG HIỆP",
+   "bs": "",
+   "ngay": "20-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|41 Nghĩa Dũng|PID0160286|20-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0159916",
+   "kh": "ĐINH THỊ KIM HUÊ",
+   "bs": "",
+   "ngay": "09-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 19000000,
+   "id": "dt|41 Nghĩa Dũng|PID0159916|09-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0159916",
+   "kh": "ĐINH THỊ KIM HUÊ",
+   "bs": "",
+   "ngay": "09-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 19000000,
+   "id": "dt|41 Nghĩa Dũng|PID0159916|09-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)|1#2"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0140372",
+   "kh": "NGUYỄN ĐỨC THỌ",
+   "bs": "",
+   "ngay": "26-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 0,
+   "id": "dt|41 Nghĩa Dũng|PID0140372|26-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0143615",
+   "kh": "Lưu Văn Đức",
+   "bs": "",
+   "ngay": "30-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 4000000,
+   "id": "dt|41 Nghĩa Dũng|PID0143615|30-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0141047",
+   "kh": "CÙ THÚY HẰNG",
+   "bs": "",
+   "ngay": "23-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 4000000,
+   "id": "dt|41 Nghĩa Dũng|PID0141047|23-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0157118",
+   "kh": "NGUYỄN HỮU THANH",
+   "bs": "",
+   "ngay": "11-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 4000000,
+   "id": "dt|41 Nghĩa Dũng|PID0157118|11-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0147200",
+   "kh": "NGUYỄN CÔNG BÌNH MINH",
+   "bs": "",
+   "ngay": "14-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 1,
+   "dt": 2000000,
+   "id": "dt|41 Nghĩa Dũng|PID0147200|14-10-2026|Khí cụ neo chặn cố định Minivis|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0143615",
+   "kh": "Lưu Văn Đức",
+   "bs": "",
+   "ngay": "14-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 1,
+   "dt": 2000000,
+   "id": "dt|41 Nghĩa Dũng|PID0143615|14-10-2026|Khí cụ neo chặn cố định Minivis|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0156585",
+   "kh": "VŨ HỒNG PHƯƠNG",
+   "bs": "",
+   "ngay": "16-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 1,
+   "dt": 2000000,
+   "id": "dt|41 Nghĩa Dũng|PID0156585|16-10-2026|Khí cụ neo chặn cố định Minivis|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0131075",
+   "kh": "Nguyễn Thị Hương",
+   "bs": "",
+   "ngay": "11-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 1,
+   "dt": 2000000,
+   "id": "dt|41 Nghĩa Dũng|PID0131075|11-10-2026|Khí cụ neo chặn cố định Minivis|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0141047",
+   "kh": "CÙ THÚY HẰNG",
+   "bs": "",
+   "ngay": "04-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 4000000,
+   "id": "dt|41 Nghĩa Dũng|PID0141047|04-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0162211",
+   "kh": "ĐINH DIỆP CHI",
+   "bs": "",
+   "ngay": "29-10-2026",
+   "dv": "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 24000000,
+   "id": "dt|41 Nghĩa Dũng|PID0162211|29-10-2026|Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0157890",
+   "kh": "Lê Phương Trang",
+   "bs": "",
+   "ngay": "11-10-2026",
+   "dv": "Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 32000000,
+   "id": "dt|41 Nghĩa Dũng|PID0157890|11-10-2026|Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "pid": "PID0158965",
+   "kh": "ĐỖ HOÀNG BẢO NAM",
+   "bs": "",
+   "ngay": "09-10-2026",
+   "dv": "Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 32000000,
+   "id": "dt|41 Nghĩa Dũng|PID0158965|09-10-2026|Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0159670",
+   "kh": "NGUYỄN HOÀNG TUẤN",
+   "bs": "",
+   "ngay": "08-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Biotem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 10000000,
+   "id": "dt|Bùi Thị Xuân|PID0159670|08-10-2026|Phẫu thuật cấy ghép Implant (Biotem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0011176",
+   "kh": "Bùi Bình Dương",
+   "bs": "",
+   "ngay": "06-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Biotem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 9990000,
+   "id": "dt|Bùi Thị Xuân|PID0011176|06-10-2026|Phẫu thuật cấy ghép Implant (Biotem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0011176",
+   "kh": "Bùi Bình Dương",
+   "bs": "",
+   "ngay": "06-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Biotem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 9990000,
+   "id": "dt|Bùi Thị Xuân|PID0011176|06-10-2026|Phẫu thuật cấy ghép Implant (Biotem + abutment + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0134131",
+   "kh": "Nguyễn Minh Tiến",
+   "bs": "",
+   "ngay": "17-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Biotem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 9990000,
+   "id": "dt|Bùi Thị Xuân|PID0134131|17-10-2026|Phẫu thuật cấy ghép Implant (Biotem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0139851",
+   "kh": "Đặng Duy Hưng",
+   "bs": "",
+   "ngay": "21-10-2026",
+   "dv": "Biotem (Hàn Quốc) + Abutment - Standard + Mão sứ Titan",
+   "mvt": "",
+   "sl": 1,
+   "dt": 9990000,
+   "id": "dt|Bùi Thị Xuân|PID0139851|21-10-2026|Biotem (Hàn Quốc) + Abutment - Standard + Mão sứ Titan|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0145722",
+   "kh": "Vũ Thị Mai",
+   "bs": "",
+   "ngay": "15-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 14000000,
+   "id": "dt|Bùi Thị Xuân|PID0145722|15-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0145722",
+   "kh": "Vũ Thị Mai",
+   "bs": "",
+   "ngay": "15-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 14000000,
+   "id": "dt|Bùi Thị Xuân|PID0145722|15-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0013137",
+   "kh": "Lê Tuấn Dương",
+   "bs": "",
+   "ngay": "18-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 14000000,
+   "id": "dt|Bùi Thị Xuân|PID0013137|18-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0013137",
+   "kh": "Lê Tuấn Dương",
+   "bs": "",
+   "ngay": "18-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 14000000,
+   "id": "dt|Bùi Thị Xuân|PID0013137|18-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0078626",
+   "kh": "Phạm Nguyên Tình",
+   "bs": "",
+   "ngay": "15-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 0,
+   "id": "dt|Bùi Thị Xuân|PID0078626|15-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0078626",
+   "kh": "Phạm Nguyên Tình",
+   "bs": "",
+   "ngay": "15-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 0,
+   "id": "dt|Bùi Thị Xuân|PID0078626|15-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0030258",
+   "kh": "Nguyễn Văn Chính",
+   "bs": "",
+   "ngay": "28-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 0,
+   "id": "dt|Bùi Thị Xuân|PID0030258|28-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0151077",
+   "kh": "Nguyễn Lê Thanh",
+   "bs": "",
+   "ngay": "29-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 13990000,
+   "id": "dt|Bùi Thị Xuân|PID0151077|29-10-2026|Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0161016",
+   "kh": "VŨ VĂN BA",
+   "bs": "",
+   "ngay": "17-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 17000000,
+   "id": "dt|Bùi Thị Xuân|PID0161016|17-10-2026|Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0013799",
+   "kh": "Nguyễn Anh Hoàng",
+   "bs": "",
+   "ngay": "06-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 0,
+   "id": "dt|Bùi Thị Xuân|PID0013799|06-10-2026|Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0135849",
+   "kh": "Bùi Tuyết Nhung",
+   "bs": "",
+   "ngay": "06-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 14990000,
+   "id": "dt|Bùi Thị Xuân|PID0135849|06-10-2026|Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0135849",
+   "kh": "Bùi Tuyết Nhung",
+   "bs": "",
+   "ngay": "06-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 14990000,
+   "id": "dt|Bùi Thị Xuân|PID0135849|06-10-2026|Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0135849",
+   "kh": "Bùi Tuyết Nhung",
+   "bs": "",
+   "ngay": "06-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 14990000,
+   "id": "dt|Bùi Thị Xuân|PID0135849|06-10-2026|Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)|1#3"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0161514",
+   "kh": "PHẠM THƯỢNG THIỆN",
+   "bs": "",
+   "ngay": "23-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Acqua + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 25000000,
+   "id": "dt|Bùi Thị Xuân|PID0161514|23-10-2026|Phẫu thuật cấy ghép Implant (Neodent Acqua + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0152743",
+   "kh": "Nguyễn Tuấn Dũng",
+   "bs": "",
+   "ngay": "27-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Straumann BLT SLA Titanium + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 34000000,
+   "id": "dt|Bùi Thị Xuân|PID0152743|27-10-2026|Phẫu thuật cấy ghép Implant (Straumann BLT SLA Titanium + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0126797",
+   "kh": "Nguyễn Lê Minh",
+   "bs": "",
+   "ngay": "26-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Bùi Thị Xuân|PID0126797|26-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0012194",
+   "kh": "Hoàng Thị Hương",
+   "bs": "",
+   "ngay": "22-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Bùi Thị Xuân|PID0012194|22-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0161723",
+   "kh": "BÙI ĐÌNH TIẾN",
+   "bs": "",
+   "ngay": "22-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Bùi Thị Xuân|PID0161723|22-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0161723",
+   "kh": "BÙI ĐÌNH TIẾN",
+   "bs": "",
+   "ngay": "22-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Bùi Thị Xuân|PID0161723|22-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0132509",
+   "kh": "Thái Hồng Hải",
+   "bs": "",
+   "ngay": "20-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Bùi Thị Xuân|PID0132509|20-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0132509",
+   "kh": "Thái Hồng Hải",
+   "bs": "",
+   "ngay": "20-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Bùi Thị Xuân|PID0132509|20-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0034706",
+   "kh": "Phạm Huy Hùng",
+   "bs": "",
+   "ngay": "17-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Bùi Thị Xuân|PID0034706|17-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0148252",
+   "kh": "Trịnh Văn Sỹ",
+   "bs": "",
+   "ngay": "15-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Bùi Thị Xuân|PID0148252|15-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0154741",
+   "kh": "ĐÀO THANH TÙNG",
+   "bs": "",
+   "ngay": "17-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 17990000,
+   "id": "dt|Bùi Thị Xuân|PID0154741|17-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0154741",
+   "kh": "ĐÀO THANH TÙNG",
+   "bs": "",
+   "ngay": "17-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 17990000,
+   "id": "dt|Bùi Thị Xuân|PID0154741|17-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0132943",
+   "kh": "Nguyễn Thành Lâm",
+   "bs": "",
+   "ngay": "18-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 17990000,
+   "id": "dt|Bùi Thị Xuân|PID0132943|18-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0001235",
+   "kh": "La Phương Nhung",
+   "bs": "",
+   "ngay": "24-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 17990000,
+   "id": "dt|Bùi Thị Xuân|PID0001235|24-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0001235",
+   "kh": "La Phương Nhung",
+   "bs": "",
+   "ngay": "24-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 17990000,
+   "id": "dt|Bùi Thị Xuân|PID0001235|24-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)|1#2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0077239",
+   "kh": "Trịnh Mai Hiếu",
+   "bs": "",
+   "ngay": "11-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12000000,
+   "id": "dt|Bùi Thị Xuân|PID0077239|11-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0077239",
+   "kh": "Trịnh Mai Hiếu",
+   "bs": "",
+   "ngay": "11-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12000000,
+   "id": "dt|Bùi Thị Xuân|PID0077239|11-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment)|1#2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0077239",
+   "kh": "Trịnh Mai Hiếu",
+   "bs": "",
+   "ngay": "11-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12000000,
+   "id": "dt|Bùi Thị Xuân|PID0077239|11-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment)|1#3"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0078875",
+   "kh": "Hoàng Anh Tú",
+   "bs": "",
+   "ngay": "22-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12000000,
+   "id": "dt|Bùi Thị Xuân|PID0078875|22-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0095404",
+   "kh": "Nguyễn Minh Thảo",
+   "bs": "",
+   "ngay": "21-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 4000000,
+   "id": "dt|Bùi Thị Xuân|PID0095404|21-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0098135",
+   "kh": "Nguyễn Viết Hùng",
+   "bs": "",
+   "ngay": "17-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 1,
+   "dt": 2000000,
+   "id": "dt|Bùi Thị Xuân|PID0098135|17-10-2026|Khí cụ neo chặn cố định Minivis|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0154293",
+   "kh": "Trần Thị Thu Trang",
+   "bs": "",
+   "ngay": "20-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 0,
+   "id": "dt|Bùi Thị Xuân|PID0154293|20-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0149107",
+   "kh": "Trần Linh Đan",
+   "bs": "",
+   "ngay": "11-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 4000000,
+   "id": "dt|Bùi Thị Xuân|PID0149107|11-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0033754",
+   "kh": "Trương Ngọc Bảo Anh",
+   "bs": "",
+   "ngay": "09-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 1,
+   "dt": 2000000,
+   "id": "dt|Bùi Thị Xuân|PID0033754|09-10-2026|Khí cụ neo chặn cố định Minivis|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0154293",
+   "kh": "Trần Thị Thu Trang",
+   "bs": "",
+   "ngay": "06-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 0,
+   "id": "dt|Bùi Thị Xuân|PID0154293|06-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0141513",
+   "kh": "Lý Gia Hân",
+   "bs": "",
+   "ngay": "08-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 4000000,
+   "id": "dt|Bùi Thị Xuân|PID0141513|08-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0156311",
+   "kh": "Trần Nam Khánh",
+   "bs": "",
+   "ngay": "03-10-2026",
+   "dv": "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 23000000,
+   "id": "dt|Bùi Thị Xuân|PID0156311|03-10-2026|Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0155240",
+   "kh": "Bùi Việt Dũng",
+   "bs": "",
+   "ngay": "10-10-2026",
+   "dv": "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 23000000,
+   "id": "dt|Bùi Thị Xuân|PID0155240|10-10-2026|Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0118811",
+   "kh": "Bùi Mạnh Cường",
+   "bs": "",
+   "ngay": "10-10-2026",
+   "dv": "Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 31000000,
+   "id": "dt|Bùi Thị Xuân|PID0118811|10-10-2026|Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0158901",
+   "kh": "NGUYỄN THỊ PHƯỢNG",
+   "bs": "",
+   "ngay": "14-10-2026",
+   "dv": "Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 31000000,
+   "id": "dt|Bùi Thị Xuân|PID0158901|14-10-2026|Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0158400",
+   "kh": "DƯƠNG LÊ KHÔI NGUYÊN",
+   "bs": "",
+   "ngay": "15-10-2026",
+   "dv": "Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 31000000,
+   "id": "dt|Bùi Thị Xuân|PID0158400|15-10-2026|Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0156267",
+   "kh": "Hoàng Ngọc Ánh",
+   "bs": "",
+   "ngay": "04-10-2026",
+   "dv": "Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 31000000,
+   "id": "dt|Bùi Thị Xuân|PID0156267|04-10-2026|Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "pid": "PID0152497",
+   "kh": "NGUYỄN PHƯƠNG GIA NHƯ",
+   "bs": "",
+   "ngay": "02-10-2026",
+   "dv": "Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 31000000,
+   "id": "dt|Bùi Thị Xuân|PID0152497|02-10-2026|Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0148357",
+   "kh": "Đoàn Thị Lan",
+   "bs": "",
+   "ngay": "02-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12990000,
+   "id": "dt|Cát Linh|PID0148357|02-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0148357",
+   "kh": "Đoàn Thị Lan",
+   "bs": "",
+   "ngay": "02-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12990000,
+   "id": "dt|Cát Linh|PID0148357|02-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0140274",
+   "kh": "Lê Xuân Tráng",
+   "bs": "",
+   "ngay": "11-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12000000,
+   "id": "dt|Cát Linh|PID0140274|11-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0159911",
+   "kh": "HỒ GIA LONG",
+   "bs": "",
+   "ngay": "30-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12990000,
+   "id": "dt|Cát Linh|PID0159911|30-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0162373",
+   "kh": "HOÀNG ĐỨC VINH",
+   "bs": "",
+   "ngay": "29-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12990000,
+   "id": "dt|Cát Linh|PID0162373|29-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0161845",
+   "kh": "TRỊNH THU HOA",
+   "bs": "",
+   "ngay": "29-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12990000,
+   "id": "dt|Cát Linh|PID0161845|29-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0157104",
+   "kh": "Nguyễn Thị Thanh Nga",
+   "bs": "",
+   "ngay": "24-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 17000000,
+   "id": "dt|Cát Linh|PID0157104|24-10-2026|Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0157104",
+   "kh": "Nguyễn Thị Thanh Nga",
+   "bs": "",
+   "ngay": "24-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 17000000,
+   "id": "dt|Cát Linh|PID0157104|24-10-2026|Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0157104",
+   "kh": "Nguyễn Thị Thanh Nga",
+   "bs": "",
+   "ngay": "24-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 17000000,
+   "id": "dt|Cát Linh|PID0157104|24-10-2026|Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)|1#3"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0046500",
+   "kh": "Vũ Thị Ánh Tuyết",
+   "bs": "",
+   "ngay": "02-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 14990000,
+   "id": "dt|Cát Linh|PID0046500|02-10-2026|Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0046500",
+   "kh": "Vũ Thị Ánh Tuyết",
+   "bs": "",
+   "ngay": "02-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 14990000,
+   "id": "dt|Cát Linh|PID0046500|02-10-2026|Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0152863",
+   "kh": "Đào Thị Phú",
+   "bs": "",
+   "ngay": "23-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 17990000,
+   "id": "dt|Cát Linh|PID0152863|23-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0000175",
+   "kh": "Hoàng Tuấn La",
+   "bs": "",
+   "ngay": "21-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Cát Linh|PID0000175|21-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0000175",
+   "kh": "Hoàng Tuấn La",
+   "bs": "",
+   "ngay": "21-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Cát Linh|PID0000175|21-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0149358",
+   "kh": "Nguyễn Thị Bích Hạnh",
+   "bs": "",
+   "ngay": "11-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 18000000,
+   "id": "dt|Cát Linh|PID0149358|11-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0149358",
+   "kh": "Nguyễn Thị Bích Hạnh",
+   "bs": "",
+   "ngay": "11-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 18000000,
+   "id": "dt|Cát Linh|PID0149358|11-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0159613",
+   "kh": "LÝ NGỌC MỴ",
+   "bs": "",
+   "ngay": "09-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Cát Linh|PID0159613|09-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0159613",
+   "kh": "LÝ NGỌC MỴ",
+   "bs": "",
+   "ngay": "09-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Cát Linh|PID0159613|09-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0159613",
+   "kh": "LÝ NGỌC MỴ",
+   "bs": "",
+   "ngay": "09-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Cát Linh|PID0159613|09-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1#3"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0159613",
+   "kh": "LÝ NGỌC MỴ",
+   "bs": "",
+   "ngay": "09-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Cát Linh|PID0159613|09-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1#4"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0018496",
+   "kh": "Nguyễn Lê Nam",
+   "bs": "",
+   "ngay": "31-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Ufit + abutment)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 0,
+   "id": "dt|Cát Linh|PID0018496|31-10-2026|Phẫu thuật cấy ghép Implant (Ufit + abutment)|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0018496",
+   "kh": "Nguyễn Lê Nam",
+   "bs": "",
+   "ngay": "31-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Ufit + abutment)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 0,
+   "id": "dt|Cát Linh|PID0018496|31-10-2026|Phẫu thuật cấy ghép Implant (Ufit + abutment)|1#2"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0018496",
+   "kh": "Nguyễn Lê Nam",
+   "bs": "",
+   "ngay": "31-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Ufit + abutment)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 0,
+   "id": "dt|Cát Linh|PID0018496|31-10-2026|Phẫu thuật cấy ghép Implant (Ufit + abutment)|1#3"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0152691",
+   "kh": "Trịnh Thị Hằng",
+   "bs": "",
+   "ngay": "26-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 4000000,
+   "id": "dt|Cát Linh|PID0152691|26-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0147924",
+   "kh": "Nguyễn Thị Bảo Ngọc",
+   "bs": "",
+   "ngay": "11-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 4000000,
+   "id": "dt|Cát Linh|PID0147924|11-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0051865",
+   "kh": "Đào Phương Nhi",
+   "bs": "",
+   "ngay": "03-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 1,
+   "dt": 2000000,
+   "id": "dt|Cát Linh|PID0051865|03-10-2026|Khí cụ neo chặn cố định Minivis|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0158450",
+   "kh": "BÙI CÔNG VINH",
+   "bs": "",
+   "ngay": "06-10-2026",
+   "dv": "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 24000000,
+   "id": "dt|Cát Linh|PID0158450|06-10-2026|Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "pid": "PID0158906",
+   "kh": "Nguyễn Ngọc Sơn",
+   "bs": "",
+   "ngay": "28-10-2026",
+   "dv": "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 24000000,
+   "id": "dt|Cát Linh|PID0158906|28-10-2026|Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0158251",
+   "kh": "Trần Lê Thảo Vy",
+   "bs": "",
+   "ngay": "10-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12990000,
+   "id": "dt|Lê Văn Lương|PID0158251|10-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0051100",
+   "kh": "Nguyễn Thị Minh Thủy",
+   "bs": "",
+   "ngay": "25-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12990000,
+   "id": "dt|Lê Văn Lương|PID0051100|25-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0162267",
+   "kh": "PHẠM THẾ MẠNH",
+   "bs": "",
+   "ngay": "24-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12990000,
+   "id": "dt|Lê Văn Lương|PID0162267|24-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0162267",
+   "kh": "PHẠM THẾ MẠNH",
+   "bs": "",
+   "ngay": "24-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12990000,
+   "id": "dt|Lê Văn Lương|PID0162267|24-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0022681",
+   "kh": "Nguyễn Thị Thắng",
+   "bs": "",
+   "ngay": "30-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Straumann BLT SLA Titanium + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 0,
+   "id": "dt|Lê Văn Lương|PID0022681|30-10-2026|Phẫu thuật cấy ghép Implant (Straumann BLT SLA Titanium + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0161739",
+   "kh": "Nguyễn Văn Bằng",
+   "bs": "",
+   "ngay": "26-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Lê Văn Lương|PID0161739|26-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0144611",
+   "kh": "Vũ Thị Nhung",
+   "bs": "",
+   "ngay": "15-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Lê Văn Lương|PID0144611|15-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0144611",
+   "kh": "Vũ Thị Nhung",
+   "bs": "",
+   "ngay": "15-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Lê Văn Lương|PID0144611|15-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0149743",
+   "kh": "Bùi Thị Hải Hà",
+   "bs": "",
+   "ngay": "18-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 18000000,
+   "id": "dt|Lê Văn Lương|PID0149743|18-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0120916",
+   "kh": "Nguyễn Vĩnh Thuỷ",
+   "bs": "",
+   "ngay": "31-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Lê Văn Lương|PID0120916|31-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0146857",
+   "kh": "Doãn Trường Giang",
+   "bs": "",
+   "ngay": "28-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neobiotech + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 9990000,
+   "id": "dt|Lê Văn Lương|PID0146857|28-10-2026|Phẫu thuật cấy ghép Implant (Neobiotech + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0133554",
+   "kh": "Nguyễn Phương Uyên",
+   "bs": "",
+   "ngay": "25-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 1,
+   "dt": 2000000,
+   "id": "dt|Lê Văn Lương|PID0133554|25-10-2026|Khí cụ neo chặn cố định Minivis|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0004202",
+   "kh": "Hoàng Quỳnh Nguyên",
+   "bs": "",
+   "ngay": "23-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 4000000,
+   "id": "dt|Lê Văn Lương|PID0004202|23-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0004202",
+   "kh": "Hoàng Quỳnh Nguyên",
+   "bs": "",
+   "ngay": "30-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 4000000,
+   "id": "dt|Lê Văn Lương|PID0004202|30-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0127371",
+   "kh": "Cho Min Chae",
+   "bs": "",
+   "ngay": "24-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 4000000,
+   "id": "dt|Lê Văn Lương|PID0127371|24-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0020605",
+   "kh": "Nguyễn Thị Anh Phương",
+   "bs": "",
+   "ngay": "03-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 4000000,
+   "id": "dt|Lê Văn Lương|PID0020605|03-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0053274",
+   "kh": "Đinh Công Sáng",
+   "bs": "",
+   "ngay": "04-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 4000000,
+   "id": "dt|Lê Văn Lương|PID0053274|04-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0154943",
+   "kh": "Trần Đức Anh",
+   "bs": "",
+   "ngay": "01-10-2026",
+   "dv": "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 24000000,
+   "id": "dt|Lê Văn Lương|PID0154943|01-10-2026|Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0158737",
+   "kh": "Vũ Thị Nam Phương",
+   "bs": "",
+   "ngay": "05-10-2026",
+   "dv": "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 24000000,
+   "id": "dt|Lê Văn Lương|PID0158737|05-10-2026|Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0157969",
+   "kh": "Nguyễn Thùy Linh",
+   "bs": "",
+   "ngay": "05-10-2026",
+   "dv": "Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 24000000,
+   "id": "dt|Lê Văn Lương|PID0157969|05-10-2026|Nắn chỉnh răng sử dụng mắc cài trực tiếp mặt ngoài (Mắc cài kim loại - 2 hàm)|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "pid": "PID0159058",
+   "kh": "Võ Thị Huyền",
+   "bs": "",
+   "ngay": "18-10-2026",
+   "dv": "Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 32000000,
+   "id": "dt|Lê Văn Lương|PID0159058|18-10-2026|Nắn chỉnh răng sử dụng mắc cài tự buộc (Mắc cài Titanium - 2 hàm)|1"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "pid": "PID0067528",
+   "kh": "Trần Thị Dương",
+   "bs": "",
+   "ngay": "09-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12990000,
+   "id": "dt|Quảng Ninh|PID0067528|09-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "pid": "PID0067528",
+   "kh": "Trần Thị Dương",
+   "bs": "",
+   "ngay": "09-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 12990000,
+   "id": "dt|Quảng Ninh|PID0067528|09-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "pid": "PID0159648",
+   "kh": "TRẦN THỊ DUNG",
+   "bs": "",
+   "ngay": "11-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Acqua + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 25000000,
+   "id": "dt|Quảng Ninh|PID0159648|11-10-2026|Phẫu thuật cấy ghép Implant (Neodent Acqua + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "pid": "PID0083891",
+   "kh": "Nguyễn Thị Mậu",
+   "bs": "",
+   "ngay": "12-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Straumann BLT SLActive Roxolid + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 45000000,
+   "id": "dt|Quảng Ninh|PID0083891|12-10-2026|Phẫu thuật cấy ghép Implant (Straumann BLT SLActive Roxolid + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "pid": "PID0051102",
+   "kh": "Hoàng Phong",
+   "bs": "",
+   "ngay": "29-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Quảng Ninh|PID0051102|29-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "pid": "PID0051102",
+   "kh": "Hoàng Phong",
+   "bs": "",
+   "ngay": "29-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 21000000,
+   "id": "dt|Quảng Ninh|PID0051102|29-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment cá nhân + sứ Katana)|1#2"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "pid": "PID0159617",
+   "kh": "NGUYỄN ĐỨC SƠN",
+   "bs": "",
+   "ngay": "11-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (All-on-4 Osstem - Hàm nhựa thường)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 85000000,
+   "id": "dt|Quảng Ninh|PID0159617|11-10-2026|Phẫu thuật cấy ghép Implant (All-on-4 Osstem - Hàm nhựa thường)|1"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "pid": "PID0159543",
+   "kh": "Nguyễn Thu Huyền",
+   "bs": "",
+   "ngay": "10-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 15000000,
+   "id": "dt|Quảng Ninh|PID0159543|10-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)|1"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "pid": "PID0051948",
+   "kh": "Tạ Thị Dung",
+   "bs": "",
+   "ngay": "14-10-2026",
+   "dv": "Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)",
+   "mvt": "",
+   "sl": 1,
+   "dt": 15000000,
+   "id": "dt|Quảng Ninh|PID0051948|14-10-2026|Phẫu thuật cấy ghép Implant (Neodent Neoporos + abutment)|1"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "pid": "PID0068131",
+   "kh": "Phạm Thị Thu Hiền",
+   "bs": "",
+   "ngay": "29-10-2026",
+   "dv": "Khí cụ neo chặn cố định Minivis",
+   "mvt": "",
+   "sl": 2,
+   "dt": 4000000,
+   "id": "dt|Quảng Ninh|PID0068131|29-10-2026|Khí cụ neo chặn cố định Minivis|2"
+  }
+ ],
+ "xk": [
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "12/10/2026",
+   "so": "XK-ND- 10- 015",
+   "dg": "CẤY IPL KH LÊ ĐỨC HƯNG PID0143918 Răng: 12, 22, 37- đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 3,
+   "id": "xk|41 Nghĩa Dũng|13000090|12/10/2026|XK-ND- 10- 015|3"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "22/10/2026",
+   "so": "XK-ND-10- 027",
+   "dg": "CẤY IPL KH NGUYỄN ĐỨC THỌ PID0140372 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|41 Nghĩa Dũng|13000090|22/10/2026|XK-ND-10- 027|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "31/10/2026",
+   "so": "XK-ND- 10-  036",
+   "dg": "Xuất cấy LÊ THANH HẢI PID0061226 Răng: 31  - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|41 Nghĩa Dũng|13000090|31/10/2026|XK-ND- 10-  036|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "13000169",
+   "ten": "Trụ Straumann Active",
+   "ngay": "10/10/2026",
+   "so": "XK-ND- 10-010",
+   "dg": "IPL KH ĐẶNG ANH KHUÊ PID0154596 Răng: 36, 37 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|41 Nghĩa Dũng|13000169|10/10/2026|XK-ND- 10-010|2"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "09/10/2026",
+   "so": "XK-ND- 10-009",
+   "dg": "Xuất kho cấy trụ cho KH PID0159916\tĐINH THỊ KIM HUÊ CẤY IPL NEOPR 4 TRỤ Răng: 11, 21, 16, 15 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 4,
+   "id": "xk|41 Nghĩa Dũng|13000170|09/10/2026|XK-ND- 10-009|4"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "21/10/2026",
+   "so": "XK-ND-10- 026",
+   "dg": "CẤY IPL KH VŨ HOÀNG HIỆP PID0160286   Răng: 14 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|41 Nghĩa Dũng|13000170|21/10/2026|XK-ND-10- 026|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "22/10/2026",
+   "so": "XK-ND-10- 027",
+   "dg": "CẤY IPL KH NGUYỄN ĐỨC THỌ PID0140372 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 4,
+   "id": "xk|41 Nghĩa Dũng|13000170|22/10/2026|XK-ND-10- 027|4"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "23/10/2026",
+   "so": "XK-ND-10 - 028",
+   "dg": "CẤY IPL KH ĐINH KIM THÀNH PID0056881 Răng: 13, 11, 21 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 3,
+   "id": "xk|41 Nghĩa Dũng|13000170|23/10/2026|XK-ND-10 - 028|3"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "28/10/2026",
+   "so": "XK-ND-10- 032",
+   "dg": "CẤY IPL PID0125358\tLê Ngọc Hà 2 NEOPR",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|41 Nghĩa Dũng|13000170|28/10/2026|XK-ND-10- 032|2"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "14000017",
+   "ten": "Vít chỉnh nha",
+   "ngay": "04/10/2026",
+   "so": "XK-ND-10-003",
+   "dg": "CÙ THÚY HẰNG VÍT 2 PID0141047 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|41 Nghĩa Dũng|14000017|04/10/2026|XK-ND-10-003|2"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "14000017",
+   "ten": "Vít chỉnh nha",
+   "ngay": "30/10/2026",
+   "so": "XK-ND-10- 033",
+   "dg": "Xuất kh Lưu Văn Đức PID0143615 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|41 Nghĩa Dũng|14000017|30/10/2026|XK-ND-10- 033|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "14000050",
+   "ten": "Mắc cài chỉnh nha kim loại thường Atlas Mini Bracket",
+   "ngay": "29/10/2026",
+   "so": "XK-ND-10-030",
+   "dg": "MCT KH ĐINH DIỆP CHI PID0162211 -đã kiểm tra",
+   "dvt": "Bộ",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|41 Nghĩa Dũng|14000050|29/10/2026|XK-ND-10-030|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "14000355",
+   "ten": "Mắc cài kim loại tự buộc MBT 022",
+   "ngay": "05/10/2026",
+   "so": "XK-ND-10-005",
+   "dg": "GẮN MCTB KH ĐỖ HOÀNG BẢO NAM PID0158965 - chưa lên điều trị -đã kiểm tra",
+   "dvt": "Bộ",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|41 Nghĩa Dũng|14000355|05/10/2026|XK-ND-10-005|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "14000355",
+   "ten": "Mắc cài kim loại tự buộc MBT 022",
+   "ngay": "11/10/2026",
+   "so": "XK-ND- 10- 012",
+   "dg": "GẮN MCB PID0157890 Lê Phương Trang - đã kiểm tra",
+   "dvt": "Bộ",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|41 Nghĩa Dũng|14000355|11/10/2026|XK-ND- 10- 012|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "14000418",
+   "ten": "Vít chỉnh nha Jiscop",
+   "ngay": "11/10/2026",
+   "so": "XK-ND- 10 - 014",
+   "dg": "VÍT Nguyễn Thị Hương PID0131075 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|41 Nghĩa Dũng|14000418|11/10/2026|XK-ND- 10 - 014|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "14000418",
+   "ten": "Vít chỉnh nha Jiscop",
+   "ngay": "12/10/2026",
+   "so": "XK-ND- 10-  016",
+   "dg": "VÍT KH LƯU VĂN ĐỨC PID0143615 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|41 Nghĩa Dũng|14000418|12/10/2026|XK-ND- 10-  016|2"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "14000418",
+   "ten": "Vít chỉnh nha Jiscop",
+   "ngay": "14/10/2026",
+   "so": "XK-ND- 10 -019",
+   "dg": "Xuất kho vít chỉnh nha cho KH PID0147200\tNGUYỄN CÔNG BÌNH MINH VÍT 1 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|41 Nghĩa Dũng|14000418|14/10/2026|XK-ND- 10 -019|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "14000418",
+   "ten": "Vít chỉnh nha Jiscop",
+   "ngay": "18/10/2026",
+   "so": "XK-ND- 10 - 022",
+   "dg": "Xuất kho minivis cho KH PID0156585\tVŨ HỒNG PHƯƠNG VÍT 1 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|41 Nghĩa Dũng|14000418|18/10/2026|XK-ND- 10 - 022|1"
+  },
+  {
+   "cs": "41 Nghĩa Dũng",
+   "ma": "14000418",
+   "ten": "Vít chỉnh nha Jiscop",
+   "ngay": "23/10/2026",
+   "so": "XK-ND-10 - 029",
+   "dg": "CÙ THÚY HẰNG 2 VÍT PID0141047 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|41 Nghĩa Dũng|14000418|23/10/2026|XK-ND-10 - 029|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000087",
+   "ten": "Trụ Hiossen (Mỹ) - AET3",
+   "ngay": "06/10/2026",
+   "so": "XK-BTX-10-006",
+   "dg": "Xuất kho trụ hiossen Răng: 47, 46, 45- PID0135849 -Bùi Tuyết Nhung- kh sử dụng dv 6/10/2026 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 3,
+   "id": "xk|Bùi Thị Xuân|13000087|06/10/2026|XK-BTX-10-006|3"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000087",
+   "ten": "Trụ Hiossen (Mỹ) - AET3",
+   "ngay": "17/10/2026",
+   "so": "XK-BTX-10- 031",
+   "dg": "Xuất kho trụ hiossen-PID0161016-VŨ VĂN BA- kh sử dụng dv 17/10/2026 Răng: 36 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|13000087|17/10/2026|XK-BTX-10- 031|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000087",
+   "ten": "Trụ Hiossen (Mỹ) - AET3",
+   "ngay": "31/10/2026",
+   "so": "XK-BTX-10-057",
+   "dg": "Xuất kho trụ hiossen -PID0151077-Nguyễn Lê Thanh- kh sử dụng dv  29/10/2026",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|13000087|31/10/2026|XK-BTX-10-057|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000088",
+   "ten": "Trụ neodent",
+   "ngay": "23/10/2026",
+   "so": "XK-BTX-10-044",
+   "dg": "Xuất kho trụ neodent  Răng: 15- PID0161514 - PHẠM THƯỢNG THIỆN- kh sử dụng dv 23/10/2026 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|13000088|23/10/2026|XK-BTX-10-044|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "11/10/2026",
+   "so": "XK-BTX-10-015",
+   "dg": "Xuất kho trụ osstem R24,R25 và R37- PID0077239 -Trịnh Mai Hiếu- kh sử dụng dv 11/10/2026 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 3,
+   "id": "xk|Bùi Thị Xuân|13000090|11/10/2026|XK-BTX-10-015|3"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "15/10/2026",
+   "so": "XK-BTX-10- 026",
+   "dg": "Xuất kho trụ osstem Răng: 15, 25-PID0145722- Vũ Thị Mai- kh sử dụng dv 15/10/2026 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Bùi Thị Xuân|13000090|15/10/2026|XK-BTX-10- 026|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "17/10/2026",
+   "so": "XK-BTX- 10- 032",
+   "dg": "Xuất kho trụ osstem-PID0013137-Lê Tuấn Dương-kh sử dụng dv 17/10/2026 Răng: 42, 32 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Bùi Thị Xuân|13000090|17/10/2026|XK-BTX- 10- 032|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "22/10/2026",
+   "so": "XK-BTX-10- 043",
+   "dg": "Xuất kho  trụ osstem-PID0078875- Hoàng Anh Tú-kh sử dụng dv 22/10/2026  Răng: 47 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|13000090|22/10/2026|XK-BTX-10- 043|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000091",
+   "ten": "Trụ straumann",
+   "ngay": "30/10/2026",
+   "so": "XK-BTX-10-055",
+   "dg": "Xuất kho trụ strauman-PID0152743\tNguyễn Tuấn Dũng- kh sử dụng dv 27/10/2026 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|13000091|30/10/2026|XK-BTX-10-055|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000102",
+   "ten": "Trụ Biotem",
+   "ngay": "06/10/2026",
+   "so": "XK-BTX-10- 007",
+   "dg": "Xuất kho trụ biotem Răng: 31, 33-PID0011176 -Bùi Bình Dương- kh sử dụng dv 6/10/2026 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Bùi Thị Xuân|13000102|06/10/2026|XK-BTX-10- 007|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000102",
+   "ten": "Trụ Biotem",
+   "ngay": "09/10/2026",
+   "so": "XK-BTX-10-010",
+   "dg": "Xuất kho trụ biotem Răng: 15- PID0159670- NGUYỄN HOÀNG TUẤN-kh sử dụng dv 8/10/2026 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|13000102|09/10/2026|XK-BTX-10-010|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000102",
+   "ten": "Trụ Biotem",
+   "ngay": "17/10/2026",
+   "so": "XK-BTX-10- 030",
+   "dg": "Xuất kho trụ biotem- PID0134131 - Nguyễn Minh Tiến- kh sử dụng dv 17/10/2026  Răng: 46 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|13000102|17/10/2026|XK-BTX-10- 030|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000102",
+   "ten": "Trụ Biotem",
+   "ngay": "21/10/2026",
+   "so": "XK-BTX-10- 040",
+   "dg": "Xuất kho TRỤ BIOTEM-PID0139851 -Đặng Duy Hưng- kh sử dụng dv 21/10/2026 Răng: 36 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|13000102|21/10/2026|XK-BTX-10- 040|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "15/10/2026",
+   "so": "XK-BTX-10 - 025",
+   "dg": "Xuất kho trụ neoporos Răng: 37 -PID0148252 -Trịnh Văn Sỹ- kh sử dụng dv 15/10/2026 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|13000170|15/10/2026|XK-BTX-10 - 025|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "17/10/2026",
+   "so": "XK-BTX-10 - 029",
+   "dg": "Xuất kho trụ  neoporos-  PID0034706- Phạm Huy Hùng- kh sử dụng dv 17/10/2026 Răng: 46 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|13000170|17/10/2026|XK-BTX-10 - 029|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "17/10/2026",
+   "so": "XK-BTX- 10- 033",
+   "dg": "Xuất kho trụ neoporos- PID0154741 -ĐÀO THANH TÙNG- kh sử dụng dv 17/10/2026 Răng: 35, 36 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Bùi Thị Xuân|13000170|17/10/2026|XK-BTX- 10- 033|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "18/10/2026",
+   "so": "XK-BTX- 10- 037",
+   "dg": "Xuất kho trụ neoporos - Răng: 37-PID0132943 -Nguyễn Thành Lâm- kh sử dụng dv 18/10/2026 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|13000170|18/10/2026|XK-BTX- 10- 037|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "20/10/2026",
+   "so": "XK-BTX-10- 039",
+   "dg": "Xuất kho trụ neoporos- PID0132509-Thái Hồng Hải- kh sử dụng dv 20/10/2026 Răng: 47, 37 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Bùi Thị Xuân|13000170|20/10/2026|XK-BTX-10- 039|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "21/10/2026",
+   "so": "XK-BTX- 10- 041",
+   "dg": "Xuất kho trụ neoporos PID0012194 -Hoàng Thị Hương- kh sử dụng dv 21/10/2026 Răng: 26 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|13000170|21/10/2026|XK-BTX- 10- 041|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "22/10/2026",
+   "so": "XK-BTX-10- 042",
+   "dg": "Xuất kho trụ neoporos-PID0161723 -BÙI ĐÌNH TIẾN- kh sử dụng dv 22/10/2026  Răng: 46, 36 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Bùi Thị Xuân|13000170|22/10/2026|XK-BTX-10- 042|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "25/10/2026",
+   "so": "XK-BTX-10-047",
+   "dg": "Xuất kho trụ neoporos Răng: 35, 36-La Phương Nhung\tPID0001235 - kh sử dụng dv 24/10/2026  - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Bùi Thị Xuân|13000170|25/10/2026|XK-BTX-10-047|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "27/10/2026",
+   "so": "XK-BTX-10-056",
+   "dg": "Xuất kho TRỤ NEOPOROS-Nguyễn Lê Minh PID0126797 -kh sử dụng dv 27/10/2026 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|13000170|27/10/2026|XK-BTX-10-056|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "14000050",
+   "ten": "Mắc cài chỉnh nha kim loại thường Atlas Mini Bracket",
+   "ngay": "04/10/2026",
+   "so": "XK-BTX-10- 005",
+   "dg": "Xuất kho MCKL thường -PID0156311-Trần Nam Khánh-kh sử dụng dv 4/10/2026- đã kiểm tra",
+   "dvt": "Bộ",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|14000050|04/10/2026|XK-BTX-10- 005|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "14000050",
+   "ten": "Mắc cài chỉnh nha kim loại thường Atlas Mini Bracket",
+   "ngay": "10/10/2026",
+   "so": "XK-BTX- 10-014",
+   "dg": "Xuất kho MCKL thường- PID0155240 - Bùi Việt Dũng- kh sử dụng dv 10/10/2026 - đã kiểm tra",
+   "dvt": "Bộ",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|14000050|10/10/2026|XK-BTX- 10-014|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "14000355",
+   "ten": "Mắc cài kim loại tự buộc MBT 022",
+   "ngay": "03/10/2026",
+   "so": "XK-BTX-10- 002",
+   "dg": "Xuất kho mckl tb- PID0152497\tNGUYỄN PHƯƠNG GIA NHƯ- kh sửd ụng dv 3/10 - đã kiểm tra",
+   "dvt": "Bộ",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|14000355|03/10/2026|XK-BTX-10- 002|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "14000355",
+   "ten": "Mắc cài kim loại tự buộc MBT 022",
+   "ngay": "10/10/2026",
+   "so": "XK-BTX-10- 013",
+   "dg": "Xuất kho mckltb-PID0118811 - Bùi Mạnh Cường- kh sử dụng dv 10/10/2026 - đã kiểm tra",
+   "dvt": "Bộ",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|14000355|10/10/2026|XK-BTX-10- 013|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "14000355",
+   "ten": "Mắc cài kim loại tự buộc MBT 022",
+   "ngay": "14/10/2026",
+   "so": "XK-BTX-10 -023",
+   "dg": "Xuất kho mckltb-PID0158901 -NGUYỄN THỊ PHƯỢNG- kh sử dụng dv 14/10/2026 - đã kiểm tra",
+   "dvt": "Bộ",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|14000355|14/10/2026|XK-BTX-10 -023|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "14000355",
+   "ten": "Mắc cài kim loại tự buộc MBT 022",
+   "ngay": "15/10/2026",
+   "so": "XK-BTX-10- 024",
+   "dg": "Xuất kho MCKLTB-PID0158400 -DƯƠNG LÊ KHÔI NGUYÊN- kh sử dụng dv15/10/2026 - đã kiểm tra",
+   "dvt": "Bộ",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|14000355|15/10/2026|XK-BTX-10- 024|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "14000355",
+   "ten": "Mắc cài kim loại tự buộc MBT 022",
+   "ngay": "26/10/2026",
+   "so": "XK-BTX-10-048",
+   "dg": "Xuất kho mckltb -PID0156267 -Hoàng Ngọc Ánh- kh sử dụng dv 4/10/2026 -đã kiểm tra",
+   "dvt": "Bộ",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|14000355|26/10/2026|XK-BTX-10-048|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "14000398",
+   "ten": "Vít chỉnh nha Jeil",
+   "ngay": "09/10/2026",
+   "so": "XK-BTX-10-011",
+   "dg": "Xuất kho minivis-PID0033754 -Trương Ngọc Bảo Anh-kh sử dụng dv 9/10/2026 -đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|14000398|09/10/2026|XK-BTX-10-011|1"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "14000398",
+   "ten": "Vít chỉnh nha Jeil",
+   "ngay": "20/10/2026",
+   "so": "XK-BTX-10- 038",
+   "dg": "Xuất kho minivis-PID0154293- Trần Thị Thu Trang-kh sử dụng dv 20/10/2026 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Bùi Thị Xuân|14000398|20/10/2026|XK-BTX-10- 038|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "14000418",
+   "ten": "Vít chỉnh nha Jiscop",
+   "ngay": "04/10/2026",
+   "so": "XK-BTX-10- 004",
+   "dg": "Xuất kho minivis-  PID0095404 - Nguyễn Minh Thảo- kh sử dụng dv 4/10/2026 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Bùi Thị Xuân|14000418|04/10/2026|XK-BTX-10- 004|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "14000418",
+   "ten": "Vít chỉnh nha Jiscop",
+   "ngay": "11/10/2026",
+   "so": "XK-BTX- 10-016",
+   "dg": "Xuất kho minivis-PID0149107 - Trần Linh Đan-kh sử dụng dv 11/10/2026 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Bùi Thị Xuân|14000418|11/10/2026|XK-BTX- 10-016|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "14000418",
+   "ten": "Vít chỉnh nha Jiscop",
+   "ngay": "12/10/2026",
+   "so": "XK-BTX-10 -017",
+   "dg": "Xuất kho minivis- PID0141513 -Lý Gia Hân- kh sử dụng d 5/10/2026 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Bùi Thị Xuân|14000418|12/10/2026|XK-BTX-10 -017|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "14000418",
+   "ten": "Vít chỉnh nha Jiscop",
+   "ngay": "12/10/2026",
+   "so": "XK-BTX-10- 021",
+   "dg": "Xuất kho minivis-PID0154293 -Trần Thị Thu Trang-kh sử dụng dv 6/10/2026 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Bùi Thị Xuân|14000418|12/10/2026|XK-BTX-10- 021|2"
+  },
+  {
+   "cs": "Bùi Thị Xuân",
+   "ma": "14000418",
+   "ten": "Vít chỉnh nha Jiscop",
+   "ngay": "17/10/2026",
+   "so": "XK-BTX-10- 028",
+   "dg": "Xuất kho minivis-PID0098135- Nguyễn Viết Hùng- kh sử dụng dv 17/10/2026 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Bùi Thị Xuân|14000418|17/10/2026|XK-BTX-10- 028|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "ma": "13000087",
+   "ten": "Trụ Hiossen (Mỹ) - AET3",
+   "ngay": "01/10/2026",
+   "so": "XK-CL-10- 005",
+   "dg": "Xuất kho khác CẤY IPL KH VŨ THI ÁNH TUYẾT PID0046500 Răng: 47, 46 - đã kiểm atra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Cát Linh|13000087|01/10/2026|XK-CL-10- 005|2"
+  },
+  {
+   "cs": "Cát Linh",
+   "ma": "13000087",
+   "ten": "Trụ Hiossen (Mỹ) - AET3",
+   "ngay": "25/10/2026",
+   "so": "XK-CL-10-016",
+   "dg": "Xuất kho khác CÁY IPL KH NGUYỄN THỊ THANH NGA  PID0157104 ( NGÀY 24/10)Răng: 24, 26, 36 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 3,
+   "id": "xk|Cát Linh|13000087|25/10/2026|XK-CL-10-016|3"
+  },
+  {
+   "cs": "Cát Linh",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "01/10/2026",
+   "so": "XK-CL-10-006",
+   "dg": "Xuất kho khác CẤY IPL KH ĐOÀN THỊ LAN PID0148357  Răng: 36, 37 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Cát Linh|13000090|01/10/2026|XK-CL-10-006|2"
+  },
+  {
+   "cs": "Cát Linh",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "16/10/2026",
+   "so": "XK-CL-10-008",
+   "dg": "Xuất kho khác cấy ipl kh PID0140274 Lê Xuân Tráng( cấy ngày 11/10) Răng: 26 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Cát Linh|13000090|16/10/2026|XK-CL-10-008|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "29/10/2026",
+   "so": "XK-CL-10-019",
+   "dg": "Xuất kho khác CẤY IMPLANT KH HOÀNG ĐỨC VINH PID0162373 Răng: 27 - ĐÃ KIỂM TRA",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Cát Linh|13000090|29/10/2026|XK-CL-10-019|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "29/10/2026",
+   "so": "XK-CL-10-020",
+   "dg": "Xuất kho khác CẤY IPL KH HỒ GIA LONG PID0159911 Răng: 17 ĐÃ KIỂM TRA",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Cát Linh|13000090|29/10/2026|XK-CL-10-020|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "29/10/2026",
+   "so": "XK-CL-10- 023",
+   "dg": "Xuất kho khác CẤY IPL KH TRỊNH THU HOA PID0161845 Răng: 16 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Cát Linh|13000090|29/10/2026|XK-CL-10- 023|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "12/10/2026",
+   "so": "XK-CL-10-022",
+   "dg": "Xuất kho khác CẤY IPL KH LÝ NGỌC MỴ PID0159613 ( CẤY NGÀY 9/10) -đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 4,
+   "id": "xk|Cát Linh|13000170|12/10/2026|XK-CL-10-022|4"
+  },
+  {
+   "cs": "Cát Linh",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "19/10/2026",
+   "so": "XK-CL-10-010",
+   "dg": "Xuất kho khác cấy ipl Kh PID0149358 R36 và R37  NGUYÊN THỊ BÍCH HẠNH (CẤY NGÀY 11/10) -đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Cát Linh|13000170|19/10/2026|XK-CL-10-010|2"
+  },
+  {
+   "cs": "Cát Linh",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "21/10/2026",
+   "so": "XK-CL-10-013",
+   "dg": "Xuất kho khác cấy ipl Răng: 17, 26 Hoàng Tuấn La MED0007554 ( cấy ngày 21/10) - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Cát Linh|13000170|21/10/2026|XK-CL-10-013|2"
+  },
+  {
+   "cs": "Cát Linh",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "23/10/2026",
+   "so": "XK-CL-10-014",
+   "dg": "Xuất kho khác cây ipl kh Đào Thị Phú PID0152863 ( CẤY NGÀY 23/10) Răng: 16 -đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Cát Linh|13000170|23/10/2026|XK-CL-10-014|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "ma": "14000050",
+   "ten": "Mắc cài chỉnh nha kim loại thường Atlas Mini Bracket",
+   "ngay": "16/10/2026",
+   "so": "XK-CL-10-007",
+   "dg": "Xuất kho khác GẮN MC KH PID0158450 _Bùi Công Vinh( GẮN NGÀY 6/10) - đã kiểm tra",
+   "dvt": "Bộ",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Cát Linh|14000050|16/10/2026|XK-CL-10-007|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "ma": "14000050",
+   "ten": "Mắc cài chỉnh nha kim loại thường Atlas Mini Bracket",
+   "ngay": "28/10/2026",
+   "so": "XK- CL-10-030",
+   "dg": "Xuất kho khác gắn mc kh Nguyễn Ngọc Sơn PID0158906",
+   "dvt": "Bộ",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Cát Linh|14000050|28/10/2026|XK- CL-10-030|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "ma": "14000418",
+   "ten": "Vít chỉnh nha Jiscop",
+   "ngay": "25/10/2026",
+   "so": "XK- CL-10-025",
+   "dg": "Xuất kho khác CẮM VÍT KH ĐÀO PHƯƠNG NHI PID0051865 ( CẮM NGÀY 3/10)",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Cát Linh|14000418|25/10/2026|XK- CL-10-025|1"
+  },
+  {
+   "cs": "Cát Linh",
+   "ma": "14000418",
+   "ten": "Vít chỉnh nha Jiscop",
+   "ngay": "25/10/2026",
+   "so": "XK- CL-10-024",
+   "dg": "Xuất kho khác cắm vít kh Nguyễn Thị Bảo Ngọc PID0147924 (cắm ngày 11/10)",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Cát Linh|14000418|25/10/2026|XK- CL-10-024|2"
+  },
+  {
+   "cs": "Cát Linh",
+   "ma": "14000418",
+   "ten": "Vít chỉnh nha Jiscop",
+   "ngay": "29/10/2026",
+   "so": "XK-CL-10-018",
+   "dg": "Xuất kho khác CẮM VÍT KH TRỊNH THỊ HẰNG PID0152691 ( CẮM NGÀY 26/10) -đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Cát Linh|14000418|29/10/2026|XK-CL-10-018|2"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "12000739",
+   "ten": "Trụ Ufit",
+   "ngay": "29/10/2026",
+   "so": "XK-LVL-10- 031",
+   "dg": "Xuất kho dùng cho KH Nguyễn Lê Nam PID0018496 cấy bảo hành tại CL Răng: 18, 16, 14  đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 3,
+   "id": "xk|Lê Văn Lương|12000739|29/10/2026|XK-LVL-10- 031|3"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "10/10/2026",
+   "so": "XK-LVL-10- 009",
+   "dg": "Xuất kho dùng cho KH Trần Lê Thảo Vy PID0158251 Răng: 46 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Lê Văn Lương|13000090|10/10/2026|XK-LVL-10- 009|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "24/10/2026",
+   "so": "XK-LVL-10-022",
+   "dg": "Xuất kho dùng cho KH Phạm Thế Mạnh PID0162267 Răng: 11, 21 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Lê Văn Lương|13000090|24/10/2026|XK-LVL-10-022|2"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "25/10/2026",
+   "so": "XK-CL-10-011",
+   "dg": "Xuất kho khác CẤY IPL Răng: 26  KH NGUYỄN THỊ MINH THỦY PID0051100 ( CHIA DOANH THU LVL 70 CÁT LINH 30) -  KH này cấy tại CL nên CL xuất kho vá tính giá vốn cho LVL",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Lê Văn Lương|13000090|25/10/2026|XK-CL-10-011|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "13000163",
+   "ten": "Trụ chân răng NeoBiotech",
+   "ngay": "28/10/2026",
+   "so": "XK-LVL-10-027",
+   "dg": "Xuất kho dùng cho KH Doãn Trường Giang PID0146857 Răng: 47 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Lê Văn Lương|13000163|28/10/2026|XK-LVL-10-027|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "13000169",
+   "ten": "Trụ Straumann Active",
+   "ngay": "28/10/2026",
+   "so": "XK-LVL-10 - 028",
+   "dg": "Xuất kho dùng cho KH Nguyễn Thị Thắng PID0022681 cấy bảo hành - Răng: 17 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Lê Văn Lương|13000169|28/10/2026|XK-LVL-10 - 028|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "15/10/2026",
+   "so": "XK-LVL- 10 - 014",
+   "dg": "Xuất kho dùng cho KH Vũ Thị Nhung PID0144611  Răng: 26, 27 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Lê Văn Lương|13000170|15/10/2026|XK-LVL- 10 - 014|2"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "18/10/2026",
+   "so": "XK- LVL -10 -015",
+   "dg": "Xuất kho dùng cho KH Bùi Thị Hải Hà PID0149743 Răng: 16 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Lê Văn Lương|13000170|18/10/2026|XK- LVL -10 -015|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "26/10/2026",
+   "so": "XK-LVL-10- 026",
+   "dg": "Xuất kho dùng cho KH Nguyễn Văn Bằng PID0161739 Răng: 17 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Lê Văn Lương|13000170|26/10/2026|XK-LVL-10- 026|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "31/10/2026",
+   "so": "XK - LVL - 10- 033",
+   "dg": "Xuất kho dùng cho KH Nguyễn Vĩnh Thủy PID0120916 - Răng: 36  ĐÃ KIỂM TRA",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Lê Văn Lương|13000170|31/10/2026|XK - LVL - 10- 033|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "14000017",
+   "ten": "Vít chỉnh nha",
+   "ngay": "05/10/2026",
+   "so": "XK-LVL-10 -004",
+   "dg": "Xuất kho dùng cho KH Nguyễn Thị Anh Phương PID0020605 ngày 3/10 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Lê Văn Lương|14000017|05/10/2026|XK-LVL-10 -004|2"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "14000017",
+   "ten": "Vít chỉnh nha",
+   "ngay": "25/10/2026",
+   "so": "XK-LVL-10- 023",
+   "dg": "Xuất kho dùng cho KH Nguyễn Phương Uyên PID0133554 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Lê Văn Lương|14000017|25/10/2026|XK-LVL-10- 023|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "14000050",
+   "ten": "Mắc cài chỉnh nha kim loại thường Atlas Mini Bracket",
+   "ngay": "01/10/2026",
+   "so": "XK-LVL-10 -002",
+   "dg": "Xuất kho dùng cho KH Trần Đức Anh PID0154943 - đã kiểm tra",
+   "dvt": "Bộ",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Lê Văn Lương|14000050|01/10/2026|XK-LVL-10 -002|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "14000050",
+   "ten": "Mắc cài chỉnh nha kim loại thường Atlas Mini Bracket",
+   "ngay": "05/10/2026",
+   "so": "XK-LVL-10 -003",
+   "dg": "Xuất kho dùng cho KH Nguyễn Thùy Linh PID0157969 - đã kiểm tra",
+   "dvt": "Bộ",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Lê Văn Lương|14000050|05/10/2026|XK-LVL-10 -003|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "14000050",
+   "ten": "Mắc cài chỉnh nha kim loại thường Atlas Mini Bracket",
+   "ngay": "05/10/2026",
+   "so": "XK-LVL-10 -005",
+   "dg": "Xuất kho dùng cho KH Vũ Thị Nam Phương PID0158737 - đã kiểm tra",
+   "dvt": "Bộ",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Lê Văn Lương|14000050|05/10/2026|XK-LVL-10 -005|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "14000355",
+   "ten": "Mắc cài kim loại tự buộc MBT 022",
+   "ngay": "18/10/2026",
+   "so": "XK- LVL -10 -016",
+   "dg": "Xuất kho dùng cho KH Võ Thị Huyền PID0159058 - đã kiểm tra",
+   "dvt": "Bộ",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Lê Văn Lương|14000355|18/10/2026|XK- LVL -10 -016|1"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "14000398",
+   "ten": "Vít chỉnh nha Jeil",
+   "ngay": "05/10/2026",
+   "so": "XK-LVL-10 -006",
+   "dg": "Xuất kho dùng cho KH Đinh Công Sáng PID0053274 ngày 4/10 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Lê Văn Lương|14000398|05/10/2026|XK-LVL-10 -006|2"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "14000398",
+   "ten": "Vít chỉnh nha Jeil",
+   "ngay": "24/10/2026",
+   "so": "XK-LVL- 10-021",
+   "dg": "Xuất kho dùng cho KH Cho Min Chae PID0127371 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Lê Văn Lương|14000398|24/10/2026|XK-LVL- 10-021|2"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "14000418",
+   "ten": "Vít chỉnh nha Jiscop",
+   "ngay": "23/10/2026",
+   "so": "XK-LVL- 10-020",
+   "dg": "Xuất kho dùng cho KH Hoàng Quỳnh Nguyên PID0004202 - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Lê Văn Lương|14000418|23/10/2026|XK-LVL- 10-020|2"
+  },
+  {
+   "cs": "Lê Văn Lương",
+   "ma": "14000418",
+   "ten": "Vít chỉnh nha Jiscop",
+   "ngay": "30/10/2026",
+   "so": "XK- LVL -  10 -  032",
+   "dg": "Xuất kho dùng cho KH Hoàng Quỳnh Nguyên PID0004202 -ĐÃ KIỂM TRA",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Lê Văn Lương|14000418|30/10/2026|XK- LVL -  10 -  032|2"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "ma": "13000088",
+   "ten": "Trụ neodent",
+   "ngay": "12/10/2026",
+   "so": "XK-QN-10-009",
+   "dg": "Xuất kho khác  TRẦN THỊ DUNG PID0159648 - Cấy IPL R43 Neodent Acqua - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Quảng Ninh|13000088|12/10/2026|XK-QN-10-009|1"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "ma": "13000089",
+   "ten": "Trụ Osstem (Hàn)",
+   "ngay": "11/10/2026",
+   "so": "XK-QN-10-008",
+   "dg": "Xuất kho khác PID0159617  NGUYỄN ĐỨC SƠN - Cấy All on 4 Osstem HT - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Quảng Ninh|13000089|11/10/2026|XK-QN-10-008|1"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "09/10/2026",
+   "so": "XK-QN-10- 005",
+   "dg": "Xuất kho khác  Cấy IPL R17,27 Osstem  PID0067528 Trần Thị Dương -Đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Quảng Ninh|13000090|09/10/2026|XK-QN-10- 005|2"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "ma": "13000090",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "ngay": "11/10/2026",
+   "so": "XK-QN-10-008",
+   "dg": "Xuất kho khác PID0159617  NGUYỄN ĐỨC SƠN - Cấy All on 4 Osstem HT - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 3,
+   "id": "xk|Quảng Ninh|13000090|11/10/2026|XK-QN-10-008|3"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "10/10/2026",
+   "so": "XK-QN-10-006",
+   "dg": "Xuất kho khác  PID0159543 Nguyễn Thu Huyền - Cấy IPL R16 NeoPoros - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Quảng Ninh|13000170|10/10/2026|XK-QN-10-006|1"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "14/10/2026",
+   "so": "XK-QN-10- 011",
+   "dg": "Xuất kho khác Cấy IPL R46 Neodent Neoporos PID0051948 Tạ Thị Dung - đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Quảng Ninh|13000170|14/10/2026|XK-QN-10- 011|1"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "ma": "13000170",
+   "ten": "Trụ neodent Neoporos",
+   "ngay": "29/10/2026",
+   "so": "XK-QN-10-016",
+   "dg": "Xuất kho khác CẤY IPL r27,47 NEOPOROS HOÀNG PHONG PID0051102 - ĐÃ KIỂM TRA",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Quảng Ninh|13000170|29/10/2026|XK-QN-10-016|2"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "ma": "14000017",
+   "ten": "Vít chỉnh nha",
+   "ngay": "29/10/2026",
+   "so": "XK-QN-10-017",
+   "dg": "Xuất kho khác CẮM  VÍT PHẠM THỊ THU HIỀN PID0068131 - ĐÃ KIỂM TRA",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 2,
+   "id": "xk|Quảng Ninh|14000017|29/10/2026|XK-QN-10-017|2"
+  },
+  {
+   "cs": "Quảng Ninh",
+   "ma": "13000064",
+   "ten": "Implant Straumann SL Active",
+   "ngay": "12/10/2026",
+   "so": "XK-QN-10-010",
+   "dg": "Xuất kho khác  PID0083891 Nguyễn Thị Mậu  - Cấy IPL R17 Straumann BLT SLActive Roxolid -đã kiểm tra",
+   "dvt": "Cái",
+   "ct": "",
+   "sl": 1,
+   "id": "xk|Quảng Ninh|13000064|12/10/2026|XK-QN-10-010|1"
+  }
+ ],
+ "notes": {
+  "dt|41 Nghĩa Dũng|PID0157118|11-10-2026|Khí cụ neo chặn cố định Minivis|2": {
+   "g": "KH sử dụng dịch vụ là ghép xương tự thân sẽ phát sinh dụng cụ nạo xương và vis đi kèm. Cơ sở báo hệ thống chưa xây dựng mã DV này lên cơ sở lên dịch vụ vis dành cho chỉnh nha để thu tiền của KH",
+   "by": "",
+   "at": "03/11/2026",
+   "r": "Khác",
+   "st": "Đã duyệt"
+  },
+  "dt|Bùi Thị Xuân|PID0078626|15-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1": {
+   "r": "Bảo hành",
+   "st": "Đã duyệt",
+   "by": "",
+   "at": "03/11/2026"
+  },
+  "dt|Bùi Thị Xuân|PID0030258|28-10-2026|Phẫu thuật cấy ghép Implant (Osstem + abutment + sứ Katana)|1": {
+   "r": "Bảo hành",
+   "st": "Đã duyệt",
+   "by": "",
+   "at": "03/11/2026"
+  },
+  "dt|Bùi Thị Xuân|PID0013799|06-10-2026|Phẫu thuật cấy ghép Implant (Hiossen + abutment + sứ Katana)|1": {
+   "r": "Bảo hành",
+   "st": "Đã duyệt",
+   "by": "",
+   "at": "03/11/2026"
+  }
+ },
+ "cfg": [
+  {
+   "dv": "Osstem",
+   "ma": "",
+   "ten": "Trụ Osstem (Hàn)",
+   "dm": 1,
+   "alt": "13000090; Trụ Osstem (Hàn) - NoMount",
+   "gia": 1513600
+  },
+  {
+   "dv": "Hiossen",
+   "ma": "",
+   "ten": "Trụ Hiossen (Mỹ) - AET3",
+   "dm": 1,
+   "alt": "Chân trụ răng Hiossen - AET3 (NH); Trụ Hiossen AET3 NH/ Trụ Hiossen AET3; Trụ Hiossen AET3/ Trụ Hiossen AET3 NH",
+   "gia": 1583634
+  },
+  {
+   "dv": "Biotem",
+   "ma": "",
+   "ten": "Trụ Biotem",
+   "dm": 1,
+   "alt": "",
+   "gia": 814038
+  },
+  {
+   "dv": "Nobel",
+   "ma": "",
+   "ten": "Trụ NobelActive",
+   "dm": 1,
+   "alt": "Trụ Nobel Active",
+   "gia": 4610766
+  },
+  {
+   "dv": "Ti Ultra",
+   "ma": "",
+   "ten": "Trụ NobelActive cổ vàng",
+   "dm": 1,
+   "alt": "Nobel Active cổ vàng",
+   "gia": 4610766
+  },
+  {
+   "dv": "Neobiotech",
+   "ma": "",
+   "ten": "Trụ Neobiotech",
+   "dm": 1,
+   "alt": "Trụ chân răng NeoBiotech",
+   "gia": 2000000
+  },
+  {
+   "dv": "Straumann",
+   "ma": "13000091",
+   "ten": "Trụ straumann",
+   "dm": 1,
+   "alt": "13000169; Trụ Straumann Active; 13000064; Implant Straumann SL Active",
+   "gia": 14000000
+  },
+  {
+   "dv": "SLActive",
+   "ma": "",
+   "ten": "Trụ Straumann Active",
+   "dm": 1,
+   "alt": "Trụ Straumann Active size mini 2.9",
+   "gia": 14000000
+  },
+  {
+   "dv": "Neodent",
+   "ma": "",
+   "ten": "Trụ Neodent",
+   "dm": 1,
+   "alt": "",
+   "gia": 2900000
+  },
+  {
+   "dv": "Neodent Straumann",
+   "ma": "",
+   "ten": "Trụ Neodent",
+   "dm": 1,
+   "alt": "",
+   "gia": 2900000
+  },
+  {
+   "dv": "Neoporos",
+   "ma": "",
+   "ten": "Trụ Neodent Neoporos",
+   "dm": 1,
+   "alt": "",
+   "gia": 2900000
+  },
+  {
+   "dv": "mắc cài",
+   "ma": "",
+   "ten": "Mắc cài kim loại thường",
+   "dm": 1,
+   "alt": "14000050; Mắc cài chỉnh nha kim loại thường Atlas Mini Bracket",
+   "gia": 426667
+  },
+  {
+   "dv": "tự buộc",
+   "ma": "",
+   "ten": "Mắc cài kim loại tự buộc MBT 022",
+   "dm": 1,
+   "alt": "",
+   "gia": 2095238
+  },
+  {
+   "dv": "mắc cài sứ",
+   "ma": "",
+   "ten": "Mắc cài sứ thường AO",
+   "dm": 1,
+   "alt": "",
+   "gia": 426667
+  },
+  {
+   "dv": "bột xương",
+   "ma": "",
+   "ten": "Bột xương",
+   "dm": 1,
+   "alt": "Bột xương cerabone 1cc; Bột xương dùng trong nha khoa Osteon 1cc; Vật liệu ghép xương OSTEON 1CC; Xương khối Osteon Collagen; Xương collagen OSTEON 6×10 cm",
+   "gia": 2120400
+  },
+  {
+   "dv": "Osteon",
+   "ma": "",
+   "ten": "Bột xương",
+   "dm": 1,
+   "alt": "Bột xương cerabone 1cc; Bột xương dùng trong nha khoa Osteon 1cc; Vật liệu ghép xương OSTEON 1CC; Xương khối Osteon Collagen; Xương collagen OSTEON 6×10 cm",
+   "gia": 2120400
+  },
+  {
+   "dv": "ghép xương",
+   "ma": "",
+   "ten": "Bột xương",
+   "dm": 1,
+   "alt": "Bột xương cerabone 1cc; Bột xương dùng trong nha khoa Osteon 1cc; Vật liệu ghép xương OSTEON 1CC; Xương khối Osteon Collagen; Xương collagen OSTEON 6×10 cm",
+   "gia": 2120400
+  },
+  {
+   "dv": "màng xương",
+   "ma": "",
+   "ten": "Màng xương",
+   "dm": 1,
+   "alt": "Màng xương CM 20x30S; Màng xương GCM 15x20; Màng xương GCM 20x30; Màng xương jason colagent",
+   "gia": 2986800
+  },
+  {
+   "dv": "vít chỉnh nha",
+   "ma": "",
+   "ten": "Vít chỉnh nha",
+   "dm": 1,
+   "alt": "Vít chỉnh nha Hoặc Vít chỉnh nha Jeli / Vít chỉnh nha KMS; Vít chỉnh nha Jeil; Vít chỉnh nha KMS; Vít Neo Screw; Vít chỉnh nha Jiscop",
+   "gia": 327444
+  },
+  {
+   "dv": "Minivis",
+   "ma": "",
+   "ten": "Vít chỉnh nha",
+   "dm": 1,
+   "alt": "Vít chỉnh nha Hoặc Vít chỉnh nha Jeli / Vít chỉnh nha KMS; Vít chỉnh nha Jeil; Vít chỉnh nha KMS; Vít Neo Screw; Vít chỉnh nha Jiscop",
+   "gia": 327444
+  },
+  {
+   "dv": "NANCE",
+   "ma": "",
+   "ten": "Vít chỉnh nha",
+   "dm": 1,
+   "alt": "Vít chỉnh nha Hoặc Vít chỉnh nha Jeli / Vít chỉnh nha KMS; Vít chỉnh nha Jeil; Vít chỉnh nha KMS; Vít Neo Screw; Vít chỉnh nha Jiscop",
+   "gia": 327444
+  },
+  {
+   "dv": "Comprehensive 3",
+   "ma": "",
+   "ten": "Invisalign Comprehensive 3",
+   "dm": 1,
+   "alt": "",
+   "gia": 0
+  },
+  {
+   "dv": "Comprehensive 5",
+   "ma": "",
+   "ten": "Invisalign Comprehensive 5",
+   "dm": 1,
+   "alt": "",
+   "gia": 0
+  },
+  {
+   "dv": "Moderate",
+   "ma": "",
+   "ten": "Invisalign Moderate",
+   "dm": 1,
+   "alt": "",
+   "gia": 0
+  },
+  {
+   "dv": "First Phase I",
+   "ma": "",
+   "ten": "Invisalign First Phase I",
+   "dm": 1,
+   "alt": "",
+   "gia": 0
+  },
+  {
+   "dv": "Essential",
+   "ma": "",
+   "ten": "Invisalign Essential",
+   "dm": 1,
+   "alt": "",
+   "gia": 0
+  },
+  {
+   "dv": "sứ tự buộc",
+   "ma": "",
+   "ten": "Mắc cài sứ tự buộc empower 2.0",
+   "dm": 1,
+   "alt": "",
+   "gia": 2095238
+  },
+  {
+   "dv": "hướng dẫn phẫu thuật",
+   "ma": "",
+   "ten": "Dụng cụ cố định vị trí băng nhựa sử dụng trên máy định vị Pdent",
+   "dm": 1,
+   "alt": "",
+   "gia": 5000000
+  },
+  {
+   "dv": "Osstem + abutment + sứ Katana",
+   "ma": "",
+   "ten": "Trụ Osstem (Hàn) - NoMount",
+   "dm": 1,
+   "alt": "",
+   "gia": 1513600
+  },
+  {
+   "dv": "Ufit",
+   "ma": "12000739",
+   "ten": "Trụ Ufit",
+   "dm": 1,
+   "alt": "",
+   "gia": 0
+  }
+ ],
+ "opt": {
+  "cs": 0,
+  "th": 1
+ },
+ "lastImp": {
+  "at": "03/11/2026 09:14",
+  "src": "DT và XK T10.xlsx",
+  "mode": "update",
+  "modeLbl": "Bổ sung / điều chỉnh",
+  "cnt": {
+   "dt": {
+    "add": 0,
+    "upd": 0,
+    "same": 142,
+    "del": 0
+   },
+   "xk": {
+    "add": 1,
+    "upd": 0,
+    "same": 99,
+    "del": 0
+   }
+  },
+  "chg": {
+   "dt": [],
+   "xk": []
+  },
+  "ch": {
+   "dt": {
+    "fixed": 0,
+    "bad": 0,
+    "other": 1,
+    "nw": 0,
+    "nwBad": 0,
+    "gone": 0
+   },
+   "xk": {
+    "fixed": 0,
+    "bad": 0,
+    "other": 0,
+    "nw": 1,
+    "nwBad": 1,
+    "gone": 0
+   }
+  },
+  "it": {
+   "dt": {
+    "fixed": [],
+    "bad": [],
+    "other": [
+     {
+      "l": "Nguyễn Thị Mậu · Trụ straumann",
+      "a": "Chưa xuất kho (cần 1 / xuất 0)",
+      "b": "Xuất sai vật tư (cần 1 / xuất 0)"
+     }
+    ],
+    "nwBad": [],
+    "gone": []
+   },
+   "xk": {
+    "fixed": [],
+    "bad": [],
+    "other": [],
+    "nwBad": [
+     {
+      "l": "XK-QN-10-010 · Implant Straumann SL Active",
+      "a": "(mới phát sinh)",
+      "b": "XUẤT SAI VẬT TƯ"
+     }
+    ],
+    "gone": []
+   }
+  },
+  "kb": {
+   "n": 99,
+   "ok": 94,
+   "rate": 94.94949494949495,
+   "needD": 1,
+   "needX": 0,
+   "rev": 2211720000,
+   "val": 291373930
+  },
+  "ka": {
+   "n": 99,
+   "ok": 94,
+   "rate": 94.94949494949495,
+   "needD": 1,
+   "needX": 1,
+   "rev": 2211720000,
+   "val": 291373930
+  },
+  "warn": 0,
+  "reN": 0,
+  "reD": 0,
+  "reX": 0,
+  "reL": [],
+  "orph": 0
+ }
+}

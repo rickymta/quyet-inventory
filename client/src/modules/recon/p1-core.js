@@ -1,5 +1,5 @@
 /* Lõi đối chiếu V5/V8 — phần logic thuần (dòng gốc 8254–8946). Thuật toán giữ nguyên văn, chỉ đổi cách truy cập biến toàn cục. */
-import { db, S, norm } from '../../core';
+import { db, S, norm, stok, smatch } from '../../core';
 import { RC_SEED } from './p1-seed.js';
 export { RC_SEED };
 export const RC_LD=["Muộn kỳ","Liên cơ sở","Bảo hành","Phác đồ duyệt","Sai PID","Ký gửi","Khác"];
@@ -281,7 +281,7 @@ export function rcKyGet(cs,mo){
 export function rcListRows(side,only,q){
   var Z=S.RC_RES,R=rcDb();
   var base=only==2?(side==0?Z.dt:Z.xk):only==4?(side==0?Z.dt.filter(function(o){return o.first;}):Z.xk):(side==0?Z.dt.filter(function(o){return o.first&&o.bad;}):Z.xk.filter(function(x){return x.bad;}));
-  return base.filter(function(o){return rcIn(o)&&(only!=1||o.need)&&(only!=4||o.ok)&&(only!=3||(R.notes[o.nid]&&R.notes[o.nid].chg))&&(!q||rcK(JSON.stringify(o.r)+" "+o.pid+" "+(o.ten||"")+" "+(o.vt||"")+" "+(o.P||"")+" "+(o.T||"")+" "+(o.why||"")).indexOf(q)>=0);});
+  return base.filter(function(o){return rcIn(o)&&(only!=1||o.need)&&(only!=4||o.ok)&&(only!=3||(R.notes[o.nid]&&R.notes[o.nid].chg))&&(!q||smatch(norm(JSON.stringify(o.r)+" "+o.pid+" "+(o.ten||"")+" "+(o.vt||"")+" "+(o.P||"")+" "+(o.T||"")+" "+(o.why||"")),stok(q)));});
 }
 export const RC_GO=[
   {t:1,side:1,q:"THIẾU MÃ",only:1},

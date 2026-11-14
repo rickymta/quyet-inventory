@@ -1,0 +1,104 @@
+{
+ "kho 41 nghia dung-ba dinh|13000091": {
+  "branch": "Kho 41 Nghĩa Dũng-Ba Đình",
+  "code": "13000091",
+  "name": "Trụ straumann",
+  "unit": "Cái",
+  "batches": [
+   {
+    "qty": null,
+    "exp": "2030-08-21"
+   }
+  ],
+  "boxes": [],
+  "updatedAt": 1793589935086
+ },
+ "kho bui thi xuan|16000076": {
+  "branch": "Kho Bùi Thị Xuân",
+  "code": "16000076",
+  "name": "Vecni ngừa sâu răng",
+  "unit": "Thanh",
+  "batches": [
+   {
+    "qty": 32,
+    "exp": "2026-11-30"
+   }
+  ],
+  "boxes": [],
+  "updatedAt": 1793700763691
+ },
+ "kho bui thi xuan|13000103": {
+  "branch": "Kho Bùi Thị Xuân",
+  "code": "13000103",
+  "name": "Trụ NobelActive",
+  "unit": "Cái",
+  "batches": [
+   {
+    "qty": 3,
+    "exp": "2025-06-30"
+   }
+  ],
+  "boxes": [],
+  "updatedAt": 1793693113377
+ },
+ "kho cat linh|10000004": {
+  "branch": "Kho Cát Linh",
+  "code": "10000004",
+  "name": "Bơm tiêm 5ml",
+  "unit": "Hộp",
+  "batches": [
+   {
+    "qty": null,
+    "exp": "2026-08-05"
+   }
+  ],
+  "updatedAt": 1790910870501
+ },
+ "kho bui thi xuan|88000048": {
+  "branch": "Kho Bùi Thị Xuân",
+  "code": "88000048",
+  "name": "Ringer lactate 500ml",
+  "unit": "Chai",
+  "batches": [],
+  "boxes": [
+   {
+    "k": "8936081930054",
+    "gtin": "8936081930054",
+    "lot": "",
+    "ser": "",
+    "exp": "2026-11-23",
+    "label": "",
+    "qty": 10,
+    "st": "in",
+    "seen": true,
+    "plain": true,
+    "first": 1793692414729,
+    "last": 1793692414729
+   }
+  ],
+  "updatedAt": 1793700851918
+ },
+ "kho bui thi xuan|88000015": {
+  "branch": "Kho Bùi Thị Xuân",
+  "code": "88000015",
+  "name": "Glucose 5% 500ml",
+  "unit": "Chai",
+  "batches": [],
+  "boxes": [
+   {
+    "k": "mmw0e8yan",
+    "gtin": "",
+    "lot": "",
+    "ser": "",
+    "exp": "2026-11-23",
+    "label": "",
+    "qty": 10,
+    "st": "in",
+    "seen": true,
+    "first": 1793692577183,
+    "last": 1793692577183
+   }
+  ],
+  "updatedAt": 1793700796722
+ }
+}

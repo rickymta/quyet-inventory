@@ -1,0 +1,3100 @@
+[
+ {
+  "at": 1793157733765,
+  "by": "Mai Văn Quyết",
+  "type": "Mở khoá kỳ",
+  "target": "BTX_Kiểm kê T9(1/9/2026-30/9/2026)",
+  "before": null,
+  "after": null
+ },
+ {
+  "at": 1793179496850,
+  "by": "Mai Văn Quyết",
+  "type": "Mở khoá kỳ",
+  "target": "LVL_Kiểm kê 9 (01/9-2/10/2026)",
+  "before": null,
+  "after": null
+ },
+ {
+  "at": 1793195538648,
+  "by": "Mai Văn Quyết",
+  "type": "Mở khoá kỳ",
+  "target": "BTX_Kiểm kê T9(1/9/2026-30/9/2026)",
+  "before": null,
+  "after": null
+ },
+ {
+  "at": 1793261180271,
+  "by": "Mai Văn Quyết",
+  "type": "Mở khoá kỳ",
+  "target": "LVL_Kiểm kê 9 (01/9-2/10/2026)",
+  "before": null,
+  "after": null
+ },
+ {
+  "at": 1793518475410,
+  "by": "Mai Văn Quyết",
+  "type": "Mở khoá kỳ",
+  "target": "BTX_Kiểm kê T9(1/9/2026-30/9/2026)",
+  "before": null,
+  "after": null
+ },
+ {
+  "at": 1793518499253,
+  "by": "Mai Văn Quyết",
+  "type": "Xoá hộp QR",
+  "target": "10000002",
+  "before": "",
+  "after": null
+ },
+ {
+  "at": 1793518501202,
+  "by": "Mai Văn Quyết",
+  "type": "Xoá hộp QR",
+  "target": "10000002",
+  "before": "",
+  "after": null
+ },
+ {
+  "at": 1793518703910,
+  "by": "Mai Văn Quyết",
+  "type": "Xoá hộp QR",
+  "target": "10000002",
+  "before": "",
+  "after": null
+ },
+ {
+  "at": 1793519422165,
+  "by": "Mai Văn Quyết",
+  "type": "Thêm hộp (mã vạch)",
+  "target": "10000002",
+  "before": null,
+  "after": "8936221043439"
+ },
+ {
+  "at": 1793519458245,
+  "by": "Mai Văn Quyết",
+  "type": "Thêm hộp (mã vạch)",
+  "target": "10000002",
+  "before": null,
+  "after": "https://dizigone.vn/sp/dung-dich-khang-khuan-dizigone-300ml/"
+ },
+ {
+  "at": 1793519538612,
+  "by": "Mai Văn Quyết",
+  "type": "Xoá hộp QR",
+  "target": "10000002",
+  "before": "8936221043439",
+  "after": null
+ },
+ {
+  "at": 1793519540538,
+  "by": "Mai Văn Quyết",
+  "type": "Xoá hộp QR",
+  "target": "10000002",
+  "before": "https://dizigone.vn/sp/dung-dich-khang-khuan-dizigone-300ml/",
+  "after": null
+ },
+ {
+  "at": 1793588704224,
+  "by": "Mai Văn Quyết",
+  "type": "Mở khoá kỳ",
+  "target": "LVL_Kiểm kê 9 (01/9-2/10/2026)",
+  "before": null,
+  "after": null
+ },
+ {
+  "at": 1793588801380,
+  "by": "Mai Văn Quyết",
+  "type": "Khoá kỳ",
+  "target": "LVL_Kiểm kê 9 (01/9-2/10/2026)",
+  "before": null,
+  "after": null
+ },
+ {
+  "at": 1793589754353,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 13000022",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793589761919,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 13000087",
+  "before": null,
+  "after": 6
+ },
+ {
+  "at": 1793589770638,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 13000088",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793589878069,
+  "by": "Mai Văn Quyết",
+  "type": "Xoá kỳ kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026)",
+  "before": {
+   "soMa": 88
+  },
+  "after": null
+ },
+ {
+  "at": 1793589914860,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 13000022",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793589918627,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 13000087",
+  "before": null,
+  "after": 6
+ },
+ {
+  "at": 1793589922492,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 13000088",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793589929731,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 13000090",
+  "before": null,
+  "after": 5
+ },
+ {
+  "at": 1793589935086,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 13000091",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793589949416,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 13000170",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793589966268,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 12000158",
+  "before": null,
+  "after": 20
+ },
+ {
+  "at": 1793589969085,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 12000618",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793589976251,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 13000186",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793589982517,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 12000156",
+  "before": null,
+  "after": 13
+ },
+ {
+  "at": 1793590001904,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 13000085",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793590190629,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 13000100",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793590204645,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 13000082",
+  "before": null,
+  "after": 4
+ },
+ {
+  "at": 1793590239145,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 13000081",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793590313718,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 10000002",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793590318933,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 10000027",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793590326967,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 10000003",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793590333800,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 10000034",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793590338117,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 10000037",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793590342583,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 10000061",
+  "before": null,
+  "after": 7
+ },
+ {
+  "at": 1793590346036,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 10000117",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793590349168,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 10000208",
+  "before": null,
+  "after": 15
+ },
+ {
+  "at": 1793590353351,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 10000216",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793590356135,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 10000218",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793590358936,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 10000321",
+  "before": null,
+  "after": 20
+ },
+ {
+  "at": 1793590361735,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 10000427",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793590364122,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 10000428",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793590367571,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 10000570",
+  "before": null,
+  "after": 4
+ },
+ {
+  "at": 1793590377824,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 12000627",
+  "before": null,
+  "after": 7
+ },
+ {
+  "at": 1793590385888,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 13000172",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793590391222,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 14000050",
+  "before": null,
+  "after": 9
+ },
+ {
+  "at": 1793590397789,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 14000095",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793590417271,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 14000355",
+  "before": null,
+  "after": 7
+ },
+ {
+  "at": 1793590424820,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 14000418",
+  "before": null,
+  "after": 12
+ },
+ {
+  "at": 1793590429021,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 16000026",
+  "before": null,
+  "after": 4
+ },
+ {
+  "at": 1793590432005,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 88000003",
+  "before": null,
+  "after": 15
+ },
+ {
+  "at": 1793590438020,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 88000005",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793590440638,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 88000015",
+  "before": null,
+  "after": 6
+ },
+ {
+  "at": 1793590443503,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 88000032",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793590445438,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 88000073",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793590462331,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 14000157",
+  "before": null,
+  "after": 0
+ },
+ {
+  "at": 1793590481016,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 12000002",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793590585173,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 90000003",
+  "before": null,
+  "after": 126
+ },
+ {
+  "at": 1793590886475,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 90000004",
+  "before": null,
+  "after": 181
+ },
+ {
+  "at": 1793591049803,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 90000004",
+  "before": 181,
+  "after": 156
+ },
+ {
+  "at": 1793591123220,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 90000024",
+  "before": null,
+  "after": 86
+ },
+ {
+  "at": 1793591253234,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 90000024",
+  "before": 86,
+  "after": 146
+ },
+ {
+  "at": 1793591399229,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 90000024",
+  "before": 146,
+  "after": 164
+ },
+ {
+  "at": 1793591414370,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026) · 90000008",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793607055378,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000002",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607080102,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000019",
+  "before": null,
+  "after": 6
+ },
+ {
+  "at": 1793607086784,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000024",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607091037,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000027",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607096787,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000028",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793607103769,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000035",
+  "before": null,
+  "after": 24
+ },
+ {
+  "at": 1793607113937,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000037",
+  "before": null,
+  "after": 5
+ },
+ {
+  "at": 1793607117955,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000038",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607123823,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000043",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607128638,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000053",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607133237,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000060",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793607138273,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000061",
+  "before": null,
+  "after": 4
+ },
+ {
+  "at": 1793607141256,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000109",
+  "before": null,
+  "after": 144
+ },
+ {
+  "at": 1793607143906,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000117",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607150839,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000125",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607153708,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000126",
+  "before": null,
+  "after": 200
+ },
+ {
+  "at": 1793607157591,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000139",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607160658,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000152",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607164925,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000155",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607169092,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000216",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607172975,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000238",
+  "before": null,
+  "after": 100
+ },
+ {
+  "at": 1793607177091,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000259",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607181375,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000261",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793607185277,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000279",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607190275,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000289",
+  "before": null,
+  "after": 5
+ },
+ {
+  "at": 1793607193277,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000292",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607196261,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000332",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607199577,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000333",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607203127,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000396",
+  "before": null,
+  "after": 6
+ },
+ {
+  "at": 1793607208345,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000443",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607213130,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000497",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793607215895,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000498",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607222730,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000517",
+  "before": null,
+  "after": 30
+ },
+ {
+  "at": 1793607235050,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000521",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607241268,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000523",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607245852,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000542",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607251600,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000557",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607262202,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000569",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607266686,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 10000570",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793607270137,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 11000003",
+  "before": null,
+  "after": 5
+ },
+ {
+  "at": 1793607272068,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 11000007",
+  "before": null,
+  "after": 5
+ },
+ {
+  "at": 1793607275754,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 11000016",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607278570,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 11000017",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607281452,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 11000952",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793607284372,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 11000953",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607287872,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 12000025",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793607291789,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 12000030",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607296021,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 12000048",
+  "before": null,
+  "after": 100
+ },
+ {
+  "at": 1793607298806,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 12000071",
+  "before": null,
+  "after": 100
+ },
+ {
+  "at": 1793607305289,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 12000161",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607307739,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 12000162",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607310722,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 12000542",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607313155,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 12000584",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607318892,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 12000684",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607322824,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 12000723",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607334592,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000009",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607339391,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000010",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607350878,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000013",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607353129,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000014",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607355528,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000036",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607368653,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000028",
+  "before": null,
+  "after": 60
+ },
+ {
+  "at": 1793607371786,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000040",
+  "before": null,
+  "after": 60
+ },
+ {
+  "at": 1793607379358,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000095",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607382475,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000089",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607387505,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000098",
+  "before": null,
+  "after": 9
+ },
+ {
+  "at": 1793607391537,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000126",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607395504,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000161",
+  "before": null,
+  "after": 15
+ },
+ {
+  "at": 1793607398205,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000162",
+  "before": null,
+  "after": 60
+ },
+ {
+  "at": 1793607400655,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000166",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607404055,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000197",
+  "before": null,
+  "after": 4
+ },
+ {
+  "at": 1793607408233,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000204",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607410701,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000349",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607413942,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000357",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607415992,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000358",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607417842,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000359",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607419427,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000360",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607421077,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000361",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607423213,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000362",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607425827,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000363",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607437162,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000404",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607439010,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000405",
+  "before": null,
+  "after": 20
+ },
+ {
+  "at": 1793607447263,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000408",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607449945,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000415",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607451696,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000505",
+  "before": null,
+  "after": 30
+ },
+ {
+  "at": 1793607454513,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000508",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607457697,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000509",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607459709,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000511",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607465255,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 16000007",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607467889,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000510",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607471523,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 16000010",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607473423,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 16000014",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607477590,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 16000019",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607480274,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 16000026",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607482572,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 16000062",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607484490,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 16000034",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607486373,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 16000011",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607489135,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 16000100",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607491937,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 16000115",
+  "before": null,
+  "after": 100
+ },
+ {
+  "at": 1793607493920,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 16000131",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607498071,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 16000167",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793607500720,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 16000096",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607503482,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000407",
+  "before": null,
+  "after": 5
+ },
+ {
+  "at": 1793607511734,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 16000622",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607515617,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 88000005",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607519651,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 16000172",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607522865,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 88000007",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793607525377,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 88000032",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607527522,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 88000022",
+  "before": null,
+  "after": 40
+ },
+ {
+  "at": 1793607531144,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 88000046",
+  "before": null,
+  "after": 48
+ },
+ {
+  "at": 1793607584873,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000047",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793607587804,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000050",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793607590121,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000056",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607593938,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000355",
+  "before": null,
+  "after": 7
+ },
+ {
+  "at": 1793607605407,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000398",
+  "before": null,
+  "after": 12
+ },
+ {
+  "at": 1793607621744,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 14000418",
+  "before": null,
+  "after": 11
+ },
+ {
+  "at": 1793607644498,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000022",
+  "before": null,
+  "after": 9
+ },
+ {
+  "at": 1793607662543,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000087",
+  "before": null,
+  "after": 13
+ },
+ {
+  "at": 1793607675605,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000088",
+  "before": null,
+  "after": 4
+ },
+ {
+  "at": 1793607686728,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000170",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607697797,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000089",
+  "before": null,
+  "after": 4
+ },
+ {
+  "at": 1793607702913,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000090",
+  "before": null,
+  "after": 17
+ },
+ {
+  "at": 1793607709399,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000102",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607711965,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000103",
+  "before": null,
+  "after": 4
+ },
+ {
+  "at": 1793607723910,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 12000156",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607728519,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 12000157",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607740605,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 12000158",
+  "before": null,
+  "after": 31
+ },
+ {
+  "at": 1793607751532,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 12000605",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607754480,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000085",
+  "before": null,
+  "after": 8
+ },
+ {
+  "at": 1793607758148,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000094",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607776869,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000100",
+  "before": null,
+  "after": 19
+ },
+ {
+  "at": 1793607780517,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000105",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607785182,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000154",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607789849,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000162",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607803434,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000179",
+  "before": null,
+  "after": 5
+ },
+ {
+  "at": 1793607806919,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000184",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793607813650,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000185",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607817402,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000190",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793607821936,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000193",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793607824404,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 13000194",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793607920846,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 90000004",
+  "before": null,
+  "after": 127
+ },
+ {
+  "at": 1793607950842,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 90000003",
+  "before": null,
+  "after": 83
+ },
+ {
+  "at": 1793607954136,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 90000010",
+  "before": null,
+  "after": 11
+ },
+ {
+  "at": 1793608017258,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 90000024",
+  "before": null,
+  "after": 45
+ },
+ {
+  "at": 1793608022626,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026) · 90000008",
+  "before": null,
+  "after": 4
+ },
+ {
+  "at": 1793608721005,
+  "by": "Mai Văn Quyết",
+  "type": "Khoá kỳ",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026)",
+  "before": null,
+  "after": null
+ },
+ {
+  "at": 1793608889180,
+  "by": "Mai Văn Quyết",
+  "type": "Mở khoá kỳ",
+  "target": "Kiểm kê 10/2026 (1/10-1/11/2026)",
+  "before": null,
+  "after": null
+ },
+ {
+  "at": 1793673312265,
+  "by": "Mai Văn Quyết",
+  "type": "recon-backup",
+  "target": "restore-merge",
+  "before": null,
+  "after": "SaoLuu_DoiChieu_20261103_0934.json"
+ },
+ {
+  "at": 1793673349458,
+  "by": "Mai Văn Quyết",
+  "type": "recon-backup",
+  "target": "restore-replace",
+  "before": null,
+  "after": "SaoLuu_DoiChieu_20261103_0934.json"
+ },
+ {
+  "at": 1793673391281,
+  "by": "Mai Văn Quyết",
+  "type": "recon-backup",
+  "target": "restore-replace",
+  "before": null,
+  "after": "SaoLuu_DoiChieu_20261103_0934.json"
+ },
+ {
+  "at": 1793678087401,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000739",
+  "before": null,
+  "after": 4
+ },
+ {
+  "at": 1793678095444,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000022",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793678125476,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000087",
+  "before": null,
+  "after": 6
+ },
+ {
+  "at": 1793678129276,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000088",
+  "before": null,
+  "after": 4
+ },
+ {
+  "at": 1793678188850,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000090",
+  "before": null,
+  "after": 18
+ },
+ {
+  "at": 1793678195909,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000163",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793678216903,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000170",
+  "before": null,
+  "after": 8
+ },
+ {
+  "at": 1793678243452,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000085",
+  "before": null,
+  "after": 5
+ },
+ {
+  "at": 1793678246284,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000100",
+  "before": null,
+  "after": 8
+ },
+ {
+  "at": 1793678263887,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000153",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678269903,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000178",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678276117,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000099",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678283238,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000152",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793678286871,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000158",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793678290554,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000156",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793678296555,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000186",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793678309697,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000191",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793678322179,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000166",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793678324444,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000192",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793678352471,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000097",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678384420,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000002",
+  "before": null,
+  "after": 5
+ },
+ {
+  "at": 1793678392086,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000034",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793678396404,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000037",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793678400239,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000061",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793678402654,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000117",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793678405754,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000126",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678412972,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000137",
+  "before": null,
+  "after": 12
+ },
+ {
+  "at": 1793678416424,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000152",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678419122,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000321",
+  "before": null,
+  "after": 20
+ },
+ {
+  "at": 1793678425491,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000339",
+  "before": null,
+  "after": 5
+ },
+ {
+  "at": 1793678429623,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000347",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793678436073,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000377",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678464108,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000437",
+  "before": null,
+  "after": 16
+ },
+ {
+  "at": 1793678468410,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000470",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678471911,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000570",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793678480194,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000580",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793678494411,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000020",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678497962,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000025",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793678505030,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000039",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678512164,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000048",
+  "before": null,
+  "after": 50
+ },
+ {
+  "at": 1793678515497,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000684",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678523048,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000728",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678525947,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000167",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793678590264,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000161",
+  "before": null,
+  "after": 26
+ },
+ {
+  "at": 1793678593528,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000172",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793678610475,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000355",
+  "before": null,
+  "after": 13
+ },
+ {
+  "at": 1793678614261,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000111",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678618730,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000050",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793678626291,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000013",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678633641,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000133",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678639241,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000210",
+  "before": null,
+  "after": 6
+ },
+ {
+  "at": 1793678642751,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000507",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678647804,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 16000032",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678650223,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000003",
+  "before": null,
+  "after": 25
+ },
+ {
+  "at": 1793678652956,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 16000122",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793678659338,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000015",
+  "before": null,
+  "after": 5
+ },
+ {
+  "at": 1793678661489,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000027",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793678669255,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000007",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793678680536,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000037",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793678683421,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000071",
+  "before": null,
+  "after": 30
+ },
+ {
+  "at": 1793678685532,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000056",
+  "before": null,
+  "after": 6
+ },
+ {
+  "at": 1793678693240,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000017",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793678695223,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000418",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793678745894,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 99000007",
+  "before": null,
+  "after": 33
+ },
+ {
+  "at": 1793678798833,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 90000008",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793678815670,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 90000003",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793678901903,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 90000004",
+  "before": null,
+  "after": 39
+ },
+ {
+  "at": 1793678920815,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 90000024",
+  "before": null,
+  "after": 12
+ },
+ {
+  "at": 1793692109613,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000002",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793692115480,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000004",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692118729,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000011",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793692121365,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000012",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793692128263,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000015",
+  "before": null,
+  "after": 200
+ },
+ {
+  "at": 1793692132730,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000017",
+  "before": null,
+  "after": 20
+ },
+ {
+  "at": 1793692138898,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000019",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692141864,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000026",
+  "before": null,
+  "after": 24
+ },
+ {
+  "at": 1793692144847,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000028",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692147648,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000030",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692150848,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000031",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692154167,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000034",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793692157830,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000037",
+  "before": null,
+  "after": 4
+ },
+ {
+  "at": 1793692169673,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000044",
+  "before": null,
+  "after": 40
+ },
+ {
+  "at": 1793692172599,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000058",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692176315,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000061",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793692180683,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000085",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692184484,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000117",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692187818,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000135",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793692190602,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000137",
+  "before": null,
+  "after": 30
+ },
+ {
+  "at": 1793692195700,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000142",
+  "before": null,
+  "after": 20
+ },
+ {
+  "at": 1793692205851,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000151",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793692208836,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000167",
+  "before": null,
+  "after": 4
+ },
+ {
+  "at": 1793692221660,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000216",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692224721,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000253",
+  "before": null,
+  "after": 49
+ },
+ {
+  "at": 1793692228919,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000261",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692231321,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000263",
+  "before": null,
+  "after": 15
+ },
+ {
+  "at": 1793692233923,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000264",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793692236255,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000268",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793692240721,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000321",
+  "before": null,
+  "after": 14
+ },
+ {
+  "at": 1793692245088,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000372",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692246838,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000373",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692250571,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000396",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793692253622,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000443",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692264439,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000467",
+  "before": null,
+  "after": 7
+ },
+ {
+  "at": 1793692275161,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000492",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692278621,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000565",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692280919,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 10000576",
+  "before": null,
+  "after": 15
+ },
+ {
+  "at": 1793692284153,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000020",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692287204,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000030",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692292272,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000137",
+  "before": null,
+  "after": 4
+ },
+ {
+  "at": 1793692300347,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000542",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692302663,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000160",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793692345027,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000095",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692350927,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000205",
+  "before": null,
+  "after": 8
+ },
+ {
+  "at": 1793692354960,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 16000009",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692362114,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 16000076",
+  "before": null,
+  "after": 32
+ },
+ {
+  "at": 1793692367532,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 16000100",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692370281,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 16000135",
+  "before": null,
+  "after": 14
+ },
+ {
+  "at": 1793692373445,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000005",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692375509,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000006",
+  "before": null,
+  "after": 124
+ },
+ {
+  "at": 1793692377611,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 16000159",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692379610,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000010",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793692381245,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000015",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793692383077,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000007",
+  "before": null,
+  "after": 4
+ },
+ {
+  "at": 1793692385364,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 16000020",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692387400,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000056",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793692414729,
+  "by": "Mai Văn Quyết",
+  "type": "Thêm hộp (mã vạch)",
+  "target": "88000048",
+  "before": null,
+  "after": "8936081930054"
+ },
+ {
+  "at": 1793692435413,
+  "by": "Mai Văn Quyết",
+  "type": "Thêm hộp (mã vạch)",
+  "target": "88000048",
+  "before": null,
+  "after": "8936081930238"
+ },
+ {
+  "at": 1793692526264,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000048",
+  "before": null,
+  "after": 10
+ },
+ {
+  "at": 1793692690548,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000064",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793692696874,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000071",
+  "before": null,
+  "after": 30
+ },
+ {
+  "at": 1793692699414,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 88000065",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793692877406,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 90000003",
+  "before": null,
+  "after": 180
+ },
+ {
+  "at": 1793692887992,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 90000004",
+  "before": null,
+  "after": 50
+ },
+ {
+  "at": 1793693089019,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000022",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793693092696,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000087",
+  "before": null,
+  "after": 6
+ },
+ {
+  "at": 1793693097830,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000088",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793693105112,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000090",
+  "before": null,
+  "after": 7
+ },
+ {
+  "at": 1793693113376,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000103",
+  "before": null,
+  "after": 11
+ },
+ {
+  "at": 1793693117044,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000163",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793693120827,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000170",
+  "before": null,
+  "after": 6
+ },
+ {
+  "at": 1793693130686,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000148",
+  "before": null,
+  "after": 57
+ },
+ {
+  "at": 1793693134971,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000149",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793693139654,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000156",
+  "before": null,
+  "after": 5
+ },
+ {
+  "at": 1793693144569,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000157",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793693146937,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000158",
+  "before": null,
+  "after": 5
+ },
+ {
+  "at": 1793693159301,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000085",
+  "before": null,
+  "after": 5
+ },
+ {
+  "at": 1793693163558,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000098",
+  "before": null,
+  "after": 4
+ },
+ {
+  "at": 1793693165771,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000100",
+  "before": null,
+  "after": 5
+ },
+ {
+  "at": 1793693169724,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000184",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793693172414,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000187",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793693180437,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000047",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793693185602,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000355",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793693187999,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000050",
+  "before": null,
+  "after": 3
+ },
+ {
+  "at": 1793693191234,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000111",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793693193983,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000164",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793693203260,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 12000150",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793693206810,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 13000099",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793693209041,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000056",
+  "before": null,
+  "after": 2
+ },
+ {
+  "at": 1793693213225,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 14000418",
+  "before": null,
+  "after": 1
+ },
+ {
+  "at": 1793693219694,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 90000008",
+  "before": null,
+  "after": 6
+ },
+ {
+  "at": 1793693247179,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 90000024",
+  "before": null,
+  "after": 105
+ },
+ {
+  "at": 1793693595725,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 90000004",
+  "before": 50,
+  "after": 75
+ },
+ {
+  "at": 1793693610078,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 90000003",
+  "before": 180,
+  "after": 183
+ },
+ {
+  "at": 1793693630645,
+  "by": "Mai Văn Quyết",
+  "type": "Số lượng kiểm kê",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026) · 90000024",
+  "before": 105,
+  "after": 131
+ },
+ {
+  "at": 1793700848676,
+  "by": "Mai Văn Quyết",
+  "type": "Xoá hộp QR",
+  "target": "88000048",
+  "before": "8936081930238",
+  "after": null
+ },
+ {
+  "at": 1793702886899,
+  "by": "Mai Văn Quyết",
+  "type": "pay-import",
+  "target": "FN ĐỀ NGHỊ TT THÁNG 10.xlsx",
+  "before": null,
+  "after": "170/171"
+ },
+ {
+  "at": 1794019314846,
+  "by": "Mai Văn Quyết",
+  "type": "Mở khoá kỳ",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026)",
+  "before": null,
+  "after": null
+ },
+ {
+  "at": 1794112268761,
+  "by": "Mai Văn Quyết",
+  "type": "Mở khoá kỳ",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026)",
+  "before": null,
+  "after": null
+ },
+ {
+  "at": 1794306510850,
+  "by": "Mai Văn Quyết",
+  "type": "Mở khoá kỳ",
+  "target": "Kiểm kê 10/2026 (SL 1/10 - 2/11/2026)",
+  "before": null,
+  "after": null
+ },
+ {
+  "at": 1794306613466,
+  "by": "Mai Văn Quyết",
+  "type": "Mở khoá kỳ",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026)",
+  "before": null,
+  "after": null
+ },
+ {
+  "at": 1794306755400,
+  "by": "Mai Văn Quyết",
+  "type": "Mở khoá kỳ",
+  "target": "Kiểm kê 10/2026 (1/10-3/11/2026)",
+  "before": null,
+  "after": null
+ }
+]
