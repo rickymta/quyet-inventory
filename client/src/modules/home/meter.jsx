@@ -36,7 +36,7 @@ export function hmDial(pct) {
 }
 const pctLabel = (v) => (Math.round(v * 10) / 10).toLocaleString('vi-VN') + '%';
 export function hmTrend(m, cur) {
-  const st = Math.min(cur - 5, m); const D = window.innerWidth >= 900; const W = D ? 460 : 320; const Hh = D ? 156 : 128;
+  const st = Math.min(cur - 5, m); const D = window.innerWidth >= 900; const W = D ? 460 : 320; const Hh = D ? 156 : 100;
   const L = 32; const R = 14; const T = 16; const B = 22;
   const vs = []; const data = []; let lo = 80; let hi = 120; let s;
   for (let i = 0; i < 6; i++) { s = hmStats(st + i); data.push({ m: st + i, pct: s.pct }); if (s.pct !== null) vs.push(s.pct); }

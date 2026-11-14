@@ -207,7 +207,7 @@ export function Hsd() {
         {BUCKETS.map((b) => {
           const rows = entries.filter((e) => b.test(e.days));
           return (
-            <div key={b.k} style={{ marginBottom: 20 }}>
+            <div key={b.k} id={'hsd-b-' + b.k} style={{ marginBottom: 20 }}>
               <div style={{ fontSize: 14, fontWeight: 700, color: b.strong, marginBottom: 8 }}>{b.label} · {rows.length}</div>
               {!rows.length ? <div style={st('font-size:12px;color:var(--mut2)')}>Không có.</div> : null}
               {rows.map((e, idx) => (

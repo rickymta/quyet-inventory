@@ -1,5 +1,10 @@
 # Bản đồ mã nguồn app gốc (`reference/original/index.html`)
 
+> **Lưu ý:** bảng số dòng dưới đây lập cho bản gốc `2026111301`. `reference/original/index.html` hiện là bản `2026111401`
+> (dài hơn ~1.300 dòng): mã trước dòng ~1380 không đổi, từ đó trở đi số dòng lệch +84…+103, và có thêm các khối cuối file
+> (`gs-js` tìm kiếm chung + "Cần xử lý", `bk-center` sao lưu — không port). Tìm theo tên hàm thay vì tin số dòng.
+
+
 Sinh tự động. Số dòng là số dòng trong `index.html`. Bảng hành động `A` nằm ở dòng 6680–7493 và được chia cho các phân hệ theo nơi dùng.
 
 ## Phân hệ

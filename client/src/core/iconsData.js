@@ -59,7 +59,7 @@ function fcIco(k,size,i){
 }
 function fcGly(k,size){var c=FCC[k]||FCC.form;
   return '<svg class="fcg" width="'+(size||22)+'" height="'+(size||22)+'" viewBox="6 6 36 36" aria-hidden="true">'+fcG(k,'currentColor',c[2])+'</svg>';}
-function navIco(g){var m={home:'home',scan:'open',swap:'rec',doc:'pay',box:'stock',file:'report',warn:'err',gear:'gear'};return m[g.icon]?fcGly(m[g.icon],20):icon(g.icon,18);}
+function navIco(g){var m={list:'list',home:'home',scan:'open',swap:'rec',doc:'pay',box:'stock',file:'report',warn:'err',gear:'gear'};return m[g.icon]?fcGly(m[g.icon],20):icon(g.icon,18);}
 function fcKey(lb){var t=String(lb).toLowerCase();
   if(/báo cáo/.test(t))return 'report';if(/bàn giao/.test(t))return 'handover';if(/giải trình/.test(t))return 'explain';
   if(/kiểm kê vật tư/.test(t))return 'vt';if(/ccdc/.test(t))return 'as';if(/đang kiểm dở/.test(t))return 'open';if(/qr/.test(t))return 'qr';

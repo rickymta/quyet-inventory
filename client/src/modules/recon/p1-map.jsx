@@ -3,7 +3,7 @@ import React from 'react';
 import { A, I, st } from '../../core';
 import { RC, rcF, rcQ, rcMapB, MP_COLS, MP_BANDS } from './p1-core.js';
 import { rcFilter } from './p1-ui.jsx';
-import { norm } from '../../core';
+import { norm, stok, smatch } from '../../core';
 
 export function mpCell(j, v) {
   if (v === '' || v == null) return '';
@@ -14,7 +14,7 @@ export function mpCell(j, v) {
 }
 export function rcMapBody(B) {
   const onlyBad = RC.mf !== 0, q = norm(RC.mq || ''), hit = {}, first = {}; let sec = null; const rows = []; let secDone = false;
-  B.M.forEach((w) => { if (w.t === 'sec') { sec = w; return; } if (!first[w._k]) first[w._k] = w; if (q && !hit[w._k] && norm(w.v.join(' ')).indexOf(q) >= 0) hit[w._k] = 1; });
+  B.M.forEach((w) => { if (w.t === 'sec') { sec = w; return; } if (!first[w._k]) first[w._k] = w; if (q && !hit[w._k] && smatch(norm(w.v.join(' ')), stok(q))) hit[w._k] = 1; });
   secDone = !sec;
   B.M.forEach((w) => {
     if (w.t === 'sec') return;

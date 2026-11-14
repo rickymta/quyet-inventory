@@ -8,3 +8,6 @@ server/public/
 # Dữ liệu thật (file sao lưu của app gốc: số liệu kho, chữ ký tay) — không đưa vào git
 SaoLuu_*.json
 seed/
+
+# Worktree của Claude Code
+.claude/worktrees/

@@ -1,6 +1,6 @@
 /* Màn quét QR / mã vạch / đọc số: lớp phủ toàn màn hình, vòng lặp camera, hiển thị kết quả (port 3781–3951, 4255–4499). */
 import { useLayoutEffect } from 'react';
-import { A, X, S, db, per, fmt, I, H, st, klog, toast, openLayer, closeLayer, parseNum } from '../../core';
+import { A, X, S, db, per, fmt, I, H, st, klog, toast, openLayer, closeLayer, parseNum, rerender } from '../../core';
 import { scMsg, scOcrStatus, scHint, scBeep, SC_CHIP, scSetRes, scMount_, scClearImp } from './dom.js';
 import { parseGS1, scCanon, scMatch, scInitDecoder, scEnsureZx, scDecode, scInApp, scRoi, SCFMT } from './decode.js';
 import { OCR, OCR_CONF, ocrWorker, ocrFrame, ocrRank, ocrDigits, ocrLooksDate, ocrLev } from './ocr.js';
@@ -59,7 +59,7 @@ export function ScanOverlay(){
           <button id="scautobtn" className="btn" style={st('flex:1;width:auto;padding:12px;background:#14203a;color:#a9bde0;border:1px solid #2c4f8f')} onClick={() => A.scAuto()}>{'Tự đọc số: ' + (S.SC && S.SC.auto === false ? 'TẮT' : 'BẬT')}</button>
           <button className="btn" style={st('flex:1;width:auto;padding:12px;background:#14203a;color:#a9bde0;border:1px solid #2c4f8f;display:flex;align-items:center;justify-content:center;gap:6px')} onClick={() => A.scOcr()}>{I('scan', 16)}Đọc ngay</button>
         </div>
-        <label style={st('display:flex;align-items:center;justify-content:center;gap:8px;margin-top:8px;padding:11px;border:1px dashed #44444f;border-radius:12px;color:#9ca3af;font-size:13px;cursor:pointer')}>{I('scan', 16)}Chụp ảnh mã / dãy số (nếu camera trực tiếp không mở được)<input type="file" accept="image/*" capture="environment" style={{display:'none'}} onChange={(e) => A.scPhoto(e.target)} /></label>
+        <label id="scphoto" style={st('display:flex;align-items:center;justify-content:center;gap:8px;margin-top:8px;padding:11px;border:1px dashed '+(S.SC&&S.SC.blurOn?'#d9822b':'#44444f')+';border-radius:12px;color:'+(S.SC&&S.SC.blurOn?'#fbbf24':'#9ca3af')+';font-size:13px;cursor:pointer')}>{I('scan', 16)}<span id="scphotot">{S.SC&&S.SC.blurOn?'Ảnh trực tiếp đang mờ — bấm đây để chụp bằng camera hệ thống (tự lấy nét)':'Chụp ảnh mã / dãy số (nếu camera trực tiếp không mở được)'}</span><input type="file" accept="image/*" capture="environment" style={{display:'none'}} onChange={(e) => A.scPhoto(e.target)} /></label>
       </div>
     </div>
   );
@@ -181,6 +181,27 @@ export function scJudge(p,lines){
   if(a.dist===0&&(!b||b.dist>0))return {it:a.item,line:a.line,dist:0,need:(scRisky(p,a.item)||a.conf<OCR_CONF||ocrDigits(a.item.code).length<7)?2:1};
   return null;
 }
+/* Phát hiện ảnh trực tiếp bị MỜ thật sự (máy quá gần, chưa lấy nét): so với độ nét tuyệt đối chứ không chỉ so với khung nét nhất đã thấy
+   (nếu cả phiên đều mờ thì phép so tương đối không bao giờ báo). Chỉ dùng để GỢI Ý, không chặn việc đọc. */
+export function scIsBlurry(c){
+  var w=c.width,h=c.height,d=c.getContext('2d',{willReadFrequently:true}).getImageData(0,0,w,h).data,L=new Float32Array(w*h),i,x,y,m=0,m2=0,s=0,s2=0,n=0,v;
+  for(i=0;i<w*h;i++){L[i]=d[i*4]*.3+d[i*4+1]*.59+d[i*4+2]*.11;m+=L[i];m2+=L[i]*L[i];}
+  m/=w*h;var lv=m2/(w*h)-m*m;
+  if(lv<25)return false;
+  for(y=1;y<h-1;y++)for(x=1;x<w-1;x++){i=y*w+x;v=4*L[i]-L[i-1]-L[i+1]-L[i-w]-L[i+w];s+=v;s2+=v*v;n++;}
+  var lap=s2/n-(s/n)*(s/n);
+  return lap<25&&lap/lv<0.02;
+}
+export function scBlurHint(on){
+  if(!S.SC)return;
+  var ch=S.SC.blurOn!==!!on;
+  S.SC.blurOn=!!on;
+  if(ch)rerender();
+  if(on){
+    scOcrStatus('Số: ảnh mờ — lùi máy ra','#fbbf24');
+    scMsg('Ảnh đang bị mờ (máy quá gần hoặc chưa lấy nét). Lùi máy ra khoảng 15–20 cm, phóng to bằng thanh zoom, chờ nét rồi giữ yên.');
+  }
+}
 export function scAutoOcr(v){
   var p=per(S.SC.pid);if(!p)return;
   var cr=scGuideCrop(v),sig,diff=99,i,now=Date.now();
@@ -194,7 +215,9 @@ export function scAutoOcr(v){
     var c2=S.SC.shc||(S.SC.shc=document.createElement('canvas'));
     c2.width=320;c2.height=Math.max(8,Math.round(cr.h*320/cr.w));
     c2.getContext('2d',{willReadFrequently:true}).drawImage(v,cr.x,cr.y,cr.w,cr.h,0,0,c2.width,c2.height);
-    var sh=X.phSharp(c2);S.SC.shMax=Math.max((S.SC.shMax||0)*0.985,sh);
+    var sh=X.phSharp(c2);
+    S.SC.shMax=Math.max((S.SC.shMax||0)*0.985,sh);
+    if(scIsBlurry(c2))S.SC.blurN=(S.SC.blurN||0)+1;else{S.SC.blurN=0;if(S.SC.blurOn)scBlurHint(false);}
     if(sh<S.SC.shMax*0.4&&(S.SC.blurSkip||0)<2){S.SC.blurSkip=(S.SC.blurSkip||0)+1;scOcrStatus('Số: ảnh mờ — giữ yên máy, chờ lấy nét','#fbbf24');return;}
     S.SC.blurSkip=0;
   }catch(e){klog("var c2=S.SC.shc||(S.SC.shc=document.createElement('c",e)}
@@ -244,6 +267,7 @@ export function scAutoOcr(v){
         var r=X.unmAdd(p,c.rep,'ocr',c.n);
         X.scUnmNotice(r.e,r.isNew);
       });
+    }else if(S.SC.blurN>=4){scBlurHint(true);
     }else scMsg(lines.length?'Chưa đọc rõ — giữ yên máy, đủ sáng, để tem nằm gọn trong khung':scHint());
   }).catch(function(e){if(S.SC){S.SC.autoBusy=false;S.SC.ocrAt=Date.now()+4000;scOcrStatus('Số: lỗi đọc · '+((e&&e.message)||'?'),'#f87171');}});
 }

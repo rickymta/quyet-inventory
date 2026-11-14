@@ -1,8 +1,9 @@
 /* Danh sách: Chi nhánh › (Vật tư | CCDC & TSCĐ) › Kỳ kiểm kê (dòng gốc 7918–8030) + thẻ tỷ lệ theo tháng HM (8113–8123). */
-import { db, S, A, X, store, norm, toast, render, rerender, I, FcIco, st, openLayer, closeLayer, canDel, canEdit, allBranches } from '../../core';
+import { db, S, A, X, store, norm, toast, render, rerender, I, H, FcIco, st, openLayer, closeLayer, canDel, canEdit, allBranches } from '../../core';
 import { periodsIn, guessFolder, periodCardHtml } from './folders.jsx';
 import { lockTagHtml } from './lock.jsx';
 
+const BRC_SVG = '<svg width="34" height="34" viewBox="0 0 64 64" fill="none" stroke="#1e3a6b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 37V11a3 3 0 0 1 3-3h22a3 3 0 0 1 3 3v19"/><circle cx="25" cy="17" r="3.8"/><circle cx="25" cy="27" r="3.8"/><path stroke-width="2.1" d="M32 15h9M32 19.5h9M32 25h9M32 29.5h9"/><path d="M8 47v11l16 4 16-4V47M24 51v11M8 47l16 4 16-4M8 47l-5-5 15-5 6 6M24 43l6-6 15 5-5 5"/><circle cx="52" cy="48" r="8"/><path stroke="#d4af5f" stroke-width="2.8" d="M23.2 17.2l1.5 1.5 2.8-3.1M23.2 27.2l1.5 1.5 2.8-3.1M48 48.5l3 3 6-6.5"/></svg>';
 export const LS = { folder: null, kind: 'vt', back: false };
 export const LS_LBL = { vt: 'Vật tư', as: 'CCDC & TSCĐ' };
 
@@ -112,14 +113,16 @@ export function ListsView() {
           <div style={{ fontSize: 13, color: 'var(--mut)', marginBottom: 12 }}>Chọn chi nhánh để xem các kỳ kiểm kê Vật tư và CCDC &amp; TSCĐ.</div>
           {LSX.folderList().map((f, i) => {
             const c = LSX.counts(f); const tot = c.vt + c.as;
+            let op = 0; let dn = 0; let cd = 0;
+            try { periodsIn(f).forEach((p) => { if (p.items.some((it) => !it.counted && it.close !== 0)) op++; p.items.forEach((it) => { cd++; if (it.counted) dn++; }); }); } catch (e) { /* bỏ qua */ }
+            const pc = cd ? Math.round(dn / cd * 100) : 0;
             return (
-              <div key={f + '|' + i} className="card per" onClick={() => LSX.pick(i)}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-                  <span style={{ flex: 'none', display: 'flex' }}>{FcIco('bld', 38, i)}</span>
-                  <div style={{ minWidth: 0, flex: 1 }}><div style={{ fontWeight: 700 }}>{f || 'Chưa phân loại'}</div>
-                    <div style={{ fontSize: 12, color: 'var(--mut)', marginTop: 3 }}>{tot ? 'Vật tư ' + c.vt + ' · CCDC & TSCĐ ' + c.as + ' kỳ' : 'Chưa có kỳ kiểm kê'}</div></div>
-                  <span style={{ color: 'var(--mut2)', flex: 'none' }}>{I('chev', 18)}</span>
-                </div>
+              <div key={f + '|' + i} className="brc" onClick={() => LSX.pick(i)}>
+                <span className="bt" aria-hidden="true">{H(BRC_SVG)}</span>
+                <div style={{ minWidth: 0, flex: 1 }}><div className="bn">{f || 'Chưa phân loại'}</div><div className="bs">
+                  {tot ? <><span className="bp">Vật tư<b>{c.vt}</b></span><span className="bp">CCDC &amp; TSCĐ<b>{c.as}</b></span>{op ? <span className="bp warn"><i className="dt"></i>{op} đang kiểm</span> : null}</> : <span className="bp none"><i className="dt"></i>Chưa có kỳ kiểm kê</span>}
+                </div>{cd ? <div className="bpg"><div className="bpt"><i style={{ width: pc + '%' }}></i></div><span>{pc}%</span></div> : null}</div>
+                <span className="bc">{I('chev', 16)}</span>
               </div>
             );
           })}

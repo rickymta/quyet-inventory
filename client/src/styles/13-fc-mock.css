@@ -1,4 +1,4 @@
-/* Trích nguyên văn từ app gốc (dòng 1140-1341) */
+/* Trích nguyên văn từ app gốc (bản 2026111401, dòng 1140-1342) */
 /* ===== Prime UI theo mockup: chàm đậm + trắng, thẻ có icon pastel ===== */
 :root,body{--bg:#f5f2ea;--card:#fff;--card2:#f6f3ec;--ink:#14203a;--navy:#14203a;--mut:#6b7389;--mut2:#b0b5c3;--line:#e8e4da;--side:#11264a;
 --teal:#1e3a6b;--teal-d:#14284b;--teal-bg:rgba(30,58,107,.09);--teal-ln:rgba(30,58,107,.3);--sh1:0 1px 2px rgba(20,30,60,.05),0 8px 20px -10px rgba(40,50,80,.18)}
@@ -113,6 +113,7 @@ html body #bnav button.on:not(.fab)::before{display:none}
 .fc-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start;width:calc(100% - 32px);max-width:1048px;margin:16px auto}
 .fc-row .fc-pn{display:block}
 .fc-row .fc-pn:nth-of-type(n+1){grid-column:auto}
+.fc-row .fc-pn.fc-act{grid-column:1/-1}
 html body .fc-row #mcard{display:block;width:auto;max-width:none;margin:0;padding:20px 22px;--hm-fg:#14203a;--hm-mut:#6b7389;--hm-track:#e6e2d6;--hm-a1:#7d9bd1;--hm-a2:#14284b;--hm-d1:#3f64a8;--hm-d2:#c9d4ea;--hm-d3:#a2a8bb;background:#fff;box-shadow:0 1px 2px rgba(20,30,60,.05),0 8px 20px -12px rgba(40,50,80,.2),inset 0 0 0 1px #e8e4da}
 html body .fc-row #mcard::before{display:none}
 html body .fc-row #mcard .mn button{background:#fff;border:1px solid #ddd8cc;color:#4a5470}

@@ -1,13 +1,13 @@
 /* Bàn giao vật tư từ kỳ kiểm kê, không trừ số liệu kiểm kê (dòng gốc 3584–3631). Trạng thái TR nằm ở S.TR. */
 import { useEffect } from 'react';
-import { db, S, A, per, norm, fmt, I, st, render, rerender } from '../../core';
+import { db, S, A, per, norm, stok, smatch, fmt, I, st, render, rerender } from '../../core';
 
 export const trAvail = (i) => ((i.counted && i.countQty !== null) ? i.countQty : i.close);
 export function trItems(p) {
-  const q = norm(S.TR.q || '');
+  const q = stok(S.TR.q || '');
   return p.items.filter((i) => {
     if (!(trAvail(i) > 0)) return false;
-    return !q || norm(i.name + ' ' + i.code).indexOf(q) >= 0;
+    return smatch(norm(i.name + ' ' + i.code), q);
   });
 }
 export function trRow(i) {

@@ -1,6 +1,9 @@
 /* Trích nguyên văn từ app gốc (Helpers) — giữ nguyên hành vi */
 /* eslint-disable */
 function norm(s){return (s==null?"":String(s)).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/đ/g,"d").replace(/\s+/g," ").trim();}
+/* Tìm kiếm thống nhất: stok() tách từ khoá đã bỏ dấu; smatch(chuỗi đã norm, từ khoá) đúng khi MỌI từ đều có mặt (một phần, không phụ thuộc thứ tự) */
+function stok(q){var n=norm(q);return n?n.split(" "):[];}
+function smatch(h,t){for(var i=0;i<t.length;i++)if(h.indexOf(t[i])<0)return false;return true;}
 function esc(s){return (s==null?"":String(s)).replace(/[&<>"']/g,function(m){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m];});}
 /* Kiểm tra số lượng NGƯỜI DÙNG NHẬP: trống ≠ 0 ≠ không hợp lệ. Không dùng cho đọc Excel (parseNum giữ nguyên). */
 function qtyCheck(v){
@@ -97,4 +100,4 @@ var BUCKETS=[
 /* Lý do giải trình nhanh — thêm/bớt/sửa câu chữ ngay trong mảng này */
 var QUICK_NOTES=["Quên chưa xuất","Giải trình sau bằng văn bản","Check lại với Phòng Kế toán"];
 
-export { norm, esc, qtyCheck, parseNum, fmt, soThanhChu, daysTo, fmtDate, normKey, branchCode, diffOf, needsCount, zeroPending, BUCKETS, QUICK_NOTES };
+export { norm, stok, smatch, esc, qtyCheck, parseNum, fmt, soThanhChu, daysTo, fmtDate, normKey, branchCode, diffOf, needsCount, zeroPending, BUCKETS, QUICK_NOTES };

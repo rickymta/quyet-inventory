@@ -1,0 +1,82 @@
+/* Trích nguyên văn từ app gốc (bản 2026111401, dòng 1384-1464): menu gọn, khối Cần xử lý, thẻ chi nhánh */
+/* ===== Menu gọn: thao tác nhanh + nhóm Kiểm kê / Kho, nhánh con có đường dẫn ===== */
+html body .gnav-quick{display:flex;gap:8px;margin:2px 2px 12px}
+html body .gnav-quick .gq{flex:1;display:flex;align-items:center;justify-content:center;gap:7px;min-height:44px;border-radius:12px;font-size:14px;font-weight:700;color:#fff;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.06);cursor:pointer;text-decoration:none}
+html body .gnav-quick .gq.pri{background:#d4af5f;border-color:#d4af5f;color:#14203a}
+html body .gnav-quick .gq.on{box-shadow:0 0 0 2px rgba(212,175,95,.55)}
+html body .gnav-quick .gq:active{transform:scale(.97)}
+body.sb-min #gsidebar .gnav-quick{flex-direction:column}
+html body .gnav-subs>div{margin-left:24px;padding-left:6px;border-left:1px solid rgba(255,255,255,.14)}
+html body .gnav-sub{padding:9px 10px 9px 12px;font-size:14px}
+html body .gnav-sub.on{position:relative}
+html body .gnav-sub.on::before{content:"";position:absolute;left:-7px;top:9px;bottom:9px;width:3px;border-radius:2px;background:#d4af5f}
+html body .gnav-cap{padding:12px 12px 4px;font-size:12px;letter-spacing:0;text-transform:none;font-weight:600}
+html body .gnav-wrap.open>.gnav-grp .gbd{display:none}
+/* ===== Thẻ tỷ lệ kiểm kê: gọn trên điện thoại ===== */
+html body #mcard .hemp{grid-column:1/-1;font-size:13px;line-height:1.4;color:var(--hm-mut,rgba(255,255,255,.7));padding:2px 0 4px}
+@media screen and (max-width:899px){
+html body #mcard{margin:12px 16px 0;padding:12px 14px;border-radius:20px}
+html body #mcard .mh{margin-bottom:8px}
+html body #mcard .mt{font-size:15px}
+html body #mcard .mn{font-size:12px;gap:4px}
+html body #mcard .mn button{width:26px;height:26px}
+html body #mcard .hrow{gap:12px}
+html body #mcard .hdw{flex:0 0 100px}
+html body #mcard .hc b{font-size:19px}
+html body #mcard .hc small{display:block;margin-top:2px;font-size:8.5px}
+html body #mcard .htk,html body #mcard .hval{stroke-width:9}
+html body #mcard dl.hk{gap:4px}
+html body #mcard dl.hk div{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+html body #mcard .hk dt{font-size:12px}
+html body #mcard .hk dd{margin:0;font-size:14px}
+html body #mcard .hchip{font-size:10.5px;padding:2px 8px;margin-bottom:2px}
+html body #mcard .hcov{margin-top:8px}
+html body #mcard .hcl{margin-bottom:4px}
+html body #mcard .hseg i{height:5px}
+html body #mcard .htr{margin-top:6px}
+html body #mcard .sub{margin-top:6px;padding-top:6px;font-size:11.5px}
+}
+/* ===== Thẻ chi nhánh ===== */
+html body .brc{position:relative;display:flex;align-items:center;gap:14px;padding:14px;margin-bottom:12px;background:linear-gradient(100deg,#fff 50%,#faf5e6 100%);border:1px solid #e8e4da;border-radius:20px;box-shadow:0 1px 2px rgba(20,30,60,.05),0 12px 24px -16px rgba(20,40,75,.35);cursor:pointer;transition:transform .12s ease}
+html body .brc:active{transform:scale(.985)}
+html body .brc .bt{flex:none;width:56px;height:56px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(145deg,#f6f8fc,#e7ecf6);border:1px solid #dde4f1;box-shadow:inset 0 1px 0 #fff,0 8px 16px -12px rgba(30,58,107,.55)}
+html body .brc .bn{font-weight:700;font-size:16px;color:#14203a;letter-spacing:-.01em;line-height:1.3}
+html body .brc .bs{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}
+html body .brc .bp{display:inline-flex;align-items:center;gap:4px;font-size:12px;color:#3d4a6b;background:#eef1f8;border:1px solid #dfe5f2;border-radius:999px;padding:3px 10px}
+html body .brc .bp b{color:#1e3a6b;font-weight:800;margin-left:2px}
+html body .brc .bp.warn{background:#fbf1d9;border-color:#f0dca6;color:#7a5a12;font-weight:600}
+html body .brc .bp.none{background:transparent;border:1px dashed #d3d8e6;color:#8a90a3}
+html body .brc .dt{width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.7}
+html body .brc .bp.warn .dt{background:#d4af5f;opacity:1;animation:brcp 1.6s ease-in-out infinite}
+@keyframes brcp{50%{opacity:.25}}
+html body .brc .bpg{display:flex;align-items:center;gap:8px;margin-top:9px}
+html body .brc .bpt{flex:1;height:5px;border-radius:99px;background:#e9ecf4;overflow:hidden}
+html body .brc .bpt i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#1e3a6b,#3f64a8 65%,#d4af5f)}
+html body .brc .bpg span{font-size:11.5px;font-weight:700;color:#1e3a6b;font-variant-numeric:tabular-nums}
+html body .brc .bc{flex:none;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#eef1f8;color:#1e3a6b}
+/* ===== Khối "Cần xử lý" ===== */
+html body .nx{background:#fff;border:1px solid #e8e4da;border-radius:18px;box-shadow:0 1px 2px rgba(20,30,60,.05),0 10px 22px -16px rgba(20,40,75,.3);overflow:hidden}
+html body .nx-r{display:flex;align-items:center;gap:12px;padding:10px 14px;min-height:50px;cursor:pointer;border-top:1px solid #f0ece1;transition:background-color .12s ease}
+html body .nx-r:first-child{border-top:0}
+html body .nx-r:active{background:#f7f5ee}
+html body .nx-i{flex:none;width:34px;height:34px;border-radius:11px;display:grid;place-items:center;background:#e9edf6;color:#1e3a6b}
+html body .nx-r.red .nx-i{background:#fdecea;color:#dc4a4a}
+html body .nx-r.org .nx-i{background:#ffefdc;color:#d9822b}
+html body .nx-r.amb .nx-i{background:#fbf1d9;color:#9a7416}
+html body .nx-r.grn .nx-i{background:#e3f5ec;color:#1f8a5b}
+html body .nx-t{flex:1;min-width:0;font-size:15px;font-weight:600;color:#14203a}
+html body .nx-n{min-width:26px;height:26px;padding:0 8px;border-radius:99px;display:grid;place-items:center;font-size:14px;font-weight:800;background:#eef1f8;color:#1e3a6b}
+html body .nx-r.red .nx-n{background:#dc4a4a;color:#fff}
+html body .nx-r.org .nx-n{background:#ffefdc;color:#b8651a}
+html body .nx-r.amb .nx-n{background:#fbf1d9;color:#7a5a12}
+html body .nx-r.grn .nx-n{background:#e3f5ec;color:#1f6b4a}
+html body .nx-c{flex:none;display:flex;color:#a3a9bb}
+html body .nx-tot{min-width:22px;height:22px;padding:0 7px;border-radius:99px;display:inline-grid;place-items:center;font-size:12.5px;font-weight:800;background:#dc4a4a;color:#fff}
+/* ===== Cần xử lý → nhảy thẳng tới chỗ có vấn đề: viền nhấn chớp nhẹ ===== */
+@keyframes nxFlash{0%,55%{outline:3px solid rgba(217,130,43,.9);outline-offset:3px}100%{outline:3px solid rgba(217,130,43,0);outline-offset:7px}}
+html body .nx-flash{animation:nxFlash 2.4s ease-out 1;border-radius:14px}
+/* ===== Mục đang chọn: nền chuyển màu + thanh vàng đều 2 đầu (thay cho viền inset hình liềm) ===== */
+html body #gsidebar .gnav-item.on:not(.gnav-sub),html body #gdrawer .gnav-item.on:not(.gnav-sub){position:relative;border-radius:12px;background:linear-gradient(90deg,rgba(244,220,156,.30) 0%,rgba(212,175,95,.14) 45%,rgba(212,175,95,0) 100%)!important;box-shadow:none!important}
+html body #gsidebar .gnav-item.on:not(.gnav-sub)::before,html body #gdrawer .gnav-item.on:not(.gnav-sub)::before{content:"";position:absolute;left:5px;top:12px;bottom:12px;width:4px;border-radius:999px;background:linear-gradient(180deg,#c9a24f 0%,#f7e3a8 50%,#c9a24f 100%);box-shadow:0 0 8px rgba(212,175,95,.45)}
+html body #gsidebar .gnav-item.gnav-sub.on,html body #gdrawer .gnav-item.gnav-sub.on{border-radius:10px;box-shadow:none!important;background:linear-gradient(90deg,rgba(244,220,156,.16),rgba(212,175,95,0) 100%)!important}
+html body .gnav-item.gnav-sub.on::before{content:"";position:absolute;left:-8px;top:10px;bottom:10px;width:3px;border-radius:999px;background:linear-gradient(180deg,#c9a24f 0%,#f7e3a8 50%,#c9a24f 100%)}

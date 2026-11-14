@@ -107,23 +107,26 @@ export function deepSync(dst, src) {
 /* Thay toàn bộ nội dung db. Không gán lại biến db. */
 export function replaceDb(next) { deepSync(db, next); return db; }
 
-/* ---------- Dữ liệu RIÊNG TỪNG THIẾT BỊ: không đồng bộ lên máy chủ, giữ ở localStorage 'kk_dev_local' ---------- */
+/* ---------- Dữ liệu RIÊNG TỪNG THIẾT BỊ (và từng tài khoản trên thiết bị đó): không đồng bộ lên máy chủ,
+   giữ ở localStorage 'kk_dev_local:<id tài khoản>' — khoá Face ID, thư viện chữ ký tay của mục Ký số PDF... ---------- */
 const DEV_TOP = ['webauthn', 'waFail', 'waPref'];
-const DEV_SG = ['sig', 'name', 'fixed', 'dev', 'pw'];
+const DEV_SG = ['sig', 'sigs', 'name', 'fixed', 'dev', 'pw'];
+function devKey() { const id = (auth.user && auth.user.id) || lastUid; return id ? 'kk_dev_local:' + id : null; }
 function devPick(src) {
   const o = {};
   DEV_TOP.forEach((k) => { if (src[k] !== undefined) o[k] = src[k]; });
   if (isObj(src.sg)) { const g = {}; DEV_SG.forEach((k) => { if (src.sg[k] !== undefined) g[k] = src.sg[k]; }); if (Object.keys(g).length) o.sg = g; }
   return o;
 }
-function devRead() { try { const j = JSON.parse(localStorage.getItem('kk_dev_local') || 'null'); return isObj(j) ? j : {}; } catch (_) { return {}; } }
+function devRead() { try { const k = devKey(); const j = k ? JSON.parse(localStorage.getItem(k) || 'null') : null; return isObj(j) ? j : {}; } catch (_) { return {}; } }
 let devJson = null;
 function saveDev() {
   if (!loaded) return;
   try {
-    const j = JSON.stringify(devPick(db));
+    const k = devKey(); if (!k) return;
+    const j = k + '\u0001' + JSON.stringify(devPick(db));
     if (j === devJson) return;
-    localStorage.setItem('kk_dev_local', j); devJson = j;
+    localStorage.setItem(k, j.slice(k.length + 1)); devJson = j;
   } catch (e) { klog('store.saveDev', e); }
 }
 function devStrip(d) {
@@ -441,8 +444,9 @@ async function loadData() {
       if (replayed) r = await api('/bootstrap');
       applyProfile(auth.user && auth.user.profile);
       lastUid = auth.user && auth.user.id;
-      loaded = true;
+      /* adopt() phải chạy khi `loaded` còn false để đọc dữ liệu riêng thiết bị từ localStorage (không phải từ db còn rỗng) */
       adopt(r.db || {}, r.rev || 0);
+      loaded = true;
       /* snap lấy theo đúng dữ liệu máy chủ; phần chuẩn hoá cục bộ (nếu có) sẽ được gửi ở lượt lưu kế tiếp */
       snap = scan();
       store.ready = true; store.bootErr = null;

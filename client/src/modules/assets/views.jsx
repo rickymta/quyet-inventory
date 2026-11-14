@@ -1,5 +1,5 @@
 /* Kiểm kê CCDC & TSCĐ: màn danh sách kỳ (view 'assets'), chi tiết kỳ (view 'asset'), hộp sửa, thẻ kết quả quét — dòng gốc 5812–6067, 6162–6229 */
-import { db, S, A, X, fmt, norm, I, H, st, rerender, openLayer, closeLayer, canDel, canEdit } from '../../core';
+import { db, S, A, X, fmt, norm, stok, smatch, I, H, st, rerender, openLayer, closeLayer, canDel, canEdit } from '../../core';
 import { AP, ASQ, ASST, asPer, asDiff, asDate, asStats, asRooms, asPending, asDefaults, asSummary, asApply } from './model.js';
 import { phDelItem, phBurst, phSharpen, asPhotoSec, asShootRow } from './photos.jsx';
 import { ASX } from './asx.jsx';
@@ -139,11 +139,11 @@ export function AssetView() {
   const lk = !!p.locked; /* vá đè dòng 8101–8107: kỳ đã khoá thì vô hiệu hoá các ô nhập ASX.cur / ASX.curAuto */
   const cur = (k) => (e) => { ASX.cur(k, e.target.value); rerender(); };
   const s = asStats(p); const pct = s.total ? Math.round(s.done / s.total * 100) : 0;
-  const nq = norm(AP.q || '');
+  const nq = stok(AP.q || '');
   const flt = AS_FLTS[AP.flt] || AS_FLTS.all;
   const list = p.items.filter((i) => {
     if (!flt(i)) return false;
-    return !nq || norm(i.name + ' ' + i.code + ' ' + i.room).indexOf(nq) >= 0;
+    return smatch(norm(i.name + ' ' + i.code + ' ' + i.room), nq);
   });
   return (
     <>

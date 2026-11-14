@@ -2,7 +2,7 @@
    Mã gốc: dòng 4694–4940 (renderPeriod, renderChips, pgBar, pSortList, pTableHtml, renderList, renderStock, renderStockRows)
    cùng các hành động A trong khối `var A={` thuộc màn hình này. */
 import React, { useEffect } from 'react';
-import { db, S, A, X, per, norm, fmt, daysTo, diffOf, needsCount, st, I, H, rerender, render, modalOpen } from '../../core';
+import { db, S, A, X, per, norm, stok, smatch, fmt, daysTo, diffOf, needsCount, st, I, H, rerender, render, modalOpen } from '../../core';
 import { openSheet } from './sheet.jsx';
 import { unmBannerHtml } from './unm.jsx';
 import { invStats, v2Ring } from './stats.jsx';
@@ -26,10 +26,10 @@ export function skeyWarm(p) {
   (window.requestIdleCallback || setTimeout)(step);
 }
 export function baseList(p) {
-  const P = S.P; const nq = norm(P.q);
+  const P = S.P; const nq = stok(P.q);
   return p.items.filter((i) => {
     if (P.br !== 'all' && i.branch !== P.br) return false;
-    if (nq && skey(i).indexOf(nq) < 0) return false;
+    if (nq.length && !smatch(skey(i), nq)) return false;
     return true;
   });
 }
@@ -241,11 +241,11 @@ export function StockView() {
   const branches = [];
   p.items.forEach((i) => { if (i.branch && branches.indexOf(i.branch) < 0) branches.push(i.branch); });
   const multi = branches.length > 1;
-  const nq = norm(ST.q);
+  const nq = stok(ST.q);
   const rows = p.items.filter((i) => {
     if (!(i.close > 0)) return false;
     if (ST.br !== 'all' && i.branch !== ST.br) return false;
-    if (nq && skey(i).indexOf(nq) < 0) return false;
+    if (nq.length && !smatch(skey(i), nq)) return false;
     return true;
   });
   const ssig = [ST.q, ST.br, ST.ps].join('|'); if (ST.sig !== ssig) { ST.sig = ssig; ST.pg = 0; }
