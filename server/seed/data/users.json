@@ -1,0 +1,13 @@
+[
+ {
+  "username": "admin",
+  "role": "admin",
+  "profile": {
+   "ten": "Mai Văn Quyết",
+   "chucVu": "Chuyên viên hành chính",
+   "chiNhanh": "HCHC",
+   "ma": "01",
+   "maManual": true
+  }
+ }
+]

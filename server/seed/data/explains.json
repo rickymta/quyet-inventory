@@ -1,0 +1,228 @@
+[
+ {
+  "id": "mw069eci",
+  "sig": {},
+  "soPhieu": "01/GT/01/2026",
+  "boPhan": "CL",
+  "nguoiGiaiTrinh": {
+   "ten": "Đỗ Thị Phương Thảo",
+   "chucVu": "Thủ kho",
+   "boPhan": "Cát Linh",
+   "thoiGian": ""
+  },
+  "loai": [
+   "Vật tư tiêu hao"
+  ],
+  "loaiKhac": "",
+  "phatHien": [
+   "Kiểm kê định kỳ"
+  ],
+  "phatHienKhac": "",
+  "ngayPhatHien": "ngày 03 tháng 11 năm 2026",
+  "thoiDiemXayRa": "",
+  "diaDiem": "Cát Linh",
+  "canCu": "Biên bản kiểm kê: Kiểm kê 10/2026 (1/10-3/11/2026)",
+  "items": [
+   {
+    "ma": "13000087",
+    "ten": "Trụ Hiossen (Mỹ) - AET3",
+    "dvt": "Cái",
+    "slSoSach": "7",
+    "slThucTe": "6",
+    "chenh": "-1",
+    "donGia": "",
+    "thanhTien": ""
+   },
+   {
+    "ma": "13000170",
+    "ten": "Trụ neodent Neoporos",
+    "dvt": "Cái",
+    "slSoSach": "9",
+    "slThucTe": "8",
+    "chenh": "-1",
+    "donGia": "",
+    "thanhTien": ""
+   },
+   {
+    "ma": "90000008",
+    "ten": "Máy tăm nước Procare KHD 13",
+    "dvt": "Chiếc",
+    "slSoSach": "5",
+    "slThucTe": "2",
+    "chenh": "-3",
+    "donGia": "",
+    "thanhTien": ""
+   }
+  ],
+  "vanDe": "Qua kiểm kê \"Kiểm kê 10/2026 (1/10-3/11/2026)\", phát hiện 3 mã vật tư chênh lệch giữa sổ sách và thực tế (chi tiết tại bảng dưới).",
+  "nguyenNhan": [],
+  "nguyenNhanKhac": "Cho mượn",
+  "nguyenNhanChiTiet": "",
+  "caNhanLienQuan": "",
+  "bangChung": [
+   "Biên bản kiểm kê"
+  ],
+  "bangChungKhac": "",
+  "bienPhap": [],
+  "dxGiamTon": false,
+  "dxHaoHut": false,
+  "dxTruyTim": false,
+  "dxTruyTimHan": "",
+  "dxBoiHoan": false,
+  "dxBoiHoanTien": "",
+  "dxBoiHoanNguoi": "",
+  "dxKhac": true,
+  "dxKhacText": "",
+  "createdAt": 1793679161064,
+  "periodId": "mw05df38",
+  "folder": "Cát Linh"
+ },
+ {
+  "id": "mvhtpcl7",
+  "sig": {},
+  "soPhieu": "04/GT/H/2026",
+  "boPhan": "HCHC",
+  "nguoiGiaiTrinh": {
+   "ten": "Mai Văn Quyết",
+   "chucVu": "Chuyên viên hành chính",
+   "boPhan": "HCHC",
+   "thoiGian": ""
+  },
+  "loai": [],
+  "loaiKhac": "",
+  "phatHien": [
+   "Kiểm kê định kỳ"
+  ],
+  "phatHienKhac": "",
+  "ngayPhatHien": "ngày 21 tháng 10 năm 2026",
+  "thoiDiemXayRa": "",
+  "diaDiem": "Bùi Thị Xuân",
+  "canCu": "Biên bản kiểm kê: BTX_Kiểm kê 08 (số liệu 3/9)",
+  "items": [
+   {
+    "ma": "13000170",
+    "ten": "Trụ neodent Neoporos",
+    "dvt": "Cái",
+    "slSoSach": "2",
+    "slThucTe": "3",
+    "chenh": "1",
+    "donGia": "",
+    "thanhTien": ""
+   },
+   {
+    "ma": "90000003",
+    "ten": "Nước súc miệng Glowel Total Care ,500ml",
+    "dvt": "Chai",
+    "slSoSach": "201",
+    "slThucTe": "190",
+    "chenh": "-11",
+    "donGia": "",
+    "thanhTien": ""
+   },
+   {
+    "ma": "90000004",
+    "ten": "Nước súc miệng Glowel Gingival Pro+",
+    "dvt": "Chai",
+    "slSoSach": "231",
+    "slThucTe": "224",
+    "chenh": "-7",
+    "donGia": "",
+    "thanhTien": ""
+   },
+   {
+    "ma": "90000024",
+    "ten": "Kem đánh răng Vussen",
+    "dvt": "Hộp",
+    "slSoSach": "65",
+    "slThucTe": "64",
+    "chenh": "-1",
+    "donGia": "",
+    "thanhTien": ""
+   }
+  ],
+  "vanDe": "Qua kiểm kê \"BTX_Kiểm kê 08 (số liệu 3/9)\", phát hiện 4 mã vật tư chênh lệch giữa sổ sách và thực tế (chi tiết tại bảng dưới).",
+  "nguyenNhan": [],
+  "nguyenNhanKhac": "",
+  "nguyenNhanChiTiet": "",
+  "caNhanLienQuan": "",
+  "bangChung": [],
+  "bangChungKhac": "",
+  "bienPhap": [],
+  "dxGiamTon": false,
+  "dxHaoHut": false,
+  "dxTruyTim": false,
+  "dxTruyTimHan": "",
+  "dxBoiHoan": false,
+  "dxBoiHoanTien": "",
+  "dxBoiHoanNguoi": "",
+  "dxKhac": false,
+  "dxKhacText": "",
+  "createdAt": 1792569679108,
+  "periodId": "mtmdirr9",
+  "folder": "Bùi Thị Xuân"
+ },
+ {
+  "id": "mvbvilko",
+  "sig": {},
+  "soPhieu": "03/GT/H/2026",
+  "boPhan": "HCHC",
+  "nguoiGiaiTrinh": {
+   "ten": "Mai Văn Quyết",
+   "chucVu": "Chuyên viên hành chính",
+   "boPhan": "HCHC",
+   "thoiGian": ""
+  },
+  "loai": [],
+  "loaiKhac": "",
+  "phatHien": [
+   "Kiểm kê định kỳ"
+  ],
+  "phatHienKhac": "",
+  "ngayPhatHien": "ngày 17 tháng 10 năm 2026",
+  "thoiDiemXayRa": "",
+  "diaDiem": "Bùi Thị Xuân",
+  "canCu": "Biên bản kiểm kê: BTX_Kiểm kê T9(1/9/2026-30/9/2026)",
+  "items": [
+   {
+    "ma": "90000003",
+    "ten": "Nước súc miệng Glowel Total Care ,500ml",
+    "dvt": "Chai",
+    "slSoSach": "100",
+    "slThucTe": "83",
+    "chenh": "-17",
+    "donGia": "",
+    "thanhTien": ""
+   },
+   {
+    "ma": "90000004",
+    "ten": "Nước súc miệng Glowel Gingival Pro+",
+    "dvt": "Chai",
+    "slSoSach": "93",
+    "slThucTe": "35",
+    "chenh": "-58",
+    "donGia": "",
+    "thanhTien": ""
+   }
+  ],
+  "vanDe": "Qua kiểm kê \"BTX_Kiểm kê T9(1/9/2026-30/9/2026)\", phát hiện 2 mã vật tư chênh lệch giữa sổ sách và thực tế (chi tiết tại bảng dưới).",
+  "nguyenNhan": [],
+  "nguyenNhanKhac": "",
+  "nguyenNhanChiTiet": "",
+  "caNhanLienQuan": "",
+  "bangChung": [],
+  "bangChungKhac": "",
+  "bienPhap": [],
+  "dxGiamTon": false,
+  "dxHaoHut": false,
+  "dxTruyTim": false,
+  "dxTruyTimHan": "",
+  "dxBoiHoan": false,
+  "dxBoiHoanTien": "",
+  "dxBoiHoanNguoi": "",
+  "dxKhac": false,
+  "dxKhacText": "",
+  "createdAt": 1792209926341,
+  "periodId": "mup6plw6",
+  "folder": "Bùi Thị Xuân"
+ }
+]
