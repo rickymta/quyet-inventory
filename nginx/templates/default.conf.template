@@ -1,0 +1,27 @@
+# Cấu hình HTTP. Chỉ biến SERVER_NAME được envsubst thay (NGINX_ENVSUBST_FILTER); các biến $host, $remote_addr... giữ nguyên.
+# Nén: để Express nén (middleware compression) và nginx chuyển nguyên Content-Encoding, nên gzip tắt ở nginx để khỏi nén hai lần.
+
+server_tokens off;
+gzip off;
+client_max_body_size 110m;
+
+server {
+    listen 80;
+    server_name ${SERVER_NAME};
+
+    location /.well-known/acme-challenge/ {
+        root /var/www/certbot;
+        default_type text/plain;
+    }
+
+    # API: không cache ở nginx
+    location /api/ {
+        proxy_cache off;
+        include /etc/nginx/snippets/app-proxy.conf;
+    }
+
+    # /assets/ và mọi thứ còn lại: giữ nguyên header cache của app
+    location / {
+        include /etc/nginx/snippets/app-proxy.conf;
+    }
+}

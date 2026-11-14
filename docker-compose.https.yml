@@ -1,0 +1,18 @@
+# Ghi đè bật HTTPS (Let's Encrypt). Dùng kèm:
+#   docker compose -f docker-compose.yml -f docker-compose.https.yml up -d
+# Cấp chứng chỉ lần đầu: scripts/https-init.sh <tên-miền> <email>
+services:
+  nginx:
+    ports:
+      - "${HTTPS_PORT:-443}:443"
+    volumes:
+      - ./nginx/templates-https:/etc/nginx/templates:ro
+      - letsencrypt:/etc/letsencrypt:ro
+
+  certbot:
+    image: certbot/certbot
+    profiles: ["certbot"]   # không chạy thường trực; dùng `docker compose run --rm certbot ...`
+    entrypoint: ["certbot"]
+    volumes:
+      - letsencrypt:/etc/letsencrypt
+      - certbot-www:/var/www/certbot

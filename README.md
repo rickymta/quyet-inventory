@@ -17,7 +17,10 @@ dữ liệu nằm trên máy chủ (MongoDB) thay vì `localStorage`/IndexedDB, 
 ├── reference/              mã gốc + bản đồ mã (INDEX.md) dùng khi port
 ├── docs/PORTING.md         quy ước port từ bản gốc sang React
 ├── Dockerfile              build nhiều tầng → một image chạy cả API lẫn giao diện
-└── docker-compose.yml      app + MongoDB
+├── docker-compose.yml      nginx + app + MongoDB
+├── docker-compose.https.yml  ghi đè bật HTTPS (Let's Encrypt, certbot)
+├── nginx/                  cấu hình nginx: templates/ (HTTP), templates-https/ (HTTPS), snippets/ (proxy dùng chung)
+└── scripts/                https-init.sh (cấp chứng chỉ + bật HTTPS), https-renew.sh (gia hạn)
 ```
 
 ## Chạy bằng Docker
@@ -26,21 +29,60 @@ dữ liệu nằm trên máy chủ (MongoDB) thay vì `localStorage`/IndexedDB, 
 docker compose up -d --build
 ```
 
-Mở <http://localhost:8080>. Lần chạy đầu, khi CSDL còn trống, máy chủ tự nạp bộ seed đi kèm (`server/seed/data`, đã nằm sẵn trong image) và tạo tài khoản quản trị; không cần kèm file ngoài.
+Mở <http://localhost> (nginx reverse proxy ở cổng 80, chuyển tiếp tới app). Chạy thử trên máy cá nhân mà cổng 80 đã bận
+hoặc cần quyền root: đặt `HTTP_PORT=8080` (`HTTP_PORT=8080 docker compose up -d --build`) rồi mở <http://localhost:8080>.
+Cổng của app (`APP_PORT`, mặc định 8080) chỉ gắn vào `127.0.0.1` của máy chủ để chẩn đoán, không ra ngoài.
+Lần chạy đầu, khi CSDL còn trống, máy chủ tự nạp bộ seed đi kèm (`server/seed/data`, đã nằm sẵn trong image) và tạo tài khoản quản trị; không cần kèm file ngoài.
 
 Tuỳ chỉnh qua file `.env` (xem `.env.example`):
 
 | Biến | Mặc định | Ý nghĩa |
 |---|---|---|
-| `APP_PORT` | `8080` | Cổng truy cập trên máy chủ |
+| `HTTP_PORT` | `80` | Cổng HTTP của nginx (cổng người dùng truy cập) |
+| `HTTPS_PORT` | `443` | Cổng HTTPS của nginx (chỉ khi dùng `docker-compose.https.yml`) |
+| `SERVER_NAME` | `_` | Tên miền của máy chủ (`server_name` nginx, đường dẫn chứng chỉ); `scripts/https-init.sh` tự ghi |
+| `APP_PORT` | `8080` | Cổng của app, chỉ gắn vào `127.0.0.1` của máy chủ để chẩn đoán |
 | `SEED_PATH` | trống | Tuỳ chọn: đường dẫn (trong container) tới thư mục seed hoặc file sao lưu JSON dùng thay bộ seed đi kèm; trống = dùng `server/seed/data` |
 | `ADMIN_USERNAME`, `ADMIN_PASSWORD` | `admin`, `Admin123` | Tài khoản quản trị tạo ở lần chạy đầu, khi chưa có tài khoản nào |
 | `JWT_SECRET` | trống | Khoá ký phiên đăng nhập; trống thì tự sinh và lưu trong CSDL (phiên không mất khi khởi động lại) |
 | `SESSION_DAYS` | `7` | Số ngày hiệu lực của phiên đăng nhập |
-| `TRUST_PROXY` | trống | Đặt `1` khi chạy sau reverse proxy HTTPS (tin `X-Forwarded-Proto` để bật cờ `Secure` cho cookie) |
+| `TRUST_PROXY` | `1` | Tin `X-Forwarded-*` do nginx gửi (để cookie có cờ `Secure` khi truy cập qua HTTPS); app luôn đứng sau nginx nên mặc định bật |
 
-> Bản gốc không có đăng nhập; bản này yêu cầu tài khoản. Khi đưa lên mạng dùng chung, nên đặt sau HTTPS
-> (camera quét mã và xác thực Face ID/vân tay của trình duyệt chỉ hoạt động trên HTTPS hoặc `localhost`).
+> Bản gốc không có đăng nhập; bản này yêu cầu tài khoản. Khi đưa lên mạng dùng chung, nên bật HTTPS
+> (camera quét mã và xác thực Face ID/vân tay của trình duyệt chỉ hoạt động trên HTTPS hoặc `localhost`); xem mục dưới.
+
+### Triển khai trên máy chủ với nginx
+
+1. Mở cổng **80** và **443** trên tường lửa của VPS (ví dụ `ufw allow 80,443/tcp`) và của nhà cung cấp đám mây.
+2. Trỏ bản ghi DNS `A` (và `AAAA` nếu có) của tên miền về IP máy chủ; chờ DNS có hiệu lực.
+3. Chạy `docker compose up -d --build` (HTTP, cổng 80).
+4. Bật HTTPS bằng Let's Encrypt:
+
+   ```bash
+   scripts/https-init.sh kho.example.com admin@example.com
+   ```
+
+   Script bảo đảm stack đang chạy, lấy chứng chỉ bằng certbot (webroot qua `/.well-known/acme-challenge/`), ghi đúng dòng
+   `SERVER_NAME=` vào `.env`, rồi khởi động lại nginx với `docker-compose.https.yml`. Thử trước bằng `STAGING=1 scripts/https-init.sh ...`
+   để tránh giới hạn tần suất của Let's Encrypt. Từ đó khởi động bằng:
+
+   ```bash
+   docker compose -f docker-compose.yml -f docker-compose.https.yml up -d
+   ```
+
+   HTTP tự chuyển hướng 301 sang HTTPS (trừ đường dẫn cấp chứng chỉ).
+5. Gia hạn tự động: chứng chỉ sống 90 ngày; thêm vào `crontab -e` (chạy 03:17 mỗi ngày, certbot chỉ gia hạn khi sắp hết hạn):
+
+   ```cron
+   17 3 * * * cd /đường/dẫn/tới/dự-án && scripts/https-renew.sh >> /var/log/kiemke-renew.log 2>&1
+   ```
+
+6. Xem log: `docker compose logs -f nginx` (truy cập, lỗi), `docker compose logs -f app`. Kiểm tra cấu hình nginx:
+   `docker compose exec nginx nginx -t`.
+
+Ghi chú cấu hình nginx: giới hạn body 110 MB (app nhận tới 100 MB cho ảnh/PDF), timeout đọc/gửi 120 s; nginx **không nén gzip**
+vì Express đã nén và nginx chuyển nguyên `Content-Encoding`; `/api/` không cache, `/assets/` giữ header cache của app;
+`X-Forwarded-Proto` luôn do nginx ghi đè theo kết nối thật. Nếu đặt thêm một proxy/CDN phía trước nginx thì cần chỉnh lại việc tin `X-Forwarded-*`.
 
 ### Đăng nhập và tài khoản
 
